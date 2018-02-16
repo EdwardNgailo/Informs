@@ -1873,16 +1873,10 @@
 \def\theARTICLETOP{%
   \vspace*{-57pt}
   \begin{Center}
-  \parbox[t][60pt][t]{\textwidth}{%
+  \parbox[t][6pt][t]{\textwidth}{%
   \theARTICLETOPLEFT\hfill\theARTICLETOPRIGHT}\\[10pt]
-  \parbox{36pc}{\fs.10.11.\bf\textcolor{red}{Authors are encouraged to submit new papers to INFORMS journals by means of
-a style file template, which includes the journal title. However, use of a
-template does not certify that the paper has been accepted for publication
-in the named journal. INFORMS journal templates are for the exclusive
-purpose of submitting to an INFORMS journal and should not be used to
-distribute the papers in print or online or to submit the papers to another
-publication.}}
-\vspace*{12pt}
+  \parbox{6pc}{\fs.10.11.\bf\textcolor{red}{}} %=========== warnings and disclaimers ===================================
+\vspace*{1pt}
   \end{Center}}
 
 % default values
@@ -1892,7 +1886,7 @@ publication.}}
 \def\HOOKc{\vspace*{0pt}}%
 
 \def\MANUSCRIPTNO#1{\gdef\theMANUSCRIPTNO{#1}}%
-  \def\theMANUSCRIPTNO{(Please, provide the manuscript number!)}%{Manuscript number}%
+  \def\theMANUSCRIPTNO{}%{Manuscript number}%============================== input manuscript number ==============
 
 %
 \long\def\theARTICLETOPLEFT{{\tabcolsep0pt\fs.8.10.%
@@ -1912,8 +1906,8 @@ publication.}}
 \if@BLINDREV
 %
 \long\def\theARTICLETOPLEFT{{\tabcolsep0pt\fs.12.14.\bf
-\begin{tabular}{l}\HD{25}{0}Submitted to {\bi\theJOURNAL}\\
-manuscript {\theMANUSCRIPTNO}\end{tabular}}}%
+\begin{tabular}{l}\HD{25}{0} % {\bi\theJOURNAL}\\  %==========================head left submitted to and manuscript ============
+ {\theMANUSCRIPTNO}\end{tabular}}}%
 \def\theARTICLETOPRIGHT{}%
 %
 %\def\theHISTORY{}%
