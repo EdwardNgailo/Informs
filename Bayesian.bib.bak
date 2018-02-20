@@ -1,0 +1,15 @@
+% Encoding: UTF-8
+
+@Article{Webb2018,
+  author        = {J. Angus Webb and Siobhan C. de Little and Kimberly A. Miller and Michael J. Stewardson},
+  title         = {Quantifying and predicting the benefits of environmental flows: Combining large-scale monitoring data and expert knowledge within hierarchical Bayesian models},
+  journal       = {Freshwater Biology},
+  year          = {2018},
+  month         = {feb},
+  __markedentry = {[cjdua:6]},
+  doi           = {10.1111/fwb.13069},
+  file          = {:C\:/Users/cjdua/Documents/Webb_et_al-2018-Freshwater_Biology.pdf:PDF},
+  publisher     = {Wiley-Blackwell},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

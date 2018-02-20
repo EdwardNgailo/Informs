@@ -1871,9 +1871,9 @@
 \JOURNAL{}%{Journal Name Option Missing!}
 
 \def\theARTICLETOP{%
-  \vspace*{-57pt}
+  \vspace*{-97pt}
   \begin{Center}
-  \parbox[t][6pt][t]{\textwidth}{%
+  \parbox[t][1pt][t]{\textwidth}{%
   \theARTICLETOPLEFT\hfill\theARTICLETOPRIGHT}\\[10pt]
   \parbox{6pc}{\fs.10.11.\bf\textcolor{red}{}} %=========== warnings and disclaimers ===================================
 \vspace*{1pt}
