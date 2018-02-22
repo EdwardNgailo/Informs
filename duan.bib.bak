@@ -389,70 +389,64 @@ To manage effectively and develop their knowledge of current and likely organisa
 }
 
 @Article{Moscati2016,
-  author        = {Ivan Moscati},
-  title         = {Retrospectives: How Economists Came to Accept Expected Utility Theory: The Case of Samuelson and Savage},
-  year          = {2016},
-  volume        = {30},
-  pages         = {219-236},
-  issn          = {0895-3309},
-  __markedentry = {[cjdua:]},
-  doi           = {10.1257/jep.30.2.219},
-  file          = {:Articles/Moscati_Samuelson_and_Savage_on_EUT_JEP_201620160303182942.pdf:PDF},
+  author = {Ivan Moscati},
+  title  = {Retrospectives: How Economists Came to Accept Expected Utility Theory: The Case of Samuelson and Savage},
+  year   = {2016},
+  volume = {30},
+  pages  = {219-236},
+  issn   = {0895-3309},
+  doi    = {10.1257/jep.30.2.219},
+  file   = {:Articles/Moscati_Samuelson_and_Savage_on_EUT_JEP_201620160303182942.pdf:PDF},
 }
 
 @Article{Zhang2002,
-  author        = {Jiankang Zhang},
-  title         = {Subjective ambiguity, expected utility and Choquet expected utility},
-  year          = {2002},
-  volume        = {20},
-  pages         = {159-181},
-  issn          = {0938-2259},
-  __markedentry = {[cjdua:]},
-  doi           = {10.1007/s001990100207},
+  author = {Jiankang Zhang},
+  title  = {Subjective ambiguity, expected utility and Choquet expected utility},
+  year   = {2002},
+  volume = {20},
+  pages  = {159-181},
+  issn   = {0938-2259},
+  doi    = {10.1007/s001990100207},
 }
 
 @Article{Samuelson1988,
-  author        = {Paul A. Samuelson},
-  title         = {How a certain internal consistency entails the expected utility dogma},
-  year          = {1988},
-  volume        = {1},
-  pages         = {389-393},
-  issn          = {0895-5646},
-  __markedentry = {[cjdua:]},
-  doi           = {10.1007/bf00117642},
+  author = {Paul A. Samuelson},
+  title  = {How a certain internal consistency entails the expected utility dogma},
+  year   = {1988},
+  volume = {1},
+  pages  = {389-393},
+  issn   = {0895-5646},
+  doi    = {10.1007/bf00117642},
 }
 
 @Misc{HAGEN1991,
-  author        = {Ole HAGEN},
-  title         = {Expected Utility Theory - The “Confirmation” That Backfires},
-  year          = {1991},
-  __markedentry = {[cjdua:]},
-  doi           = {10.1007/978-94-011-3146-9_7},
-  pages         = {105-114},
+  author = {Ole HAGEN},
+  title  = {Expected Utility Theory - The “Confirmation” That Backfires},
+  year   = {1991},
+  doi    = {10.1007/978-94-011-3146-9_7},
+  pages  = {105-114},
 }
 
 @Article{Casadesus-Masanell2000,
-  author        = {Ramon Casadesus-Masanell and Peter Klibanoff and Emre Ozdenoren},
-  title         = {Maxmin Expected Utility over Savage Acts with a Set of Priors},
-  year          = {2000},
-  volume        = {92},
-  pages         = {35-65},
-  issn          = {0022-0531},
-  __markedentry = {[cjdua:]},
-  doi           = {10.1006/jeth.1999.2630},
+  author = {Ramon Casadesus-Masanell and Peter Klibanoff and Emre Ozdenoren},
+  title  = {Maxmin Expected Utility over Savage Acts with a Set of Priors},
+  year   = {2000},
+  volume = {92},
+  pages  = {35-65},
+  issn   = {0022-0531},
+  doi    = {10.1006/jeth.1999.2630},
 }
 
 @Article{Blavatskyy,
-  author        = {Pavlo R. Blavatskyy},
-  title         = {A Theory of Decision-Making Under Risk as a Tradeoff between Expected Utility, Expected Utility Deviation and Expected Utility Skewness},
-  journal       = {SSRN},
-  year          = {2014},
-  issn          = {1556-5068},
-  __markedentry = {[cjdua:]},
-  abstract      = {This paper presents a new decision theory for modelling choice under risk. The new theory is a two-parameter generalization of expected utility theory. The proposed theory assumes that a decision maker: 1) behaves as if maximizing expected utility; but 2) may experience disappointment (elation) when the utility of a lottery’s outcome falls short of (exceeds) the expected utility of the lottery; and 3) may have a preference for gambling (attraction/aversion to positively/negatively skewed lotteries). The proposed theory can rationalize the fourfold pattern of risk attitudes; the common ratio effect and the reverse thereof (in certain types of decision problems); the Allais paradox in classical common consequence problems and the reverse Allais paradox — in common consequence problems with an even split of a probability mass; violations of the betweenness axiom; switching behavior in the Samuelson’s example; violations of ordinal, upper and lower cumulative independence (which falsify rank-dependent utility and cumulative prospect theory); and preference reversals between valuations and choice. Behavioral characterization (axiomatization) of the theory is provided. In application to insurance, the theory can rationalize full insurance with an actuarially unfair premium and aversion to probabilistic insurance. In application to optimal portfolio investment, the theory can rationalize the equity premium puzzle.
+  author   = {Pavlo R. Blavatskyy},
+  title    = {A Theory of Decision-Making Under Risk as a Tradeoff between Expected Utility, Expected Utility Deviation and Expected Utility Skewness},
+  journal  = {SSRN},
+  year     = {2014},
+  issn     = {1556-5068},
+  abstract = {This paper presents a new decision theory for modelling choice under risk. The new theory is a two-parameter generalization of expected utility theory. The proposed theory assumes that a decision maker: 1) behaves as if maximizing expected utility; but 2) may experience disappointment (elation) when the utility of a lottery’s outcome falls short of (exceeds) the expected utility of the lottery; and 3) may have a preference for gambling (attraction/aversion to positively/negatively skewed lotteries). The proposed theory can rationalize the fourfold pattern of risk attitudes; the common ratio effect and the reverse thereof (in certain types of decision problems); the Allais paradox in classical common consequence problems and the reverse Allais paradox — in common consequence problems with an even split of a probability mass; violations of the betweenness axiom; switching behavior in the Samuelson’s example; violations of ordinal, upper and lower cumulative independence (which falsify rank-dependent utility and cumulative prospect theory); and preference reversals between valuations and choice. Behavioral characterization (axiomatization) of the theory is provided. In application to insurance, the theory can rationalize full insurance with an actuarially unfair premium and aversion to probabilistic insurance. In application to optimal portfolio investment, the theory can rationalize the equity premium puzzle.
 
 Keywords: Decision Theory, Risk, Expected Utility Theory, Allais paradox, Disappointment, Equity Premium Puzzle, Insurance, fourfold pattern of risk attitudes, common ratio effect, preference reversals},
-  doi           = {10.2139/ssrn.2505828},
+  doi      = {10.2139/ssrn.2505828},
 }
 
 @Article{Jagatic2007,
@@ -462,7 +456,7 @@ Keywords: Decision Theory, Risk, Expected Utility Theory, Allais paradox, Disapp
   volume        = {50},
   pages         = {94-100},
   issn          = {0001-0782},
-  __markedentry = {[cjdua:6]},
+  __markedentry = {[cjdua:]},
   doi           = {10.1145/1290958.1290968},
 }
 
@@ -485,6 +479,68 @@ Keywords: Decision Theory, Risk, Expected Utility Theory, Allais paradox, Disapp
   publisher = {North Holland \& IFIP},
   year      = {2013},
   author    = {Rao, C Radhakrishna and Govindaraju, Venu},
+}
+
+@Article{cottrell2006new,
+  author  = {Cottrell, Garrison W},
+  title   = {New life for neural networks},
+  journal = {networks},
+  year    = {2006},
+  volume  = {5},
+  pages   = {6},
+}
+
+@Misc{Lichman:2013,
+  author      = {M. Lichman},
+  title       = {{UCI} Machine Learning Repository},
+  year        = {2013},
+  institution = {University of California, Irvine, School of Information and Computer Sciences},
+  url         = {http://archive.ics.uci.edu/ml},
+}
+
+@Article{Mohammad2015a,
+  author    = {Rami M. Mohammad and Fadi Thabtah and Lee McCluskey},
+  title     = {Tutorial and critical analysis of phishing websites methods},
+  journal   = {Computer Science Review},
+  year      = {2015},
+  volume    = {17},
+  pages     = {1--24},
+  month     = {aug},
+  abstract  = {The Internet has become an essential component of our everyday social and financial activities. Internet is not important for individual users only but also for organizations, because organizations that offer online trading can achieve a competitive edge by serving worldwide clients. Internet facilitates reaching customers all over the globe without any market place restrictions and with effective use of e-commerce. As a result, the number of customers who rely on the Internet to perform procurements is increasing dramatically. Hundreds of millions of dollars are transferred through the Internet every day. This amount of money was tempting the fraudsters to carry out their fraudulent operations. Hence, Internet users may be vulnerable to different types of web threats, which may cause financial damages, identity theft, loss of private information, brand reputation damage and loss of customers’ confidence in e-commerce and online banking. Therefore, suitability of the Internet for commercial transactions becomes doubtful. Phishing is considered a form of web threats that is defined as the art of impersonating a website of an honest enterprise aiming to obtain user’s confidential credentials such as usernames, passwords and social security numbers. In this article, the phishing phenomena will be discussed in detail. In addition, we present a survey of the state of the art research on such attack. Moreover, we aim to recognize the up-to-date developments in phishing and its precautionary measures and provide a comprehensive study and evaluation of these researches to realize the gap that is still predominating in this area. This research will mostly focus on the web based phishing detection methods rather than email based detection methods.},
+  doi       = {10.1016/j.cosrev.2015.04.001},
+  file      = {:Articles/Tutorial_and_Critical_Analysis_of_Phishing_Websites_Methods.pdf:PDF},
+  keywords  = {PhishingAnti-phishingData miningBlacklistWhitelist},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Mohammad2013,
+  author    = {Rami M. Mohammad and Fadi Thabtah and Lee McCluskey},
+  title     = {Predicting phishing websites based on self-structuring neural network},
+  journal   = {Neural Computing and Applications},
+  year      = {2013},
+  volume    = {25},
+  number    = {2},
+  pages     = {443--458},
+  month     = {nov},
+  abstract  = {Internet has become an essential component of our everyday social and financial activities. Nevertheless, internet users may be vulnerable to different types of web threats, which may cause financial damages, identity theft, loss of private information, brand reputation damage and loss of customer’s confidence in e-commerce and online banking. Phishing is considered as a form of web threats that is defined as the art of impersonating a website of an honest enterprise aiming to obtain confidential information such as usernames, passwords and social security number. So far, there is no single solution that can capture every phishing attack. In this article, we proposed an intelligent model for predicting phishing attacks based on artificial neural network particularly self-structuring neural networks. Phishing is a continuous problem where features significant in determining the type of web pages are constantly changing. Thus, we need to constantly improve the network structure in order to cope with these changes. Our model solves this problem by automating the process of structuring the network and shows high acceptance for noisy data, fault tolerance and high prediction accuracy. Several experiments were conducted in our research, and the number of epochs differs in each experiment. From the results, we find that all produced structures have high generalization ability.
+
+Keywords
+Web threat Phishing Information security Neural network Data mining },
+  doi       = {10.1007/s00521-013-1490-z},
+  file      = {:Articles/RamiPredicting_Phishing_Websites_based_on_Self-Structuring_Neural_Network.pdf:PDF},
+  publisher = {Springer Nature},
+}
+
+@InProceedings{Mohammad2012,
+  author        = {R. M. Mohammad and F. Thabtah and L. McCluskey},
+  title         = {An assessment of features related to phishing websites using an automated technique},
+  booktitle     = {Proc. Int. Conf. for Internet Technology and Secured Transactions},
+  year          = {2012},
+  pages         = {492--497},
+  month         = dec,
+  __markedentry = {[cjdua:6]},
+  abstract      = {Corporations that offer online trading can achieve a competitive edge by serving worldwide clients. Nevertheless, online trading faces many obstacles such as the unsecured money orders. Phishing is considered a form of internet crime that is defined as the art of mimicking a website of an honest enterprise aiming to acquire confidential information such as usernames, passwords and social security number. There are some characteristics that distinguish phishing websites from legitimate ones such as long URL, IP address in URL, adding prefix and suffix to domain and request URL, etc. In this paper, we explore important features that are automatically extracted from websites using a new tool instead of relying on an experienced human in the extraction process and then judge on the features importance in deciding website legitimacy. Our research aims to develop a group of features that have been shown to be sound and effective in predicting phishing websites and to extract those features according to new scientific precise rules.},
+  keywords      = {Web sites, computer crime, electronic money, electronic trading, IP address, Internet crime, Internet protocol, URL prefix, URL suffix, Web site legitimacy, confidential information acquisition, money order security, online trading, password, phishing Web site, social security number, username, Accuracy, Educational institutions, Feature extraction, HTML, Protocols, Reliability, World Wide Web, Phishing, Rule, Security, Website features, features extraction},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
