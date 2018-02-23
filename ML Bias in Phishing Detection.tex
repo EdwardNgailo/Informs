@@ -147,6 +147,9 @@ The paper proceeds as follows. In the Related Works section, we describe phishin
 
 \cite{mitchell1997machine}  defined machine learning as, ``a  computer program is said to learn from experience ‘E’ with respect to some class of task ‘T’ and performance measure ‘P’, if its performance in task ‘T’, as measured by ‘P’, improves with experience E'' (p. 2). Machine learning is the manifestation of statistical learning (statistics) algorithms implemented via software (computing) applications. The concept of machine learning has been in existence for decades. But it was only until recently that machine learning began to see its explosive applications to huge quantities of data attributed to the confluence of powerful computers, cheap storage of data, and vast availability of analytical opportunities, among others. Being a subfield of artificial intelligence, machine learning rests on the paradigm that algorithms can learn from data and reason with data \citep{rao2013handbook}. Based on the desired outcome and the type of input available for training the system, machine learning algorithms generally fall into either supervised or unsupervised learning.  In the former, a trainer carefully selects examples for the learner and the learner must sort those examples into categories specified by the trainer, whereas in the latter the learner is given little or no instruction on the learning task and the goal is to find underlying regularities \citep{cottrell2006new}.
 
+There exists considerable overlap between statistics and machine learning. Both fields focus on studying generalization from data (model building). However, statistics, inferential statistics in particular, makes generalization (prediction) about the unknown population parameters (parameter estimation) based on often small sample. Machine learning, on the other hand, relies heavily on the predictive accuracy of models, while ignoring largely checking of models and assumptions. In addition, terminology employed in machine learning is different from that used by statisticians. In machine learning, a target or outcome is called a label, while in statistics it is referred to as dependent variable (DV). In statistics, an input predictor is called an independent variable, whereas it is denoted as a feature in machine learning.  
+
+
 \subsection{Phishing Detection}
 Phishing is defined as a social engineering technique where the aggressor pretends to be a trustworthy entity in attempt to gain sensitive information (e.g. usernames, password, credit card credentials) from the victim \citep{Jagatic2007}. In the cyber-attack, fraudulent website con users into disclosing sensitive and/or confidential information to the attacker by impersonating to be a legitimate website in an automated fashion.  These types of communications are commonly accomplished through emails that point users to phishing websites through which phishers gather information in question.  Bank and credit card details, password, and personal identification number are few examples that interest phishers frequently collect users’ credentials \citep{jakobsson2006phishing}
 
@@ -159,6 +162,10 @@ In reviewing the applied ML research on phishing websites classification,    lin
 
 
 \subsection{Evaluation of ML Algorithms}
+
+In assessment of ML algorithm performance, the predicted  values and actual label values  are often cross-tabulated into  a typical confusion matrix (CM) contained in  table \ref{tab2}. Type I error, also known as “false positive”, is the false rejection of a null hypothesis when it is true. Plainly speaking, it arises when we are detecting a difference when there is none. Type II error, also known as "false negative", is the error of not rejecting a null hypothesis when the null hypothesis is the false state of reality. In other words, it occurs when we are failing to detect a difference when the difference in fact exists.
+
+Our acquaintance with null hypothesis  significance  testing (NHST) easily allude us to 
 
 \section {The Proposed Alpheta Ratio}
 
@@ -222,8 +229,25 @@ George Box, ``one of the great statistical minds of the 20th century'',  made th
 \end{tabular}}
 {Adapted from \cite{doi:10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2} }
 \end{table}
-
-
+%================
+\begin{table}
+\TABLE
+{Sample Confusion Matrix \label{tab2}}
+{\begin{tabular}{ccc}
+\hline 
+\up \down & \multicolumn{2}{c}{Predicted Value}\\
+\hline 
+\up \down Actual & + & -\\
+\hline 
+\up + & True Positive (TP) & False Negative (FN) \\
+% \down & Time and Efforts well spent & Loss of Assets\\
+\hline 
+\up - & False Positive (FP) & True Negative (TN)\\
+%\down  & Waste of Time and Efforts & Zero Cost\\
+\hline
+\end{tabular}}
+{Adapted from \cite{7727750} }
+\end{table}
 
 \newpage
 
