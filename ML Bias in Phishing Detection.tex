@@ -131,11 +131,13 @@ Our research was motivated by what we observed as a slight disconnect between th
  Purported to fill this gap, our study was undertaken with four overall goals:
 
 \begin{henumerate}
-\item To alert the decision analysis  community to the increasing popularity of AI-powered  machine decision making (MDM) and automation, which pose to render vast swaths of the working professionals literally redundant.
+\item To alert the decision analysis  community to the prevalence and peril of model bias in ML.
+% increasing popularity of AI-powered  machine decision making (MDM) and automation, which pose to render vast swaths of the working professionals literally redundant.
 
-\item To propose and formulate an  alpheta ratio (akin to the pH scale in chemistry) for the assessment of decision bias committed by  ML  models.
-\item To demonstrate how our proposed alpheta ratio can be incorporated into model selection in the midst of ML model training to curb decision bias. 
-\item To put “old wine” (statistical errors) into new bottles (machine learning framework) and examine how the decision-making environment (phishing detection) influences model selection, which subsequently leas to the minimization of expected disutility - the opposite of maximization of expected utility .
+\item To propose and formulate an  Litmus ratio- $\iota$ (akin to the pH scale in chemistry) for the assessment of decision bias committed by  ML  models.
+\item To demonstrate empirically model bias is unrelated to accuracy and requires human judgment to curb the implied downsides. 
+\item To discuss how human model adopters can be 
+%To put “old wine” (statistical errors) into new bottles (machine learning framework) and examine how the decision-making environment (phishing detection) influences model selection, which subsequently leas to the minimization of expected disutility - the opposite of maximization of expected utility .
 \end{henumerate}
 
 The paper proceeds as follows. In the Related Works section, we describe phishing detection, which serves as the context of our experiments. Also, discussed in that same section are machine learning and statistics, statistical errors, and Chi-squared Automatic Interaction Detection (CHAID) - the machine learning algorithm we used for our project. Amid the Related Works section, we proposed a unique  alpheta ratio for the purpose of assessing machine learning models. In the Methodology section, we describe the Phishing data set, the set of 12 models to be evaluated, as well as the K-fold cross validation used to assess models. The Results section presents the results we acquired from out experiments. In the Implications section, we discuss how to match a machine learning model’s  alpheta  ratio to the risk overestimation cost and underestimation loss profile dictated by the decision-making environment. In the Concluding Remarks section, we re-examine the Boy Who Cried Wolf fable via alternative lens of decision making and spotlight the importance of human intelligence in the face of wide-spreading artificial intelligence. 
@@ -185,7 +187,7 @@ Machine learning hinges  on the quality of training data sets that feed into the
 
 \section {Concluding Remarks}
 
-George Box, ``one of the great statistical minds of the 20th century'',  made the famous quote - ``all models are wrong, but some are useful'' \citep[p. 424]{box1987empirical}.  The aphorism today still shines a somewhat colder light on the much hyped and feared might of machine learning and AI. Decision analysis is  based on the maximum expected utility (MEU) action axiom, the basic proposition of which states that  human beings purposely utilize means in order to pursue  desired ends. To make high quality decisions, a decision-making agent (partnership between man and machine)  must have a sense of the association between various actions and the likelihood of different outcomes, as well as the desirability of each such outcome. Correspondingly, they represent prediction (from input features to output labels) and judgment (assign values to the expected utility of models derived). On the one hand,  latest advances in AI vastly  reduced the cost of prediction. On the other hand, AI also substantially raised the value of human judgment. To this end, we put forward our own version of Box's apothegm -    ``All models are biased, some are delightedly  aligned with human preference''
+George Box, ``one of the great statistical minds of the 20th century'',  made the famous quote - ``all models are wrong, but some are useful'' \citep[p. 424]{box1987empirical}.  The aphorism today still shines a somewhat colder light on the much hyped and feared might of machine learning and AI. Decision analysis is  based on the maximum expected utility (MEU) action axiom, the basic proposition of which states that  human beings purposely utilize means in order to pursue  desired ends. To make high quality decisions, a decision-making agent (partnership between man and machine)  must have a sense of the association between various actions and the likelihood of different outcomes, as well as the desirability of each such outcome. Correspondingly, they represent prediction (from input features to output labels) and judgment (assign values to the expected utility of models derived). On the one hand,  latest advances in AI vastly  reduced the cost of prediction. On the other hand, AI also substantially raised the value of human judgment. To this end, we put forward our own version of Box's apothegm -    ``All models are biased, some are aggreably  preferreed''
 
 
 %======================================================
@@ -248,7 +250,24 @@ George Box, ``one of the great statistical minds of the 20th century'',  made th
 \end{tabular}}
 {Adapted from \cite{7727750} }
 \end{table}
-
+%==================================
+\begin{table}
+\TABLE
+{Performance Results \label{tab3}}
+{\begin{tabular}{clcc}
+\hline 
+\up \down Model &  Features &  Precision & Litmus Ratio \\
+\hline
+\up \down 1  &01 - 12  &  90\% & 0.78 \\
+\up \down 2 &  13 - 18 &  88\% & 0.24 \\
+\up \down 3  &  19 - 23 &  57\% & 0.01 \\
+\up \down 4  &  24 - 30 &  73\% & 0.57 \\
+\up \down 5  &  01 - 30  &  95\% & 1.27 \\
+\hline
+\end{tabular}}
+{Models differ in features included }
+\end{table}
+%==================================
 \newpage
 
 % References here (outcomment the appropriate case) 
