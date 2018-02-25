@@ -3,8 +3,8 @@
 %% Mirko Janc, Ph.D., INFORMS, mirko.janc@informs.org
 %% ver. 0.95, December 2010
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[deca,blindrev]{informs3}
-%\documentclass[deca,nonblindrev]{informs3} % current default for manuscript submission
+%\documentclass[deca,blindrev]{informs3}
+\documentclass[deca,nonblindrev]{informs3} % current default for manuscript submission
 
 \OneAndAHalfSpacedXI % current default line spacing
 %%\OneAndAHalfSpacedXII
@@ -69,7 +69,7 @@
 %\RUNAUTHOR{}
 
 % Title or shortened title suitable for running heads. Sample:
- \RUNTITLE{Bundling Information Goods of Decreasing Value}
+ \RUNTITLE{Bias and Accuracy of ML Models}
 % Enter the (shortened) title:
 %\RUNTITLE{}
 
@@ -84,14 +84,14 @@
 %   \EMAIL field can be repeated if more than one author
 \ARTICLEAUTHORS{%
 \AUTHOR{C.J.Duan}
-\AFF{DulunConsulting Group, \EMAIL{research@}, \URL{}}
+\AFF{DulunConsulting Group, \EMAIL{research@dulun.com}, \URL{}}
 %\AUTHOR{Author2}
 %\AFF{Author2 affiliation, \EMAIL{}, \URL{}}
 % Enter all authorsdulun.com
 } % end of the block
 
 \ABSTRACT{%
-Grown out of the quest for artificial intelligence (AI), machine learning (ML) is today's most active field across disciplines with sharp increase in applications ranging from criminology to fraud detection and to biometrics. Machine learning and statistics both emphasize the importance of model estimation / training and thus share the inescapable type I and II errors. Extending the concepts of statistical errors into the domain of  machine learning. we devise aground-breaking pH scale (in chemistry)-like alpheta ratio and intend it as a litmus test of decision bias masked by  the established criterion of Accuracy. Using publicly available phishing data set, we conduct experiments on a series of single-feature models using the CHAID package in R. Based on the results, we recommend practitioners match the risk over / under estimation cost ratio with the error ratio associated with each machine learning model in order to mitigate potential losses in their specific decision-making environments % Enter your abstract
+Grown out of the quest for artificial intelligence (AI), machine learning (ML) is today's most active field across disciplines with sharp increase in applications ranging from criminology to fraud detection and to biometrics. Machine learning and statistics both emphasize the importance of model estimation / training and thus share the inescapable type I and II errors. Extending the concepts of statistical errors into the domain of  machine learning. we devise aground-breaking pH scale (in chemistry)-like Litmus ratio and intend it as a litmus test of decision bias masked by  the established criterion of Accuracy. Using publicly available phishing data set, we conduct experiments on a series of single-feature models using the CHAID package in R. Based on the results, we recommend practitioners match the risk over / under estimation cost ratio with the error ratio associated with each machine learning model in order to mitigate potential losses in their specific decision-making environments % Enter your abstract
 }%
 
 % Sample
@@ -99,7 +99,7 @@ Grown out of the quest for artificial intelligence (AI), machine learning (ML) i
 %  existence of optimal policies; semi-Markov decision process; cyclic schedule}
 	
 % Fill in data. If unknown, outcomment the field
-\KEYWORDS{machine learning, Type I and II errors, CHAID,  alpheta ratio, decision bias, CRAN-R, phishing websites classification}
+\KEYWORDS{machine learning, Type I and II errors, CHAID,  Litmus  ratio, decision bias, CRAN-R, phishing websites classification}
 \HISTORY{}
 
 \maketitle
@@ -126,6 +126,26 @@ grumbling villagers told the boy and returned to their village. A few days later
 
 At the end of the story, an old man comforted the boy. “If you tell too many lies, no one believes you when you tell the truth”. The moral message the tale conveys is that liars are not trustworthy even when they are telling the truth. Undoubtedly, the shepherd boy was not even close to a pure rational decision maker, perhaps a naughty one. Considering his maturity level and working environment, are we being too harsh on the young boy entrusted with the task of guarding the village’s most valuable asset? \cite{doi:10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2} delineate the classical tale in a decision-making matrix as shown in table \ref{tab1}. Based on their cost-loss analysis,  the villagers in the tale were unprepared to tolerate a reasonably high false-alarm rate (cries of “Wolf!” when there is no wolf looming). As revealed by our ensuing investigation, even machine learning (ML) models trained on large data sets are not immune from sounding false alarms.
 
+\begin{table}
+\TABLE
+{The Villagers’ Benefit and Cost Matrix \label{tab1}}
+{\begin{tabular}{ccc}
+\hline 
+\up \down & \multicolumn{2}{c}{Perception }\\
+\hline 
+\up \down Reality & Wolf - Yes & Wolf - No\\
+\hline 
+\up Wolf & Respond and Rescue & Stay Put \\
+ \down -Yes& Time and Efforts well spent & Loss of Assets\\
+\hline 
+\up Wolf & Opportunity Cost & No Harm\\
+\down  -No& Waste of Time and Efforts & Zero Cost\\
+\hline
+\end{tabular}}
+{Adapted from \cite{doi:10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2} }
+\end{table}
+
+
 Our research was motivated by what we observed as a slight disconnect between the computing side (predictive accuracy) and statistical side (model bias) of ML. ML should induce  more objective and evidence-based decision-making, since machines are supposedly free from human prejudice. However, as revealed in the work of \cite{Caliskan2017},  machine learning (language processing) can acquire stereotyped biases from textual data reflecting everyday human culture. As noted by \cite{Kleinberg2017}, applied ML work typically focuses on the link between data and prediction, while paying less attention to the prediction$\to$decision link.
 %As a demonstration effort, one major point to mention at the start is that our project did not focus on any testable hypotheses per se.
  Purported to fill this gap, our study was undertaken with four overall goals:
@@ -135,8 +155,8 @@ Our research was motivated by what we observed as a slight disconnect between th
 % increasing popularity of AI-powered  machine decision making (MDM) and automation, which pose to render vast swaths of the working professionals literally redundant.
 
 \item To propose and formulate an  Litmus ratio- $\iota$ (akin to the pH scale in chemistry) for the assessment of decision bias committed by  ML  models.
-\item To demonstrate empirically model bias is unrelated to accuracy and requires human judgment to curb the implied downsides. 
-\item To discuss how human model adopters can be 
+\item To demonstrate empirically model bias is unrelated to accuracy and requires human judgment and stringent regulation.
+\item To discuss how human model adopters can use our proposed Litmus ratio and tailor ML models to the circumstances 
 %To put “old wine” (statistical errors) into new bottles (machine learning framework) and examine how the decision-making environment (phishing detection) influences model selection, which subsequently leas to the minimization of expected disutility - the opposite of maximization of expected utility .
 \end{henumerate}
 
@@ -167,6 +187,26 @@ In reviewing the applied ML research on phishing websites classification,    lin
 
 In assessment of ML algorithm performance, the predicted  values and actual label values  are often cross-tabulated into  a typical confusion matrix (CM) contained in  table \ref{tab2}. Type I error, also known as “false positive”, is the false rejection of a null hypothesis when it is true. Plainly speaking, it arises when we are detecting a difference when there is none. Type II error, also known as "false negative", is the error of not rejecting a null hypothesis when the null hypothesis is the false state of reality. In other words, it occurs when we are failing to detect a difference when the difference in fact exists.
 
+\begin{table}
+\TABLE
+{Sample Confusion Matrix \label{tab2}}
+{\begin{tabular}{ccc}
+\hline 
+\up \down & \multicolumn{2}{c}{Predicted Value}\\
+\hline 
+\up \down Actual & + & -\\
+\hline 
+\up + & True Positive (TP) & False Negative (FN) \\
+% \down & Time and Efforts well spent & Loss of Assets\\
+\hline 
+\up - & False Positive (FP) & True Negative (TN)\\
+%\down  & Waste of Time and Efforts & Zero Cost\\
+\hline
+\end{tabular}}
+{Adapted from \cite{7727750} }
+\end{table}
+
+
 Our acquaintance with null hypothesis  significance  testing (NHST) easily allude us to 
 
 \section {The Proposed Alpheta Ratio}
@@ -180,6 +220,37 @@ contains data from 452 patients organized in 16 classes ranging from normal, dif
 height, and weight), and measurements taken from ECG
 signals from that patient. Thus, it is clear that the preprocessing of the signals in order to take the measurements was
 not done in this work
+
+
+%=================================
+\begin{table}
+\TABLE
+{Performance Results \label{tab3}}
+{\begin{tabular}{clcc}
+\hline 
+\up \down Model &  Features &  Precision & Litmus Ratio \\
+\hline
+\up \down 1  &01 - 12  &  90\% & 0.78 \\
+\up \down 2 &  13 - 18 &  88\% & 0.24 \\
+\up \down 3  &  19 - 23 &  57\% & 0.01 \\
+\up \down 4  &  24 - 30 &  73\% & 0.57 \\
+\up \down 5  &  01 - 30  &  95\% & 1.27 \\
+\hline
+\end{tabular}}
+{Models differ in features included }
+\end{table}
+%================================
+
+%================================
+\begin{figure}
+\FIGURE
+{\includegraphics[width=0.5\linewidth]{Rplot.pdf}}
+{Figure Caption. \label{fig1}}
+{Text of Notes}
+\end{figure}
+%===============================
+
+
 
 \section{Implications}
 
@@ -213,63 +284,73 @@ George Box, ``one of the great statistical minds of the 20th century'',  made th
 % etc
 % \end{APPENDICES}
 \newpage
-\begin{table}
-\TABLE
-{The Villagers’ Benefit and Cost Matrix \label{tab1}}
-{\begin{tabular}{ccc}
-\hline 
-\up \down & \multicolumn{2}{c}{Perception }\\
-\hline 
-\up \down Reality & Wolf - Yes & Wolf - No\\
-\hline 
-\up Wolf & Respond and Rescue & Stay Put \\
- \down -Yes& Time and Efforts well spent & Loss of Assets\\
-\hline 
-\up Wolf & Opportunity Cost & No Harm\\
-\down  -No& Waste of Time and Efforts & Zero Cost\\
-\hline
-\end{tabular}}
-{Adapted from \cite{doi:10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2} }
-\end{table}
+
+%==========================================================
+%\begin{table}
+%\TABLE
+%{The Villagers’ Benefit and Cost Matrix \label{tab1}}
+%{\begin{tabular}{ccc}
+%\hline 
+%\up \down & \multicolumn{2}{c}{Perception }\\
+%\hline 
+%\up \down Reality & Wolf - Yes & Wolf - No\\
+%\hline 
+%\up Wolf & Respond and Rescue & Stay Put \\
+ %\down -Yes& Time and Efforts well spent & Loss of Assets\\
+%\hline 
+%\up Wolf & Opportunity Cost & No Harm\\
+%\down  -No& Waste of Time and Efforts & Zero Cost\\
+%\hline
+%\end{tabular}}
+%{Adapted from \cite{doi:10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2} }
+%\end{table}
 %================
-\begin{table}
-\TABLE
-{Sample Confusion Matrix \label{tab2}}
-{\begin{tabular}{ccc}
-\hline 
-\up \down & \multicolumn{2}{c}{Predicted Value}\\
-\hline 
-\up \down Actual & + & -\\
-\hline 
-\up + & True Positive (TP) & False Negative (FN) \\
+%\begin{table}
+%\TABLE
+%{Sample Confusion Matrix \label{tab2}}
+%{\begin{tabular}{ccc}
+%\hline 
+%\up \down & \multicolumn{2}{c}{Predicted Value}\\
+%\hline 
+%\up \down Actual & + & -\\
+%\hline 
+%\up + & True Positive (TP) & False Negative (FN) \\
 % \down & Time and Efforts well spent & Loss of Assets\\
-\hline 
-\up - & False Positive (FP) & True Negative (TN)\\
+%\hline 
+%\up - & False Positive (FP) & True Negative (TN)\\
 %\down  & Waste of Time and Efforts & Zero Cost\\
-\hline
-\end{tabular}}
-{Adapted from \cite{7727750} }
-\end{table}
+%\hline
+%\end{tabular}}
+%{Adapted from \cite{7727750} }
+%\end{table}
 %==================================
-\begin{table}
-\TABLE
-{Performance Results \label{tab3}}
-{\begin{tabular}{clcc}
-\hline 
-\up \down Model &  Features &  Precision & Litmus Ratio \\
-\hline
-\up \down 1  &01 - 12  &  90\% & 0.78 \\
-\up \down 2 &  13 - 18 &  88\% & 0.24 \\
-\up \down 3  &  19 - 23 &  57\% & 0.01 \\
-\up \down 4  &  24 - 30 &  73\% & 0.57 \\
-\up \down 5  &  01 - 30  &  95\% & 1.27 \\
-\hline
-\end{tabular}}
-{Models differ in features included }
-\end{table}
+%\begin{table}
+%\TABLE
+%{Performance Results \label{tab3}}
+%{\begin{tabular}{clcc}
+%\hline 
+%\up \down Model &  Features &  Precision & Litmus Ratio \\
+%\hline
+%\up \down 1  &01 - 12  &  90\% & 0.78 \\
+%\up \down 2 &  13 - 18 &  88\% & 0.24 \\
+%\up \down 3  &  19 - 23 &  57\% & 0.01 \\
+%\up \down 4  &  24 - 30 &  73\% & 0.57 \\
+%\up \down 5  &  01 - 30  &  95\% & 1.27 \\
+%\hline
+%\end{tabular}}
+%{Models differ in features included }
+%\end{table}
 %==================================
 \newpage
+%\begin{figure}
+%\FIGURE
+%{\includegraphics[width=0.5\linewidth]{Rplot.pdf}}
+%{Figure Caption. \label{fig1}}
+%{Text of Notes}
+%\end{figure}
 
+
+\newpage
 % References here (outcomment the appropriate case) 
 
 % CASE 1: BiBTeX used to constantly update the references 
