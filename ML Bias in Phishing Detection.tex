@@ -84,7 +84,7 @@
 %   \EMAIL field can be repeated if more than one author
 \ARTICLEAUTHORS{%
 \AUTHOR{C.J.Duan}
-\AFF{DulunConsulting Group, \EMAIL{research@dulun.com}, \URL{}}
+\AFF{Dulun Consulting Group, \EMAIL{research@dulun.com}, \URL{http://www.dulun.com}}
 %\AUTHOR{Author2}
 %\AFF{Author2 affiliation, \EMAIL{}, \URL{}}
 % Enter all authorsdulun.com
@@ -99,8 +99,8 @@ Grown out of the quest for artificial intelligence (AI), machine learning (ML) i
 %  existence of optimal policies; semi-Markov decision process; cyclic schedule}
 	
 % Fill in data. If unknown, outcomment the field
-\KEYWORDS{machine learning, Type I and II errors, CHAID,  Litmus  ratio, decision bias, CRAN-R, phishing websites classification}
-\HISTORY{}
+\KEYWORDS{machine learning, Type 1 and 2 errors, CHAID,  Litmus  ratio, decision bias,  phishing websites classification}
+\HISTORY{submitted on April 4, 2018}
 
 \maketitle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -146,7 +146,8 @@ At the end of the story, an old man comforted the boy. “If you tell too many l
 \end{table}
 
 
-Our research was motivated by what we observed as a slight disconnect between the computing side (predictive accuracy) and statistical side (model bias) of ML. ML should induce  more objective and evidence-based decision-making, since machines are supposedly free from human prejudice. However, as revealed in the work of \cite{Caliskan2017},  machine learning (language processing) can acquire stereotyped biases from textual data reflecting everyday human culture. As noted by \cite{Kleinberg2017}, applied ML work typically focuses on the link between data and prediction, while paying less attention to the prediction$\to$decision link.
+Our research was motivated by what we observed as a slight disconnect between the computing side (predictive accuracy) and statistical side (model bias) of ML. ML should induce  more objective and evidence-based decision-making, since machines are supposedly free from human prejudice. However, as revealed in the work of \cite{Caliskan2017},  machine learning (language processing) can acquire stereotyped biases from textual data reflecting everyday human culture. As noted by \cite{Kleinberg2017}, applied ML work typically focuses on the link between data and prediction, while paying less attention to the prediction$\to$decision link. The limitations of any  model trained on real data  necessitates human experts' judgment back into the decision-making processes - for the worse or the better \citep{lewis2016undoing}.
+
 %As a demonstration effort, one major point to mention at the start is that our project did not focus on any testable hypotheses per se.
  Purported to fill this gap, our study was undertaken with four overall goals:
 
@@ -156,7 +157,8 @@ Our research was motivated by what we observed as a slight disconnect between th
 
 \item To propose and formulate an  Litmus ratio- $\iota$ (akin to the pH scale in chemistry) for the assessment of decision bias committed by  ML  models.
 \item To demonstrate empirically model bias is unrelated to accuracy and requires human judgment and stringent regulation.
-\item To discuss how human model adopters can use our proposed Litmus ratio and tailor ML models to the circumstances 
+\item To illustrate  how human adopters of ML models can use our proposed Litmus ratio to diagnose and mitigate bias implicit in ML.
+ 
 %To put “old wine” (statistical errors) into new bottles (machine learning framework) and examine how the decision-making environment (phishing detection) influences model selection, which subsequently leas to the minimization of expected disutility - the opposite of maximization of expected utility .
 \end{henumerate}
 
@@ -209,7 +211,43 @@ In assessment of ML algorithm performance, the predicted  values and actual labe
 
 Our acquaintance with null hypothesis  significance  testing (NHST) easily allude us to 
 
-\section {The Proposed Alpheta Ratio}
+\section {The Proposed Litmus Ratio}
+
+We now formally define the Litmus ratio $\tau = \frac{\alpha}{\beta}$, where $\alpha$  is the total number of false positive cases misclassified and $\beta$  is the false negative counterpart within the  test data set of size N. If $\varLambda$  is the accuracy of the corresponding ML model, we can then establish
+
+\begin{equation}
+1 - \varLambda = \frac {\alpha + \beta}{N}
+\end{equation}
+
+Substitute $\alpha$ with $\tau\beta$, we arrive at:
+
+\begin{equation}
+1 - \varLambda = \alpha\frac {1+\tau}{N}\Rightarrow \alpha = N*\frac {1-\varLambda}{1+\tau}
+\end{equation}
+
+With $C_{FP}$ and   $C_{FN}$ represent unit cost (negative) of FP and FN error respectively, we can easily calculate the total cost of misclassifications ($\varGamma$) as:
+ 
+%\begin{equation}
+%\begin{cases}
+%FN = \frac{N*E}{1+\iota}\\
+ %FP = \frac{N*E\iota}{1+\iota}
+%\end{cases}
+%\end{equation}
+ 
+\begin{equation}
+\varGamma =  N*\frac {1-\varLambda}{1+\tau}*C_{FP} + N*\frac {1-\varLambda}{(1+\tau)\tau}*C_{FN}
+\end{equation}
+For simplicity of presentation, we use $k=\frac{C_{FP}}{C_{FN}}$ and further reduce  equation 3 to :
+
+\begin{equation}
+\varGamma = \alpha*C_{FP} + \beta*C_{FN} =  N*(1-\varLambda)*C_{FP}*\frac{k+\tau}{\tau(1+\tau)}
+\end{equation}
+
+Consider a special case of $ k=\tau=1$  (neutral model and neutral decision-making environment), we have  $\varGamma =  N*(1-\varLambda)*C_{FP}$, which indicates that the best model is the one with the highest accuracy.
+
+\begin{equation}
+\frac{d\varGamma}{d\tau}
+\end{equation}
 
 \section{Data, Models  and Empirical Analysis}
 
@@ -244,8 +282,8 @@ not done in this work
 %================================
 \begin{figure}
 \FIGURE
-{\includegraphics[width=0.5\linewidth]{Rplot.pdf}}
-{Figure Caption. \label{fig1}}
+{\includegraphics[width=0.55\linewidth]{Rplot04.pdf}}
+{Bias - Accuracy Scatter Plot \label{fig1}}
 {Text of Notes}
 \end{figure}
 %===============================
