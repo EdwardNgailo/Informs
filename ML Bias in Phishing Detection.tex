@@ -245,19 +245,24 @@ For simplicity of presentation, we use $k=\frac{C_{FP}}{C_{FN}}$ and further red
 
 Consider a special case of $ k=\tau=1$  (neutral model and neutral decision-making environment), we have  $\varGamma =  N*(1-\varLambda)*C_{FP}$, which indicates that the best model is the one with the highest accuracy.
 
+Also under  relatively static decision-making circumstances, we can assume away $N, C_{FP} $ and better understand the interplay between accuracy and bias. 
 \begin{equation}
-\frac{d\varGamma}{d\tau}
+\varGamma^{\prime} = (1-\varLambda)*\frac{k+\tau}{\tau(1+\tau)} = \frac{(1-\varLambda)\tau^\prime}{(\tau^\prime - k)^2+(\tau^\prime-k)}
 \end{equation}
+
+Suppose we face a set of models with the same level of accuracy, we can further reduce the above equation to
+
+\begin{equation}
+\varGamma^{\prime} = \frac{\tau^\prime}{(\tau^\prime - k)^2+(\tau^\prime-k)}
+\end{equation} 
+
+Without any further calculus work, we can see the close ties between model bias and the cost characteristics of the corresponding decision-making environment, represented by $\tau (\tau^\prime)$ and k respectively. The purpose of next section is to empirically demonstrate the $\tau$ -  k link, which can be applied to the screening of ML model candidates.
+
 
 \section{Data, Models  and Empirical Analysis}
 
-The Phishing Websites Data Set \citep{Mohammad2015} , used in this work, is available online at the UCI Repository \citep{Lichman:2013}. The dataset has been
-used in several works from the literature that propose techniques for dimensionality reduction and classification. It
-contains data from 452 patients organized in 16 classes ranging from normal, different types of arrhythmia, and unidentified (see distribution in Table 1). Each instance contains
-279 attributes including patient’s personal data (age, sex,
-height, and weight), and measurements taken from ECG
-signals from that patient. Thus, it is clear that the preprocessing of the signals in order to take the measurements was
-not done in this work
+The Phishing Websites Dataset \citep{Mohammad2015} , used in this work, is available online at the UCI Repository \citep{Lichman:2013}. The dataset has been
+used in several works that either propose new  or evaluate existing techniques for phishing website classification \citep{7727750, Mohammad2012, Mohammad2013, Mohammad2015a}. It contains data from 11055  websites  labeled into  two major classes (-1 for phishing and 1 for legitimate). Each instance contains 30 features / attributes, which fall into four broad categories. Feature 1 through 12 belong to the Address Bar Based Features category Abnormal Based Features occupy the next 6 features. Feature 19 - 23 are bundled into the HTML and JavaScript Based Features, while Domain Based Features claim the remaining 7 attributes. All 30 features have been  preprocessed into either dichotomous (-1 for phishing positive, 1 for phishing  negative) or trichotomous (-1, 1, and 0 for phishing neutral).  
 
 
 %=================================
@@ -282,9 +287,9 @@ not done in this work
 %================================
 \begin{figure}
 \FIGURE
-{\includegraphics[width=0.55\linewidth]{Rplot04.pdf}}
+{\includegraphics[width=0.65\linewidth]{Rplot04.pdf}}
 {Bias - Accuracy Scatter Plot \label{fig1}}
-{Text of Notes}
+{each dot represents one model with unique parameterization }
 \end{figure}
 %===============================
 
