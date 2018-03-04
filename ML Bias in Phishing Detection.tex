@@ -124,7 +124,7 @@ Grown out of the quest for artificial intelligence (AI), machine learning (ML) i
 Aesop's fable, the “The Boy who Cried Wolf,” is about a young shepherd boy found his life dull in the pasture as he sat on the hillside tending his master’s sheep. To amuse himself, he ran toward the village shouting at the top of his voice, "Wolf! Wolf! The Wolf is chasing the sheep!". The villagers dropped their work and rushed up the hill to help the boy scare the wolf away. But upon their arrival, they found no wolf and only the grinning face of the shepherd boy. "Don't cry 'wolf', when there's no wolf!" The
 grumbling villagers told the boy and returned to their village. A few days later, the boy felt bored and yell out again, "Wolf! Wolf! The wolf is chasing my sheep!" To his wicked delight, he viewed the villagers dash up the hill and fall for his trick gain. The villagers sternly warned "Don't cry 'wolf' when there is NO wolf!". Later, he saw a real wolf prowling about his herd. In terror, he leaped to his feet and sang out as loudly as he could, "Wolf! Wolf!". To no avail, the villagers thought he was trying to repeat his foolish game, so they stay away. At sunset, everyone wondered why the shepherd boy hadn't returned to the village with their sheep. They went up the hill and found him weeping. The price the village paid is costly: the killing of a great many of the flock.
 
-At the end of the story, an old man comforted the boy. “If you tell too many lies, no one believes you when you tell the truth”. The moral message the tale conveys is that liars are not trustworthy even when they are telling the truth. Undoubtedly, the shepherd boy was not even close to a pure rational decision maker, perhaps a naughty one. Considering his maturity level and working environment, are we being too harsh on the young boy entrusted with the task of guarding the village’s most valuable asset? \cite{doi:10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2} delineate the classical tale in a decision-making matrix as shown in table \ref{tab1}. Based on their cost-loss analysis,  the villagers in the tale were unprepared to tolerate a reasonably high false-alarm rate (cries of “Wolf!” when there is no wolf looming). As revealed by our ensuing investigation, even machine learning (ML) models trained on large data sets are not immune from sounding false alarms.
+At the end of the story, an old man comforted the boy. “If you tell too many lies, no one believes you when you tell the truth”. The moral message the tale conveys is that liars are not trustworthy even when they are telling the truth. Undoubtedly, the shepherd boy was not even close to a pure rational decision maker, perhaps a naughty one. Considering his maturity level and working environment, are we being too harsh on the young boy entrusted with the task of guarding the village’s most valuable asset? \cite{doi:10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2} delineate the classical tale in a decision-making matrix as shown in table \ref{tab1}. Based on their cost-loss analysis,  the villagers in the tale were unprepared to tolerate a reasonably high  false-alarm rate (cries of “Wolf!” when there is no wolf looming). As revealed by our ensuing investigation, even machine learning (ML) models trained on large data sets are not immune from sounding false alarms.
 
 \begin{table}
 \TABLE
@@ -136,10 +136,10 @@ At the end of the story, an old man comforted the boy. “If you tell too many l
 \up \down Reality & Wolf - Yes & Wolf - No\\
 \hline 
 \up Wolf & Respond and Rescue & Stay Put \\
- \down -Yes& Time and Efforts well spent & Loss of Assets\\
+ \down -Yes&  6 villagers for 1 hr {@}  \$10 $h^{-1}$ & Killing of 3 sheep {@}\$200 each\\
 \hline 
-\up Wolf & Opportunity Cost & No Harm\\
-\down  -No& Waste of Time and Efforts & Zero Cost\\
+\up Wolf & Respond and Disappointed & No Action and No Harm\\
+\down  -No&  6 villagers for 1 hr {@}  \$10 $h^{-1}$ & \$ 0\\
 \hline
 \end{tabular}}
 {Adapted from \cite{doi:10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2} }
@@ -173,7 +173,9 @@ The paper proceeds as follows. In the Related Works section, we describe phishin
 
 There exists considerable overlap between statistics and machine learning. Both fields focus on studying generalization from data (model building). However, statistics, inferential statistics in particular, makes generalization (prediction) about the unknown population parameters (parameter estimation) based on often small sample. Machine learning, on the other hand, relies heavily on the predictive accuracy of models, while ignoring largely checking of models and assumptions. In addition, terminology employed in machine learning is different from that used by statisticians. In machine learning, a target or outcome is called a label, while in statistics it is referred to as dependent variable (DV). In statistics, an input predictor is called an independent variable, whereas it is denoted as a feature in machine learning.  
 
+In a classification ML problem, the focal algorithm  is  presented  a training data sample of n observations on a categorical (class) variable (label) Y and a set of $m$ predictor variables X \{$X_1, X_2, \cdots, X_m\}$  (features) that are either categorical or continuous. The goal of the learning process is then  to find a model predicting Y values from those of X \citep{Loh2011}.
 
+Chi-squared Automatic Interaction Detection (CHAID)
 \subsection{Phishing Detection}
 Phishing is defined as a social engineering technique where the aggressor pretends to be a trustworthy entity in attempt to gain sensitive information (e.g. usernames, password, credit card credentials) from the victim \citep{Jagatic2007}. In the cyber-attack, fraudulent website con users into disclosing sensitive and/or confidential information to the attacker by impersonating to be a legitimate website in an automated fashion.  These types of communications are commonly accomplished through emails that point users to phishing websites through which phishers gather information in question.  Bank and credit card details, password, and personal identification number are few examples that interest phishers frequently collect users’ credentials \citep{jakobsson2006phishing}
 
@@ -222,7 +224,7 @@ We now formally define the Litmus ratio $\tau = \frac{\alpha}{\beta}$, where $\a
 Substitute $\alpha$ with $\tau\beta$, we arrive at:
 
 \begin{equation}
-1 - \varLambda = \alpha\frac {1+\tau}{N}\Rightarrow \alpha = N*\frac {1-\varLambda}{1+\tau}
+1 - \varLambda = \beta\frac {1+\tau}{N}\Rightarrow \beta = N*\frac {1-\varLambda}{1+\tau}
 \end{equation}
 
 With $C_{FP}$ and   $C_{FN}$ represent unit cost (negative) of FP and FN error respectively, we can easily calculate the total cost of misclassifications ($\varGamma$) as:
@@ -235,28 +237,28 @@ With $C_{FP}$ and   $C_{FN}$ represent unit cost (negative) of FP and FN error r
 %\end{equation}
  
 \begin{equation}
-\varGamma =  N*\frac {1-\varLambda}{1+\tau}*C_{FP} + N*\frac {1-\varLambda}{(1+\tau)\tau}*C_{FN}
+\varGamma =  N*\frac {(1-\varLambda)\tau}{(1+\tau)}*C_{FP} + N*\frac {1-\varLambda}{(1+\tau)}*C_{FN}
 \end{equation}
 For simplicity of presentation, we use $k=\frac{C_{FP}}{C_{FN}}$ and further reduce  equation 3 to :
 
 \begin{equation}
-\varGamma = \alpha*C_{FP} + \beta*C_{FN} =  N*(1-\varLambda)*C_{FP}*\frac{k+\tau}{\tau(1+\tau)}
+\varGamma = \alpha*C_{FP} + \beta*C_{FN} =  N*(1-\varLambda)*C_{FN}*\frac{(k\tau+1)}{(1+\tau)}
 \end{equation}
 
-Consider a special case of $ k=\tau=1$  (neutral model and neutral decision-making environment), we have  $\varGamma =  N*(1-\varLambda)*C_{FP}$, which indicates that the best model is the one with the highest accuracy.
+Consider a special case of $ k=1$  (neutral decision-making environment), we have  $\varGamma =  N*(1-\varLambda)*C_{FN}$, which indicates that the best model is the one with the highest accuracy only and bias is canceled out.
 
-Also under  relatively static decision-making circumstances, we can assume away $N, C_{FP} $ and better understand the interplay between accuracy and bias. 
-\begin{equation}
-\varGamma^{\prime} = (1-\varLambda)*\frac{k+\tau}{\tau(1+\tau)} = \frac{(1-\varLambda)\tau^\prime}{(\tau^\prime - k)^2+(\tau^\prime-k)}
-\end{equation}
+%Also under  relatively static decision-making circumstances, we can assume away $N, C_{FN} $ and better understand the interplay between accuracy and bias. 
+%\begin{equation}
+%\varGamma^{\prime} = (1-\varLambda)*\frac{k\tau+1}{(1+\tau)}
+%\end{equation}
 
-Suppose we face a set of models with the same level of accuracy, we can further reduce the above equation to
+%Suppose we face a set of models with the same level of accuracy, we can further reduce the above equation to
 
-\begin{equation}
-\varGamma^{\prime} = \frac{\tau^\prime}{(\tau^\prime - k)^2+(\tau^\prime-k)}
-\end{equation} 
+%\begin{equation}
+%\varGamma^{\prime} = \frac{k\tau^\prime + 1-k}{\tau^\prime} = k + \frac{1 - k}{\tau^\prime}
+%\end{equation} 
 
-Without any further calculus work, we can see the close ties between model bias and the cost characteristics of the corresponding decision-making environment, represented by $\tau (\tau^\prime)$ and k respectively. The purpose of next section is to empirically demonstrate the $\tau$ -  k link, which can be applied to the screening of ML model candidates.
+Without any further calculus work, we can see the close ties between model characteristics and the cost characteristics of the corresponding decision-making environment, represented by $\tau (\tau^\prime), \varLambda$ and k respectively. The purpose of next section is to empirically demonstrate the ($\varLambda - \tau$) -  k links, which can be applied to the screening of ML model candidates.
 
 
 \section{Data, Models  and Empirical Analysis}
@@ -271,7 +273,7 @@ used in several works that either propose new  or evaluate existing techniques f
 {Performance Results \label{tab3}}
 {\begin{tabular}{clcc}
 \hline 
-\up \down Model &  Features &  Precision & Litmus Ratio \\
+\up \down Model &  Features &  $\varLambda$  & $\tau$ \\
 \hline
 \up \down 1  &01 - 12  &  90\% & 0.78 \\
 \up \down 2 &  13 - 18 &  88\% & 0.24 \\
@@ -281,6 +283,27 @@ used in several works that either propose new  or evaluate existing techniques f
 \hline
 \end{tabular}}
 {Models differ in features included }
+\end{table}
+%================================
+
+%================================
+\begin{table}
+\TABLE
+{Accuracy and Bias Tradeoff  \label{tab4}}
+{\begin{tabular}{cccccc}
+\hline 
+\up \down Model &  N  &  $\varLambda$  & k & $\tau$  & $\varGamma$ \\
+\hline
+\up \down 1&2211&0.957&1/5&0.96& 59.16\\
+\up \down 2&2211&0.955&1/5&1.44& 58.07\\
+\up \down 3&2211&0.951&1/5&1.54& 62.86\\
+\up \down 4&2211&0.950&1/5&1.82& 62.33\\
+\up \down 5&2211&0.947&1/5&2.16& 65.19\\
+\hline
+\end{tabular}}
+{All models with the same set of features
+
+Total Costs are in units of $C_{FN}, k=\frac {C_{FP}}{C_{FN}}$}
 \end{table}
 %================================
 
