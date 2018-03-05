@@ -187,9 +187,43 @@ In reviewing the applied ML research on phishing websites classification,    lin
 
 
 
-\subsection{Evaluation of ML Algorithms}
+\subsection{Evaluation of classification  ML Algorithms}
 
-In assessment of ML algorithm performance, the predicted  values and actual label values  are often cross-tabulated into  a typical confusion matrix (CM) contained in  table \ref{tab2}. Type I error, also known as “false positive”, is the false rejection of a null hypothesis when it is true. Plainly speaking, it arises when we are detecting a difference when there is none. Type II error, also known as "false negative", is the error of not rejecting a null hypothesis when the null hypothesis is the false state of reality. In other words, it occurs when we are failing to detect a difference when the difference in fact exists.
+In assessment of (binary) classification  ML algorithm performance, the predicted  values and actual label values  are often cross-tabulated into  a typical confusion matrix (CM) contained in  table \ref{tab2}. Our acquaintance with null hypothesis  significance  testing (NHST) easily alludes us to Type 1 ($\alpha$) and  Type 2 error ($\beta$). Type 1 error,  also known as “false positive”, is the false rejection of a null hypothesis when it is true. Plainly speaking, it arises when we are detecting a difference when there is none. Type 2  error, also known as "false negative", is the error of not rejecting a null hypothesis when the null hypothesis is the false state of reality. In other words, it occurs when we are failing to detect a difference when the difference in fact exists. As described below, all common metrics in the assessment of ML classifying models are derived from such CM.
+
+Accuracy is the most intuitive performance measure of a ML classification model  and it is simply the ratio of correctly predicted observation (both phishing and legitimate) to the total observations in the test dataset.
+
+\begin{equation}
+Accuracy = \frac {TP+TN}{TP+FP+TN+FN}
+\end{equation}
+
+Precision, also known as PPV (Positive Predictive Value) is the rate of correctly predicted positive labels to the total predicted positive observations.  It is calculated as:
+
+\begin{equation}
+Precision = \frac {TP}{TP+FP}
+\end{equation}
+
+Recall, also known as Sensitivity or True Positive Rate (TPR), is  is the ratio of correctly predicted positive observations to the all observations in actual ``+'' class:
+
+\begin{equation}
+Recall = \frac {TP}{TP+FN}
+\end{equation} 
+
+Specificity, also known as True Negative Rate (TNR),  is the ratio of correctly predicted ``-'' observations to the all observations in actual``-'' class:
+
+\begin{equation}
+Specificity = \frac {TN}{FP+TN}
+\end{equation}
+
+F1 score is the weighted average or harmonic mean of Precision (P) and Recall (R). Thus, it takes both false positives and false negatives into account, as shown in equation (5).
+
+\begin{equation}
+F1 = \frac {2*P*R}{P + R}
+\end{equation}
+\\
+After intensive review of metrics deployed in assessment of ML classifiers, we found no metrics involve only FP and FN in definition. Inspired by this obvious absence of bias measuring metrics, we, in the next section, take the first step and attempt to  formulate a simple Litmus ratio that can be applied in evaluating ML model bias.
+  
+
 
 \begin{table}
 \TABLE
@@ -211,7 +245,7 @@ In assessment of ML algorithm performance, the predicted  values and actual labe
 \end{table}
 
 
-Our acquaintance with null hypothesis  significance  testing (NHST) easily allude us to 
+
 
 \section {The Proposed Litmus Ratio}
 
@@ -294,11 +328,11 @@ used in several works that either propose new  or evaluate existing techniques f
 \hline 
 \up \down Model &  N  &  $\varLambda$  & k & $\tau$  & $\varGamma$ \\
 \hline
-\up \down 1&2211&0.957&1/5&0.96& 59.16\\
-\up \down 2&2211&0.955&1/5&1.44& 58.07\\
-\up \down 3&2211&0.951&1/5&1.54& 62.86\\
-\up \down 4&2211&0.950&1/5&1.82& 62.33\\
-\up \down 5&2211&0.947&1/5&2.16& 65.19\\
+\up \down 1&2211&0.957&1/10&0.96& 53.66\\
+\up \down 2&2211&0.955&1/10&1.44& 46.86\\
+\up \down 3&2211&0.951&1/10&1.54& 49.60\\
+\up \down 4&2211&0.950&1/10&1.82& 46.13\\
+\up \down 5&2211&0.947&1/10&2.16& 44.49\\
 \hline
 \end{tabular}}
 {All models with the same set of features
