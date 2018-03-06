@@ -295,10 +295,12 @@ Consider a special case of $ k=1$  (neutral decision-making environment), we hav
 Without any further calculus work, we can see the close ties between model characteristics and the cost characteristics of the corresponding decision-making environment, represented by $\tau (\tau^\prime), \varLambda$ and k respectively. The purpose of next section is to empirically demonstrate the ($\varLambda - \tau$) -  k links, which can be applied to the screening of ML model candidates.
 
 
-\section{Data, Models  and Empirical Analysis}
+\section{Data, Models  and Empirical Analyses}
 
-The Phishing Websites Dataset \citep{Mohammad2015} , used in this work, is available online at the UCI Repository \citep{Lichman:2013}. The dataset has been
-used in several works that either propose new  or evaluate existing techniques for phishing website classification \citep{7727750, Mohammad2012, Mohammad2013, Mohammad2015a}. It contains data from 11055  websites  labeled into  two major classes (-1 for phishing and 1 for legitimate). Each instance contains 30 features / attributes, which fall into four broad categories. Feature 1 through 12 belong to the Address Bar Based Features category Abnormal Based Features occupy the next 6 features. Feature 19 - 23 are bundled into the HTML and JavaScript Based Features, while Domain Based Features claim the remaining 7 attributes. All 30 features have been  preprocessed into either dichotomous (-1 for phishing positive, 1 for phishing  negative) or trichotomous (-1, 1, and 0 for phishing neutral).  
+The Phishing Websites Dataset \citep{Mohammad2015} , used in this work, is available online at the UCI Repository \citep{Dua2017}. The dataset has been
+used in several works that either propose new  or evaluate existing techniques for phishing website classification \citep{7727750, Mohammad2012, Mohammad2013, Mohammad2015a}. It contains data from 11055  websites  labeled into  two major classes (-1 for phishing and 1 for legitimate). Of the 11055 observations, 44\% take the value of -1 (phishing) and 56\% take the value of 1 (legitimate).  Each instance contains 30 features / attributes, which fall into four broad categories. Feature 1 through 12 belong to the Address Bar Based Features category Abnormal Based Features occupy the next 6 features. Feature 19 - 23 are bundled into the HTML and JavaScript Based Features, while Domain Based Features claim the remaining 7 attributes. All 30 features have been  preprocessed into either dichotomous (-1 for phishing positive, 1 for phishing  negative) or trichotomous (-1, 1, and 0 for phishing neutral).  
+
+Customarily, we split the whole dataset into 80\% for training and 20\% (size of 2211) for testing. We carried  out experimental analyses on the CRAN-R platform \citep{R2013}.  In the first phase, we feed the whole training dataset of size 8844  into the CHAID algorithm implemented by the R-Forge Project Team \citep{chaid}, while restricting the variety of features involved in model training. 
 
 
 %=================================
@@ -320,6 +322,22 @@ used in several works that either propose new  or evaluate existing techniques f
 \end{table}
 %================================
 
+We summarized the performance  of each of the five models  assessed on the test dataset in table \ref{tab3}. The full model with all 30 features outperformed the other 4 sub-models by the margins ranging from 5\% to 38\% in terms of accuracy. Model 3, which considers only  the HTML and JavaScript Based Features, yielded the lowest accuracy and extremest bias. Like regression in statistical analysis, we observe that individual (categories of) features do not contribute equally to model accuracy. It is also noteworthy that the full model (model 5) not only improves accuracy to the highest level, but also shifts the bias from the  $<1$ side to the $>1$  side. It seemingly  confirms that  in ML,  the more objective the data and the larger the data set, the less possibility of distortion, as noted by \cite{Rosso2015}.
+
+In the second phase of our empirical analyses, we created 1,000 models, which  consider the same set of  30 available features, but differs mainly  in the records contained in the training data. Via iterative re-sampling, 
+we created 1,000 different samples of size of  7075 (80\% of 8844) from  the original training dataset and fed each sample into the CHAID algorithm.  The 1,000 models are plotted in Figure \ref{fig1} along the dimensions of accuracy and bias. This arrangement allows us to investigate the impact of various accuracy-bias combinations on the total cost of misclassification ($\varGamma$).
+ 
+%================================
+\begin{figure}
+\FIGURE
+{\includegraphics[width=0.65\linewidth]{Rplot04.pdf}}
+{Bias - Accuracy Scatter Plot \label{fig1}}
+{each dot represents one model with unique parameterization }
+\end{figure}
+%=============================== 
+
+The context of phishing detection resembles the situation faced by the villagers  in the opening fable, in that $C_{FN}$ far outweighs $C_{FP}$. For  illustration purposes,  we set k = 1/10 and computed the $\varGamma$ for each of the five models in the top-right quadrant. Surprisingly, we noticed in Table \ref{tab4} that the best model with the lowest $\varGamma$ of 44.49  is model \#5, which has the worst accuracy of 94.7\% among the five models studied. The model with the highest accuracy of 95.7\% (model \#1) yielded the worst total cost figure of 53.66. The worsened predictive accuracy is well compensated by the right-shifting bias factor.  
+    
 %================================
 \begin{table}
 \TABLE
@@ -341,20 +359,8 @@ Total Costs are in units of $C_{FN}, k=\frac {C_{FP}}{C_{FN}}$}
 \end{table}
 %================================
 
-%================================
-\begin{figure}
-\FIGURE
-{\includegraphics[width=0.65\linewidth]{Rplot04.pdf}}
-{Bias - Accuracy Scatter Plot \label{fig1}}
-{each dot represents one model with unique parameterization }
-\end{figure}
-%===============================
-
-
-
 \section{Implications}
 
-Machine learning hinges  on the quality of training data sets that feed into the underlying algorithm.  In ML,  the more objective the data and the larger the data set, the less possibility of distortion \citep{Rosso2015}.
 
 \section {Concluding Remarks}
 
