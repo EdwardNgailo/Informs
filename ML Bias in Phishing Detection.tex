@@ -156,7 +156,7 @@ Our research was motivated by what we observed as a slight disconnect between th
 % increasing popularity of AI-powered  machine decision making (MDM) and automation, which pose to render vast swaths of the working professionals literally redundant.
 
 \item To propose and formulate an  Litmus ratio- $\iota$ (akin to the pH scale in chemistry) for the assessment of decision bias committed by  ML  models.
-\item To demonstrate empirically model bias is unrelated to accuracy and requires human judgment and stringent regulation.
+\item To demonstrate empirically the trade-off between model accuracy and bias that  requires human judgment and stringent regulation in order to to minimize disutility
 \item To illustrate  how human adopters of ML models can use our proposed Litmus ratio to diagnose and mitigate bias implicit in ML.
  
 %To put “old wine” (statistical errors) into new bottles (machine learning framework) and examine how the decision-making environment (phishing detection) influences model selection, which subsequently leas to the minimization of expected disutility - the opposite of maximization of expected utility .
@@ -362,7 +362,17 @@ Total Costs are in units of $C_{FN}, k=\frac {C_{FP}}{C_{FN}}$}
 
 \section{Implications}
 
+The opening fable is supposed to teach young readers a moral lesson on integrity and honesty by showing the severe negative damage to the society caused by the  shepherd boy’s lying. Put the moral lesson aside, we can base on the experiments described above and draw alternative lessons from the imprudent decision making by the villagers in the same story.  When they handed over the custody of the sheep herd to the young shepherd boy, the villagers as decision-makers should have known upfront that the young boy is error-prone. More specifically, he tends to make false alarms about wolfs’ attack because he is not assumed to possess the capability to fend off the attacks himself. With zero possibility of false negatives (type II error), the villagers should foresee that only false alarm is left to him to make. Further, responding to the boy’s crying wolf costs only a couple of hours of delay of farm work, which is no way comparable to the loss of several sheep to lupine attacks. Given the skewed  $\frac{C_{FP}}{C_{FN}}$  ratio, smart decision makers should respond to every alarms regardless of their potential spuriousness. Maybe after responding to a few rounds of no-wolf false alarms, the villagers as asset owners should delegate the task of safeguarding their herd to a more mature and capable shepherd.  
+
+
+Unfortunately, such a decision-making lesson is not confined to characters in stories. As demonstrated with our experiments, even machine learning models trained on large real life datasets bear significant behavioral resemblance to the young shepherd boy in the tale. Without the necessary human guidance and even human interference, the seemingly almighty machine intelligence can lead to catastrophic consequences. Our results are demonstrative in nature and further work is desired to understand the origins of the error-proneness of machine learning models and to develop mitigating measures that practitioners can readily implement to reap maximal benefits from artificial intelligence. 
+
+
 Because we utilized the same hold-out dataset to test all models, we are afforded the opportunity to unravel the familiar type I and II errors in statistics in the context of machine learning. Completely masked by the overall misclassification rate, type I and II errors take on significantly different meanings in the evaluation of machine learning models. Regarding labeling phishing websites, a type I error means a legitimate website is wrongly put on blacklist. Consequently, this overestimation of the potential risk posed by the candidate website will induce wasted resources, most of which are largely opportunity costs (the extra hour spent finding alternative websites to get the original job done). On the other hand, underestimation of potential phishing threat will definitely deal identity theft and resultant financial loss and psychological stress to the victim. If we assume an individual’s identity and fanatical safety is one of the most critical assets and the extra time wasted on searching for alternative websites due to false alarms can be reasonably expressed in hourly wages, the Overestimation Cost (OC) -Underestimation Loss (UL) analysis should give a numerical ratio value as calculated in ....
+
+Obviously, the OC/UL ratio tilts heavily toward underestimation of risk and hence necessitates models with significantly low type II error rate. As shown in table 6. our best “toy” model provides only slight bias favoring type II error. It is no doubt we in practice need to search for best possible models that minimize both overall misclassification rate and type II error rate. To end this section, we reiterate that the selection of machine learning models must cater to the risk-tolerance profile of the decision maker dictated by the balance between overestimation cost and underestimation loss implied by the specific environment surrounding the decision maker.  
+
+
 
 \section {Concluding Remarks}
 
