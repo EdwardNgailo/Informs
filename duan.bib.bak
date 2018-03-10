@@ -642,4 +642,42 @@ KEYWORDS: Null hypothesis significance testing, p-value, Statistical significanc
   file    = {:Articles/Andrew-Ng-What-AI-Can-and-Can’t-Do.pdf:PDF},
 }
 
+@Article{Vosoughi1146,
+  author    = {Vosoughi, Soroush and Roy, Deb and Aral, Sinan},
+  title     = {The spread of true and false news online},
+  journal   = {Science},
+  year      = {2018},
+  volume    = {359},
+  number    = {6380},
+  pages     = {1146--1151},
+  issn      = {0036-8075},
+  abstract  = {There is worldwide concern over false news and the possibility that it can influence political, economic, and social well-being. To understand how false news spreads, Vosoughi et al. used a data set of rumor cascades on Twitter from 2006 to 2017. About 126,000 rumors were spread by \~{}3 million people. False news reached more people than the truth; the top 1\% of false news cascades diffused to between 1000 and 100,000 people, whereas the truth rarely diffused to more than 1000 people. Falsehood also diffused faster than the truth. The degree of novelty and the emotional reactions of recipients may be responsible for the differences observed.Science, this issue p. 1146We investigated the differential diffusion of all of the verified true and false news stories distributed on Twitter from 2006 to 2017. The data comprise ~126,000 stories tweeted by ~3 million people more than 4.5 million times. We classified news as true or false using information from six independent fact-checking organizations that exhibited 95 to 98\% agreement on the classifications. Falsehood diffused significantly farther, faster, deeper, and more broadly than the truth in all categories of information, and the effects were more pronounced for false political news than for false news about terrorism, natural disasters, science, urban legends, or financial information. We found that false news was more novel than true news, which suggests that people were more likely to share novel information. Whereas false stories inspired fear, disgust, and surprise in replies, true stories inspired anticipation, sadness, joy, and trust. Contrary to conventional wisdom, robots accelerated the spread of true and false news at the same rate, implying that false news spreads more than the truth because humans, not robots, are more likely to spread it.},
+  doi       = {10.1126/science.aap9559},
+  eprint    = {http://science.sciencemag.org/content/359/6380/1146.full.pdf},
+  file      = {:Articles/1146.full.pdf:PDF},
+  publisher = {American Association for the Advancement of Science},
+  url       = {http://science.sciencemag.org/content/359/6380/1146},
+}
+
+@Article{Joliemay14,
+  author  = {Angilina Jolie},
+  title   = {My medical choice.},
+  journal = {New York Times},
+  year    = {2013},
+  month   = may,
+  url     = {http://www.nytimes.com/2013/05/14/opinion/my-medical-choice
+.html},
+}
+
+@Article{evans2015longer,
+  author    = {Evans, D Gareth and Wisely, Julie and Clancy, Tara and Lalloo, Fiona and Wilson, Mary and Johnson, Richard and Duncan, Jonathon and Barr, Lester and Gandhi, Ashu and Howell, Anthony},
+  title     = {Longer term effects of the Angelina Jolie effect: increased risk-reducing mastectomy rates in BRCA carriers and other high-risk women},
+  journal   = {Breast Cancer Research},
+  year      = {2015},
+  volume    = {17},
+  number    = {1},
+  pages     = {143},
+  publisher = {BioMed Central},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
