@@ -1,0 +1,148 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem[{Agrawal et~al.(2018)Agrawal, Gans, \protect\BIBand{}
+  Goldfarb}]{Agrawal2018}
+Agrawal A, Gans J, Goldfarb A (2018) \emph{Prediction Machines: The Simple
+  Economics of Artificial Intelligence} (Harvard Business Review Press), ISBN
+  978-1633695672.
+
+\bibitem[{Box \protect\BIBand{} Draper(1987)}]{box1987empirical}
+Box GE, Draper NR (1987) \emph{Empirical model-building and response surfaces.}
+  (John Wiley \& Sons).
+
+\bibitem[{Caliskan et~al.(2017)Caliskan, Bryson, \protect\BIBand{}
+  Narayanan}]{Caliskan2017}
+Caliskan A, Bryson JJ, Narayanan A (2017) Semantics derived automatically from
+  language corpora contain human-like biases. \emph{Science}
+  356(6334):183--186,
+  \urlprefix\url{http://dx.doi.org/10.1126/science.aal4230}.
+
+\bibitem[{Cottrell(2006)}]{cottrell2006new}
+Cottrell GW (2006) New life for neural networks. \emph{networks} 5:6.
+
+\bibitem[{Dheeru \protect\BIBand{} Karra~Taniskidou(2017)}]{Dua2017}
+Dheeru D, Karra~Taniskidou E (2017) {UCI} machine learning repository.
+  \urlprefix\url{http://archive.ics.uci.edu/ml}.
+
+\bibitem[{Evans et~al.(2015)Evans, Wisely, Clancy, Lalloo, Wilson, Johnson,
+  Duncan, Barr, Gandhi, \protect\BIBand{} Howell}]{evans2015longer}
+Evans DG, Wisely J, Clancy T, Lalloo F, Wilson M, Johnson R, Duncan J, Barr L,
+  Gandhi A, Howell A (2015) Longer term effects of the angelina jolie effect:
+  increased risk-reducing mastectomy rates in brca carriers and other high-risk
+  women. \emph{Breast Cancer Research} 17(1):143.
+
+\bibitem[{Gupta \protect\BIBand{} Singhal(2018)}]{10.1007/978-981-10-5699-4_50}
+Gupta S, Singhal A (2018) Dynamic classification mining techniques for
+  predicting phishing url. Pant M, Ray K, Sharma TK, Rawat S, Bandyopadhyay A,
+  eds., \emph{Soft Computing: Theories and Applications}, 537--546 (Singapore:
+  Springer Singapore), ISBN 978-981-10-5699-4.
+
+\bibitem[{Jagatic et~al.(2007)Jagatic, Johnson, Jakobsson, \protect\BIBand{}
+  Menczer}]{Jagatic2007}
+Jagatic TN, Johnson NA, Jakobsson M, Menczer F (2007) Social phishing
+  50:94--100, ISSN 0001-0782,
+  \urlprefix\url{http://dx.doi.org/10.1145/1290958.1290968}.
+
+\bibitem[{Jakobsson \protect\BIBand{} Myers(2006)}]{jakobsson2006phishing}
+Jakobsson M, Myers S (2006) \emph{Phishing and countermeasures: understanding
+  the increasing problem of electronic identity theft} (John Wiley \& Sons).
+
+\bibitem[{Jolie(2013)}]{Joliemay14}
+Jolie A (2013) My medical choice. \emph{New York Times}
+  \urlprefix\url{http://www.nytimes.com/2013/05/14/opinion/my-medical-choice
+  .html}.
+
+\bibitem[{Kass(1980)}]{kass1980exploratory}
+Kass GV (1980) An exploratory technique for investigating large quantities of
+  categorical data. \emph{Applied statistics} 119--127.
+
+\bibitem[{Kleinberg et~al.(2017)Kleinberg, Lakkaraju, Leskovec, Ludwig,
+  \protect\BIBand{} Mullainathan}]{Kleinberg2017}
+Kleinberg J, Lakkaraju H, Leskovec J, Ludwig J, Mullainathan S (2017) Human
+  decisions and machine predictions. \emph{The Quarterly Journal of Economics}
+  \urlprefix\url{http://dx.doi.org/10.1093/qje/qjx032}.
+
+\bibitem[{Lewis(2016)}]{lewis2016undoing}
+Lewis M (2016) \emph{The undoing project: A friendship that changed our minds}
+  (WW Norton \& Company).
+
+\bibitem[{Li(2018)}]{FF2018}
+Li FF (2018) How to make {A.I.} human -friendly. \emph{The New York Times}
+  \urlprefix\url{https://www.nytimes.com/2018/03/07/opinion/artificial-intelligence-human.html}.
+
+\bibitem[{Loh(2011)}]{Loh2011}
+Loh WY (2011) Classification and regression trees. \emph{Wiley
+  Interdisciplinary Reviews: Data Mining and Knowledge Discovery} 1(1):14--23,
+  \urlprefix\url{http://dx.doi.org/10.1002/widm.8}.
+
+\bibitem[{Mitchell(1997)}]{mitchell1997machine}
+Mitchell TM (1997) Machine learning.
+
+\bibitem[{Mohammad(2015)}]{Mohammad2015}
+Mohammad RM (2015) Phishing websites features.
+  \urlprefix\url{http://dx.doi.org/10.13140/rg.2.1.2595.6000}.
+
+\bibitem[{Mohammad et~al.(2012)Mohammad, Thabtah, \protect\BIBand{}
+  McCluskey}]{Mohammad2012}
+Mohammad RM, Thabtah F, McCluskey L (2012) An assessment of features related to
+  phishing websites using an automated technique. \emph{Proc. Int. Conf. for
+  Internet Technology and Secured Transactions}, 492--497.
+
+\bibitem[{Mohammad et~al.(2013)Mohammad, Thabtah, \protect\BIBand{}
+  McCluskey}]{Mohammad2013}
+Mohammad RM, Thabtah F, McCluskey L (2013) Predicting phishing websites based
+  on self-structuring neural network. \emph{Neural Computing and Applications}
+  25(2):443--458, \urlprefix\url{http://dx.doi.org/10.1007/s00521-013-1490-z}.
+
+\bibitem[{Mohammad et~al.(2015)Mohammad, Thabtah, \protect\BIBand{}
+  McCluskey}]{Mohammad2015a}
+Mohammad RM, Thabtah F, McCluskey L (2015) Tutorial and critical analysis of
+  phishing websites methods. \emph{Computer Science Review} 17:1--24,
+  \urlprefix\url{http://dx.doi.org/10.1016/j.cosrev.2015.04.001}.
+
+\bibitem[{Ng(2016)}]{ng2016artificial}
+Ng A (2016) What artificial intelligence can and can’t do right now.
+  \emph{Harvard Business Review} 9.
+
+\bibitem[{Nohdurft et~al.(2017)Nohdurft, Long, \protect\BIBand{}
+  Spinler}]{Nohdurft2017}
+Nohdurft E, Long E, Spinler S (2017) Was angelina jolie right? optimizing
+  cancer prevention strategies among {BRCA} mutation carriers. \emph{Decision
+  Analysis} 14(3):139--169,
+  \urlprefix\url{http://dx.doi.org/10.1287/deca.2017.0352}.
+
+\bibitem[{{R Core Team}(2013)}]{R2013}
+{R Core Team} (2013) \emph{R: A Language and Environment for Statistical
+  Computing}. R Foundation for Statistical Computing, Vienna, Austria,
+  \urlprefix\url{http://www.R-project.org/}.
+
+\bibitem[{R-Forge(2015)}]{chaid}
+R-Forge P (2015) \emph{CHAID: CHi-squared Automated Interaction Detection}. R
+  package version 0.1-2.
+
+\bibitem[{Rao \protect\BIBand{} Govindaraju(2013)}]{rao2013handbook}
+Rao CR, Govindaraju V (2013) \emph{Handbook of Statistics, Volume 31: Machine
+  Learning Theory and Applications} (North Holland \& IFIP).
+
+\bibitem[{Rosso(2015)}]{Rosso2015}
+Rosso C (2015) The conundrum of machine learning and cognitive biases.
+  \emph{Medium} .
+
+\bibitem[{Roulston \protect\BIBand{}
+  Smith(2004)}]{doi:10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2}
+Roulston MS, Smith LA (2004) The boy who cried wolf revisited: The impact of
+  false alarm intolerance on cost–loss scenarios. \emph{Weather and
+  Forecasting} 19(2):391--397,
+  \urlprefix\url{http://dx.doi.org/10.1175/1520-0434(2004)019<0391:TBWCWR>2.0.CO;2}.
+
+\bibitem[{Thabtah et~al.(2016)Thabtah, Mohammad, \protect\BIBand{}
+  McCluskey}]{7727750}
+Thabtah F, Mohammad RM, McCluskey L (2016) A dynamic self-structuring neural
+  network model to combat phishing. \emph{2016 International Joint Conference
+  on Neural Networks (IJCNN)}, 4221--4226,
+  \urlprefix\url{http://dx.doi.org/10.1109/IJCNN.2016.7727750}.
+
+\end{thebibliography}
