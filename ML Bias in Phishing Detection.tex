@@ -74,7 +74,7 @@
 %\RUNTITLE{}
 
 % Full title. Sample:
-\TITLE{Exposing Decision Biases Committed  by Machine Learning Algorithms: Revisiting the Boy Who Cried Wolf in the Context of Phishing Detection}
+\TITLE{Exposing Model Bias in Machine Learning: Revisiting the Boy Who Cried Wolf in the Context of Phishing Detection}
 % Enter the full title:
 %\TITLE{}
 
@@ -91,7 +91,7 @@
 } % end of the block
 
 \ABSTRACT{%
-Grown out of the quest for artificial intelligence (AI), machine learning (ML) is today's most active field across disciplines with sharp increase in applications ranging from criminology to fraud detection and to biometrics. ML and statistics both emphasize model estimation / training and thus share the inescapable Type 1 and 2 errors. Extending the concept of statistical errors into the domain of ML, we devise a ground-breaking pH scale-like ratio and intend it as a litmus test indicator of ML model bias completely masked by the popular performance criterion of model accuracy. Using publicly available phishing dataset, we conduct experiments on a series of classification models and consequently unravel the significant cost implications of models with the same level of accuracy but varying levels of bias. Based on the results, we recommend practitioners exercise human judgment match and their own risk tolerance profile with the bias ratio associated with each ML model in order to guard against potential unintended adverse effects.% Enter your abstract
+Grown out of the quest for artificial intelligence (AI), machine learning (ML) is today's most active field across disciplines with sharp increase in applications ranging from criminology to fraud detection and to biometrics. ML and statistics both emphasize model estimation / training and thus share the inescapable Type 1 and 2 errors. Extending the concept of statistical errors into the domain of ML, we devise a ground-breaking pH scale-like ratio and intend it as a litmus test indicator of ML model bias completely masked by the popular performance criterion of accuracy. Using publicly available phishing dataset, we conduct experiments on a series of classification models and consequently unravel the significant cost implications of models with varying levels of bias. Based on the results, we recommend practitioners exercise human judgment and match their own risk tolerance profile with the bias ratio associated with each ML model in order to guard against potential unintended adverse effects.% Enter your abstract
 }%
 
 % Sample
@@ -152,17 +152,17 @@ Andrew Ng, Google Brain founder, once stated that ``Simply downloading and `appl
 Answering the call for more human-centered AI \citep{FF2018}, our study was undertaken with four overall goals:
 
 \begin{henumerate}
-\item To alert the decision analysis  community to the prevalence and peril of model bias in ML.
+\item To alert the decision analysis  community to the prevalence and perils of model bias in ML.
 % increasing popularity of AI-powered  machine decision making (MDM) and automation, which pose to render vast swaths of the working professionals literally redundant.
 
-\item To propose and formulate a  Litmus ratio- $\iota$ (akin to the pH scale in chemistry) for the assessment of decision bias committed by  ML  models.
+\item To propose and formulate a litmus ratio (akin to the pH scale in chemistry) for the assessment of model bias common in ML.
 \item To demonstrate empirically the trade-off between model accuracy and bias that  requires human judgment and stringent regulation in order to to minimize total combined  disutility
-\item To illustrate  how human adopters of ML models can use our proposed Litmus ratio to diagnose and mitigate bias implicit in ML.
+\item To illustrate  how human adopters of ML models can use our proposed litmus ratio to diagnose and mitigate bias implicit in ML.
  
 %To put “old wine” (statistical errors) into new bottles (machine learning framework) and examine how the decision-making environment (phishing detection) influences model selection, which subsequently leas to the minimization of expected disutility - the opposite of maximization of expected utility .
 \end{henumerate}
 
-The paper proceeds as follows. In the Related Works section, we describe phishing detection, which serves as the context of our experiments. Also explicated in that same section are classification algorithms in ML, as well as widely adopted metrics used to asses ML algorithm performance. Amid the Proposed Litmus Ratio section, we formulate a unique ratio for the purpose of assessing ML model bias and derive the total cost function with accuracy and bias as two input factors. In the Data, Models  and Empirical Analyses section, we first introduce the Phishing dataset, and develop a large set of models based on the dataset.  Then, we present the results acquired from out experiments. In the Implications section, we discuss how to match a model's Litmus ratio to the risk toleration profile of the decision-maker circumvented by the surrounding environment. In the Concluding Remarks section, we spotlight the importance of human intelligence in the face of wide-spreading AI. 
+The paper proceeds as follows. In the Related Works section, we describe phishing detection, which serves as the context of our experiments. Also explicated in that same section are classification algorithms in ML, as well as widely adopted metrics used to appraise ML algorithm performance. Amid the Proposed Litmus Ratio section, we formulate a unique ratio for the purpose of assessing ML model bias and derive the total cost function with accuracy and bias as the two input factors. In the Data, Models  and Empirical Analyses section, we first introduce the Phishing dataset, and develop a large set of models based on the dataset.  Then, we present the results acquired from out experiments. In the Implications section, we discuss how to match a model's litmus ratio to the risk toleration profile of the decision-maker circumvented by the surrounding environment. In the Concluding Remarks section, we spotlight the importance of human intelligence in the face of wide-spreading AI. 
 
 
 \section{Related Works }
