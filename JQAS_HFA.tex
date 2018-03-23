@@ -23,7 +23,7 @@
   \runningtitle{Bayesian Hierarchical Analysis}
   \subtitle{Examination at Sport, League, and Club Levels}
   \abstract{From 2001 to 2017 seasonal data}
-  \keywords{European Professional Soccer Leagues, Home Field Advantage}
+  \keywords{European Professional Soccer Leagues, Home Field Advantage, Poisson generative process}
   %\classification[PACS]{...}
   %\communicated{...}
   %\dedication{...}
@@ -42,14 +42,23 @@
 
 The popular frequentist (Fisherian) statistical inference process starts with the formulation of an alternative research hypothesis(Ha), such as "people with higher income live happier than low income earners", which is typically set up against a null non-effect hypothesis (Ho), such as ``income level has no effect on happiness". Then researchers collect relevant data (each subject's perceived happiness and income), and conduct a statistical. \citep{Gajewski2006}
 
+
+\begin{figure}
+\caption{Bias - Accuracy Scatter Plot}
+{\includegraphics[width=0.65\linewidth]{Rplot04.pdf}}
+\label{fig1}
+\end{figure}
+
+
 A second motivator for this study is related to the hotly debated topic of home field advantage in soccer competition.
 The contributions we made in this paper are (1) highlighting the different generative process underlying most sports performance metrics and suggesting corresponding solutions.  (2) refuting the long and firmly held belief of HFA: (3) contrasting the Bayesian and the frequentist approaches to statistical inference in answering the the same research question and using the same data.
  
 \section{Review of Literature} 
 
 %-----------------------
-\begin{table}
-Table 1: Descriptive Statistics\label{Tab1}\\
+\begin{table}[ht]
+\caption{Descriptive Statistics}
+\centering
 \begin{tabular}{cccccccc}
 \starttabularbody
 \hline 
@@ -60,14 +69,18 @@ Table 1: Descriptive Statistics\label{Tab1}\\
  MAG & 2.884 & 3 & 1.676 & 0 & 10 & 0.627 & 0.786 \\
 \hline
 \end{tabular}
-\\
-{Goal Scoring Metrics: Most Home \& Away Goals at the Season Level} 
+\label{tab1}
+%{Goal Scoring Metrics: Most Home \& Away Goals at the Season Level} 
 \end{table}
 %=====================================================
 
 \subsection{Data and Analyses} 
 
-
+\begin{figure}
+\caption{Bias - Accuracy Scatter Plot}
+{\includegraphics[width=0.65\linewidth]{Rplot04.pdf}}
+\label{fig1}
+\end{figure}
  
 
 \subsection{Sources} 
@@ -76,7 +89,7 @@ Table 1: Descriptive Statistics\label{Tab1}\\
  
 
 \begin{acknowledgement}
-We would like to thank ESPN FC
+We would like to thank ESPN FC for compiling the season-level club performance data and allow public access.
 \end{acknowledgement}
 
 %\bibliographystyle{name}
