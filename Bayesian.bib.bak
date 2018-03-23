@@ -34,4 +34,113 @@
   file        = {:Articles/DIC_LatentVariable25.pdf:PDF},
 }
 
+@Article{smith2002data,
+  author    = {Smith, George Davey and Ebrahim, Shah},
+  title     = {Data dredging, bias, or confounding: They can all get you into the BMJ and the Friday papers},
+  journal   = {BMJ: British Medical Journal},
+  year      = {2002},
+  volume    = {325},
+  number    = {7378},
+  pages     = {1437},
+  publisher = {BMJ Publishing Group},
+}
+
+@Article{tipping2004bayesian,
+  author    = {Tipping, Michael E},
+  title     = {Bayesian inference: An introduction to principles and practice in machine learning},
+  journal   = {Lecture notes in computer science},
+  year      = {2004},
+  volume    = {3176},
+  pages     = {41--62},
+  publisher = {Springer},
+}
+
+@Article{wagenmakers2007practical,
+  author    = {Wagenmakers, Eric-Jan},
+  title     = {A practical solution to the pervasive problems ofp values},
+  journal   = {Psychonomic bulletin \& review},
+  year      = {2007},
+  volume    = {14},
+  number    = {5},
+  pages     = {779--804},
+  publisher = {Springer},
+}
+
+@Book{lynch2007introduction,
+  title     = {Introduction to applied Bayesian statistics and estimation for social scientists},
+  publisher = {Springer Science \& Business Media},
+  year      = {2007},
+  author    = {Lynch, Scott M},
+}
+
+@Article{scutari2009learning,
+  author  = {Scutari, Marco},
+  title   = {Learning Bayesian networks with the bnlearn R package},
+  journal = {arXiv preprint arXiv:0908.3817},
+  year    = {2009},
+}
+
+@Article{Friedman2010Regularization,
+  author  = {Jerome Friedman and Trevor Hastie and Robert Tibshirani},
+  title   = {Regularization Paths for Generalized Linear Models via Coordinate Descent},
+  journal = {Journal of Statistical Software},
+  year    = {2010},
+  volume  = {33},
+  number  = {1},
+  pages   = {1--22},
+  url     = {http://www.jstatsoft.org/v33/i01/},
+}
+
+@InBook{Sebastiani2010,
+  chapter   = {10},
+  pages     = {175--208},
+  title     = {Bayesian Networks},
+  publisher = {Springer US},
+  year      = {2010},
+  author    = {Sebastiani, Paola and Abad, Maria M. and Ramoni, Marco F.},
+  editor    = {Maimon, Oded and Rokach, Lior},
+  address   = {Boston, MA},
+  isbn      = {978-0-387-09823-4},
+  abstract  = {Bayesian networks are today one of the most promising approaches to Data Mining and knowledge discovery in databases. This chapter reviews the fundamental aspects of Bayesian networks and some of their technical aspects, with a particular emphasis on the methods to induce Bayesian networks from different types of data. Basic notions are illustrated through the detailed descriptions of two Bayesian network applications: one to survey data and one to marketing data.},
+  booktitle = {Data Mining and Knowledge Discovery Handbook},
+  doi       = {10.1007/978-0-387-09823-4_10},
+  url       = {https://doi.org/10.1007/978-0-387-09823-4_10},
+}
+
+@Article{Simon2011Coxnet,
+  author  = {Noah Simon and Jerome Friedman and Trevor Hastie and Rob Tibshirani},
+  title   = {Regularization Paths for Cox's Proportional Hazards Model via Coordinate Descent},
+  journal = {Journal of Statistical Software},
+  year    = {2011},
+  volume  = {39},
+  number  = {5},
+  pages   = {1--13},
+  url     = {http://www.jstatsoft.org/v39/i05/},
+}
+
+@Article{dienes2011bayesian,
+  author    = {Dienes, Zoltan},
+  title     = {Bayesian versus orthodox statistics: Which side are you on?},
+  journal   = {Perspectives on Psychological Science},
+  year      = {2011},
+  volume    = {6},
+  number    = {3},
+  pages     = {274--290},
+  publisher = {Sage Publications Sage CA: Los Angeles, CA},
+}
+
+@Misc{etz2016using,
+  author    = {Etz, Alexander},
+  title     = {Using Bayes Factors to Get the Most Out of Linear Regression: a Practical Guide Using R},
+  year      = {2016},
+  publisher = {Citeseer},
+}
+
+@Article{benjamin2017redefine,
+  author  = {Benjamin, Daniel J and Berger, James O and Johannesson, Magnus and Nosek, Brian A and Wagenmakers, Eric-Jan and Berk, Richard and Bollen, Kenneth A and Brembs, Bj{\"o}rn and Brown, Lawrence and Camerer, Colin and others},
+  title   = {Redefine statistical significance},
+  journal = {Nature Human Behaviour},
+  year    = {2017},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
