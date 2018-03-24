@@ -452,21 +452,6 @@ terrestrial vegetation},
   author    = {Moskowitz, Tobias and Wertheim, L Jon},
 }
 
-@Article{Woltman2012,
-  author    = {Heather Woltman and Andrea Feldstain and J. Christine MacKay and Meredith Rocchi},
-  title     = {An introduction to hierarchical linear modeling},
-  journal   = {Tutorials in Quantitative Methods for Psychology},
-  year      = {2012},
-  volume    = {8},
-  number    = {1},
-  pages     = {52--69},
-  month     = {feb},
-  abstract  = {This tutorial aims to introduce Hierarchical Linear Modeling (HLM). A simple explanation of HLM is provided that describes when to use this statistical technique and identifies key factors to consider before conducting this analysis. The first section of the tutorial defines HLM, clarifies its purpose, and states its advantages. The second section explains the mathematical theory, equations, and conditions underlying HLM. HLM hypothesis testing is performed in the third section. Finally, the fourth section provides a practical example of running HLM, with which readers can follow along. Throughout this tutorial, emphasis is placed on providing a straightforward overview of the basic principles of HLM.},
-  doi       = {10.20982/tqmp.08.1.p052},
-  file      = {:D\:/Github/Informs/Articles/p052.pdf:PDF;:C\:/Users/cjdua/Downloads/p052.zip:zip},
-  publisher = {The Quantitative Methods for Psychology},
-}
-
 @Article{DOHMEN2008,
   author    = {Thomas J. Dohmen},
   title     = {THE INFLUENCE OF SOCIAL FORCES: EVIDENCE FROM THE BEHAVIOR OF FOOTBALL REFEREES},
@@ -493,6 +478,25 @@ terrestrial vegetation},
   doi       = {10.1080/10413200.2017.1354339},
   file      = {:C\:/Users/cjdua/Documents/A Qualitative Exploration of Thriving in Elite Sport.pdf:PDF},
   publisher = {Informa {UK} Limited},
+}
+
+@Article{doi:10.1146/annurev-publhealth-040617-013507,
+  author   = {Coady Wing and Kosali Simon and Ricardo A. Bello-Gomez},
+  title    = {Designing Difference in Difference Studies: Best Practices for Public Health Policy Research},
+  journal  = {Annual Review of Public Health},
+  year     = {2018},
+  volume   = {39},
+  number   = {1},
+  pages    = {null},
+  note     = {PMID: 29328877},
+  abstract = { The difference in difference (DID) design is a quasi-experimental research design that researchers often use to study causal relationships in public health settings where randomized controlled trials (RCTs) are infeasible or unethical. However, causal inference poses many challenges in DID designs. In this article, we review key features of DID designs with an emphasis on public health policy research. Contemporary researchers should take an active approach to the design of DID studies, seeking to construct comparison groups, sensitivity analyses, and robustness checks that help validate the method’s assumptions. We explain the key assumptions of the design and discuss analytic tactics, supplementary analysis, and approaches to statistical inference that are often important in applied research. The DID design is not a perfect substitute for randomized experiments, but it often represents a feasible way to learn about casual relationships. We conclude by noting that combining elements from multiple quasi-experimental techniques may be important in the next wave of innovations to the DID approach. Expected final online publication date for the Annual Review of Public Health Volume 39 is April 1, 2018. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates. },
+  doi      = {10.1146/annurev-publhealth-040617-013507},
+  eprint   = {https://doi.org/10.1146/annurev-publhealth-040617-013507},
+  file     = {:C\:/Users/cjdua/Documents/annurev-publhealth-040617-013507.pdf:PDF},
+  url      = { 
+        https://doi.org/10.1146/annurev-publhealth-040617-013507
+    
+},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

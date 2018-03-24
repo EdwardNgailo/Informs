@@ -371,21 +371,6 @@ To manage effectively and develop their knowledge of current and likely organisa
   url     = {https://theconversation.com/predictive-algorithms-are-no-better-at-telling-the-future-than-a-crystal-ball-91329},
 }
 
-@Article{Caliskan2017,
-  author    = {Aylin Caliskan and Joanna J. Bryson and Arvind Narayanan},
-  title     = {Semantics derived automatically from language corpora contain human-like biases},
-  journal   = {Science},
-  year      = {2017},
-  volume    = {356},
-  number    = {6334},
-  pages     = {183--186},
-  month     = {apr},
-  abstract  = {Machine learning is a means to derive artificial intelligence by discovering patterns in existing data. Here we show that applying machine learning to ordinary human language results in human-like semantic biases. We replicate a spectrum of known biases, as measured by the Implicit Association Test, using a widely used, purely statistical machine-learning model trained on a standard corpus of text from the Web. Our results indicate that text corpora contain recoverable and accurate imprints of our historic biases, whether morally neutral as towards insects or flowers, problematic as towards race or gender, or even simply veridical, reflecting the status quo distribution of gender with respect to careers or first names. Our methods hold promise for identifying and addressing sources of bias in culture, including technology.},
-  doi       = {10.1126/science.aal4230},
-  file      = {:C\:/Users/cjdua/Documents/155388415.pdf:PDF},
-  publisher = {American Association for the Advancement of Science ({AAAS})},
-}
-
 @Article{Moscati2016,
   author = {Ivan Moscati},
   title  = {Retrospectives: How Economists Came to Accept Expected Utility Theory: The Case of Samuelson and Savage},
@@ -583,23 +568,6 @@ Web threat Phishing Information security Neural network Data mining },
   month   = feb,
 }
 
-@Article{McShane2017,
-  author    = {Blakeley B. McShane and David Gal},
-  title     = {Statistical Significance and the Dichotomization of Evidence},
-  journal   = {Journal of the American Statistical Association},
-  year      = {2017},
-  volume    = {112},
-  number    = {519},
-  pages     = {885--895},
-  month     = {jul},
-  abstract  = {In light of recent concerns about reproducibility and replicability, the ASA issued a Statement on Statistical Significance and p-values aimed at those who are not primarily statisticians. While the ASA Statement notes that statistical significance and p-values are “commonly misused and misinterpreted,” it does not discuss and document broader implications of these errors for the interpretation of evidence. In this article, we review research on how applied researchers who are not primarily statisticians misuse and misinterpret p-values in practice and how this can lead to errors in the interpretation of evidence. We also present new data showing, perhaps surprisingly, that researchers who are primarily statisticians are also prone to misuse and misinterpret p-values thus resulting in similar errors. In particular, we show that statisticians tend to interpret evidence dichotomously based on whether or not a p-value crosses the conventional 0.05 threshold for statistical significance. We discuss implications and offer recommendations.
-
-KEYWORDS: Null hypothesis significance testing, p-value, Statistical significance, Sociology of science},
-  doi       = {10.1080/01621459.2017.1289846},
-  file      = {:Articles/Statistical Significance and the Dichotomization of Evidence.pdf:PDF},
-  publisher = {Informa {UK} Limited},
-}
-
 @Manual{Team2015,
   title  = {CHAID: CHi-squared Automated Interaction Detection},
   author = {The FoRt Student Project Team},
@@ -729,6 +697,16 @@ KEYWORDS: Null hypothesis significance testing, p-value, Statistical significanc
   file          = {:C\:/Users/cjdua/Documents/1801.03533.pdf:PDF},
   keywords      = {Computer Science - Computers and Society, Computer Science - Learning, Statistics - Machine Learning},
   primaryclass  = {cs.CY},
+}
+
+@InProceedings{pang2002thumbs,
+  author       = {Pang, Bo and Lee, Lillian and Vaithyanathan, Shivakumar},
+  title        = {Thumbs up?: sentiment classification using machine learning techniques},
+  booktitle    = {Proceedings of the ACL-02 conference on Empirical methods in natural language processing-Volume 10},
+  year         = {2002},
+  pages        = {79--86},
+  organization = {Association for Computational Linguistics},
+  file         = {:C\:/Users/cjdua/Documents/0205070.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

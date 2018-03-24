@@ -52,4 +52,18 @@
   url       = {https://www.amazon.com/Introduction-Secondary-Data-Analysis-Statistics/dp/1446285766?SubscriptionId=0JYN1NVW651KCA56C102&tag=techkie-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1446285766},
 }
 
+@Article{Chory2016,
+  author    = {Rebecca M. Chory and Evan H. Offstein},
+  title     = {{\textquotedblleft}Your Professor Will Know You as a Person{\textquotedblright}},
+  journal   = {Journal of Management Education},
+  year      = {2016},
+  volume    = {41},
+  number    = {1},
+  pages     = {9--38},
+  month     = {jul},
+  doi       = {10.1177/1052562916647986},
+  file      = {:C\:/Users/cjdua/Documents/1052562916647986.pdf:PDF},
+  publisher = {{SAGE} Publications},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
