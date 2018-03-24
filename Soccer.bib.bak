@@ -282,12 +282,6 @@
   pages   = {89-117},
 }
 
-@misc{Analytics_Soccer,
-title = {Sports Analytics in Soccer to Predict Performance and Outcomes},
-year = {2016}, 
-howpublished = "Retrieved from http://www.experfy.com/blog/moneyball-some-insights-to-soccer-analytics\#sthash.dSjuKL78.dpuf,
-https://www.experfy.com/blog/moneyball-some-insights-to-soccer-analytics",}
-
 @Article{doi:10.1287/inte.1110.0612,
   author   = {Timothy C. Y. Chan and Justin A. Cho and David C. Novati},
   title    = {Quantifying the Contribution of NHL Player Types to Team Performance},
@@ -485,6 +479,20 @@ terrestrial vegetation},
   doi       = {10.1111/j.1465-7295.2007.00112.x},
   file      = {:D\:/Github/Informs/Articles/guid-cdbb9546-0a22-4b3e-bc16-6a8a4bf08b9d-ASSET1.0:0;:D\:/Github/Informs/Articles/Dohmen_Bubdesliga.pdf:PDF},
   publisher = {Wiley-Blackwell},
+}
+
+@Article{Brown2017,
+  author    = {Daniel J. Brown and Rachel Arnold and Thomas Reid and Gareth Roberts},
+  title     = {A Qualitative Exploration of Thriving in Elite Sport},
+  journal   = {Journal of Applied Sport Psychology},
+  year      = {2017},
+  volume    = {30},
+  number    = {2},
+  pages     = {129--149},
+  month     = {aug},
+  doi       = {10.1080/10413200.2017.1354339},
+  file      = {:C\:/Users/cjdua/Documents/A Qualitative Exploration of Thriving in Elite Sport.pdf:PDF},
+  publisher = {Informa {UK} Limited},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

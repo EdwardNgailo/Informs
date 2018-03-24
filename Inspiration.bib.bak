@@ -1,0 +1,60 @@
+% Encoding: UTF-8
+
+@Book{mcafee2014second,
+  title     = {The second machine age},
+  publisher = {WW Norton},
+  year      = {2014},
+  author    = {McAfee, Andrew and Brynjolfsson, Erik},
+  file      = {:C\:/Users/cjdua/Documents/Erik-Brynjolfsson-Andrew-McAfee-Jeff-Cummings-The-Second-Machine-Age.pdf:PDF;:C\:/Users/cjdua/Documents/Erik_Brynjolfsson.pdf:PDF},
+}
+
+@Article{doi:10.1177/1470785317744670,
+  author   = {Brian Gillespie and Christian Otto and Charles Young},
+  title    = {Bridging the academic-practice gap through big data research},
+  journal  = {International Journal of Market Research},
+  year     = {2018},
+  volume   = {60},
+  number   = {1},
+  pages    = {11-13},
+  abstract = { The proliferation of advances in technology and communication have led to the formation of “big data” research and the argument that big data will be effective in connecting consumer to practitioners. We argue big data is also an effective means through which practitioners and academics can connect. Practitioner-academic collaborative on big data collection and advanced analysis offers a unique opportunity to align common goals between practitioners and academics, and bridge the academic-practice gap in marketing and management domains, among others. },
+  doi      = {10.1177/1470785317744670},
+  eprint   = {https://doi.org/10.1177/1470785317744670},
+  file     = {:C\:/Users/cjdua/Documents/1470785317744670.pdf:PDF},
+  url      = { 
+        https://doi.org/10.1177/1470785317744670
+    
+},
+}
+
+@Article{Barnham2015,
+  author    = {Chris Barnham},
+  title     = {Quantitative and Qualitative Research: Perceptual Foundations},
+  journal   = {International Journal of Market Research},
+  year      = {2015},
+  volume    = {57},
+  number    = {6},
+  pages     = {837--854},
+  month     = {nov},
+  doi       = {10.2501/ijmr-2015-070},
+  file      = {:C\:/Users/cjdua/Documents/ijmr-2015-070.pdf:PDF},
+  publisher = {{SAGE} Publications},
+}
+
+@Article{dawes2008data,
+  author  = {Dawes, John},
+  title   = {Do data characteristics change according to the number of scale points used},
+  journal = {International journal of market research},
+  year    = {2008},
+  volume  = {50},
+  number  = {1},
+  pages   = {61--77},
+  file    = {:C\:/Users/cjdua/Documents/147078530805000106.pdf:PDF},
+}
+
+@Article{kleinbergmaking,
+  author = {Kleinberg, Jon and Mullainathan, Sendhil and Shah, Anuj K and Yeomans, Mike},
+  title  = {Making Sense of Recommendations},
+  file   = {:C\:/Users/cjdua/Documents/Making_Sense.pdf:PDF},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
