@@ -66,4 +66,12 @@
   publisher = {{SAGE} Publications},
 }
 
+@Article{Long2017,
+  author  = {James M. Lang},
+  title   = {Playing With Technology},
+  journal = {The Chronicle of Higher Education},
+  year    = {2017},
+  file    = {:Articles/Playing With Technology - The Chronicle of Higher Education.pdf:PDF},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
