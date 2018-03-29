@@ -331,4 +331,15 @@ KEYWORDS: Null hypothesis significance testing, p-value, Statistical significanc
   url    = {http://mc-stan.org/},
 }
 
+@Article{Williams2018,
+  author    = {Daniel Williams},
+  title     = {Predictive coding and thought},
+  journal   = {Synthese},
+  year      = {2018},
+  month     = {mar},
+  doi       = {10.1007/s11229-018-1768-x},
+  file      = {:Articles/2018.Synthese.10.1007s11229-0181768-x.pdf:PDF},
+  publisher = {Springer Nature},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
