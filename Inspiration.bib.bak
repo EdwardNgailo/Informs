@@ -153,4 +153,48 @@
   keywords      = {stat.AP},
 }
 
+@Article{Hofman2017,
+  author    = {Jake M. Hofman and Amit Sharma and Duncan J. Watts},
+  title     = {Prediction and explanation in social systems},
+  journal   = {Science},
+  year      = {2017},
+  volume    = {355},
+  number    = {6324},
+  pages     = {486--488},
+  month     = {feb},
+  abstract  = {Historically, social scientists have sought out explanations of human and social phenomena that provide interpretable causal mechanisms, while often ignoring their predictive accuracy. We argue that the increasingly computational nature of social science is beginning to reverse this traditional bias against prediction; however, it has also highlighted three important issues that require resolution. First, current practices for evaluating predictions must be better standardized. Second, theoretical limits to predictive accuracy in complex social systems must be better characterized, thereby setting expectations for what can be predicted or explained. Third, predictive accuracy and interpretability must be recognized as complements, not substitutes, when evaluating explanations. Resolving these three issues will lead to better, more replicable, and more useful social science.},
+  doi       = {10.1126/science.aal3856},
+  file      = {:Articles/2017.10.1126.science.aal3856.pdf:PDF},
+  publisher = {American Association for the Advancement of Science ({AAAS})},
+}
+
+@Article{Heiberger2016,
+  author    = {Raphael H. Heiberger and Jan R. Riebling},
+  title     = {Installing computational social science: Facing the challenges of new information and communication technologies in social science},
+  journal   = {Methodological Innovations},
+  year      = {2016},
+  volume    = {9},
+  pages     = {205979911562276},
+  month     = {mar},
+  abstract  = {Today’s world allows people to connect over larger distances and in shorter intervals than ever before, widely monitored by massive online data sources. Ongoing worldwide computerization has led to completely new opportunities for social scientists to conceive human interactions and relations in unknown precision and quantities. However, the large data sets require techniques that are more likely to be found in computer and natural sciences than in the established fields of social relations. In order to facilitate the participation of social scientists in an emerging interdisciplinary research branch of “computational social science,” we propose in this article the usage of the Python programming language. First, we carve out its capacity to handle “Big Data” in suitable formats. Second, we introduce programming libraries to analyze large networks and big text corpora, conduct simulations, and compare their performance to their counterparts in the R environment. Furthermore, we highlight practical tools implemented in Python for operational tasks like preparing presentations. Finally, we discuss how the process of writing code may help to exemplify theoretical concepts and could lead to empirical applications that gain a better understanding of the social processes initiated by the truly global connections of the Internet era.},
+  doi       = {10.1177/2059799115622763},
+  file      = {:D\:/Github/Informs/Articles/2059799115622763.pdf:PDF},
+  publisher = {{SAGE} Publications},
+}
+
+@Article{Watts2014,
+  author    = {Duncan J. Watts},
+  title     = {Common Sense and Sociological Explanations},
+  journal   = {American Journal of Sociology},
+  year      = {2014},
+  volume    = {120},
+  number    = {2},
+  pages     = {313--351},
+  month     = {sep},
+  abstract  = {Sociologists have long advocated a sociological approach to explanation by contrasting it with common sense. The argument of this article, however, is that sociologists rely on common sense more than they realize. Moreover, this unacknowledged reliance causes serious problems for their explanations of social action, that is, for why people do what they do. Many such explanations, it is argued, conflate understandability with causality in ways that are not valid by the standards of scientific explanation. It follows that if sociologists want their explanations to be scientifically valid, they must evaluate them specifically on those grounds--in particular, by forcing them to make predictions. In becoming more scientific, however, it is predicted that sociologists' explanations will also become less satisfying from an intuitive, sense-making perspective. Even as novel sources of data and improved methods open exciting new directions for sociological research, therefore, sociologists will increasingly have to choose between unsatisfying scientific explanations and satisfying but unscientific stories.},
+  doi       = {10.1086/678271},
+  file      = {:Articles/DuncanWatts2014[1804].pdf:PDF},
+  publisher = {University of Chicago Press},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
