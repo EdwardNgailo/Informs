@@ -143,7 +143,7 @@
 @Article{Hertzog2018,
   author        = {Lionel R. Hertzog},
   title         = {How robust are Structural Equation Models to model miss-specification? A simulation study},
-  __markedentry = {[cjdua:6]},
+  __markedentry = {[cjdua:]},
   abstract      = {Structural Equation Models (SEMs) are routinely used in the analysis of empirical data by researchers spanning different scientific fields such as psychologists or econometricians. In some fields, such as in ecology, SEMs have only started recently to attract attention and thanks to dedicated software packages the use of SEMs have steadily increased. Yet, common analysis practices in such fields that might be transposed from other statistical techniques such as model acceptance or rejection based on p value screening might be poorly fitted for SEMs. In this simulation study, SEMs were fitted via two commonly used R packages: lavaan and piecewiseSEM. Datasets were simulated under different modelling scenarios to test the impact of sample size and model complexity on various global and local model fitness indices. The results showed that not one single model indices should be used to decide on model fitness but rather a combination of different model fitness indices is needed. The global chi square test for lavaan or the Fisher C statistic are, in isolation, poor indicators of model fitness. Combining the different metrics explored here provided little safeguards against model overfitting, this emphasizes the need to cautiously interpret the inferred (causal) relations from fitted SEMs. Researchers in scientific fields with little experience in SEMs, such as in ecology, should consider and accept these limitations.},
   date          = {2018-03-16},
   eprint        = {1803.06186v1},
@@ -265,6 +265,56 @@
   year    = {2018},
   file    = {:Articles/SSRN-id3149224.pdf:PDF},
   url     = {https://ssrn.com/abstract=3149224},
+}
+
+@Article{Bareinboim2016,
+  author    = {Elias Bareinboim and Judea Pearl},
+  title     = {Causal inference and the data-fusion problem},
+  journal   = {Proceedings of the National Academy of Sciences},
+  year      = {2016},
+  volume    = {113},
+  number    = {27},
+  pages     = {7345--7352},
+  month     = {jul},
+  doi       = {10.1073/pnas.1510507113},
+  file      = {:Articles/7345.full.pdf:PDF},
+  publisher = {Proceedings of the National Academy of Sciences},
+}
+
+@InCollection{athey2017impact,
+  author    = {Athey, Susan},
+  title     = {The Impact of Machine Learning on Economics},
+  booktitle = {Economics of Artificial Intelligence},
+  publisher = {University of Chicago Press},
+  year      = {2017},
+  file      = {:Articles/c14009.pdf:PDF},
+}
+
+@Article{Athey2006,
+  author    = {Susan Athey and Guido W. Imbens},
+  title     = {Identification and Inference in Nonlinear Difference-in-Differences Models},
+  journal   = {Econometrica},
+  year      = {2006},
+  volume    = {74},
+  number    = {2},
+  pages     = {431--497},
+  month     = {mar},
+  doi       = {10.1111/j.1468-0262.2006.00668.x},
+  file      = {:Articles/7a0bb8b522d8e830bb685c3f85a5f4174dcd.pdf:PDF},
+  publisher = {The Econometric Society},
+}
+
+@Article{Athey2016,
+  author        = {Susan Athey and Julie Tibshirani and Stefan Wager},
+  title         = {Generalized Random Forests},
+  __markedentry = {[cjdua:6]},
+  abstract      = {We propose generalized random forests, a method for non-parametric statistical estimation based on random forests (Breiman, 2001) that can be used to fit any quantity of interest identified as the solution to a set of local moment equations. Following the literature on local maximum likelihood estimation, our method operates at a particular point in covariate space by considering a weighted set of nearby training examples; however, instead of using classical kernel weighting functions that are prone to a strong curse of dimensionality, we use an adaptive weighting function derived from a forest designed to express heterogeneity in the specified quantity of interest. We propose a flexible, computationally efficient algorithm for growing generalized random forests, develop a large sample theory for our method showing that our estimates are consistent and asymptotically Gaussian, and provide an estimator for their asymptotic variance that enables valid confidence intervals. We use our approach to develop new methods for three statistical tasks: non-parametric quantile regression, conditional average partial effect estimation, and heterogeneous treatment effect estimation via instrumental variables. A software implementation, grf for R and C++, is available from CRAN.},
+  date          = {2016-10-05},
+  eprint        = {1610.01271v3},
+  eprintclass   = {stat.ME},
+  eprinttype    = {arXiv},
+  file          = {:Articles/1610.01271.pdf:PDF},
+  keywords      = {stat.ME, econ.EM, stat.ML},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

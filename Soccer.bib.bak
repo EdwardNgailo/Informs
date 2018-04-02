@@ -523,4 +523,200 @@ terrestrial vegetation},
   publisher     = {De Gruyter},
 }
 
+@Article{hansen1989,
+  author  = {Hal Hansen and Roger Gauthier},
+  title   = {Factors Affecting Attendance at Professional Sport Events},
+  journal = {Journal of Sport Management},
+  year    = {1989},
+  number  = {3},
+  pages   = {15-32},
+  file    = {:D\:/Dropbox/Articles/Factors Affecting Attendance  at Professional Sport Events.pdf:PDF},
+}
+
+@Book{Albert2007,
+  title     = {Statistical Thinking in Sports},
+  publisher = {Chapman and Hall/{CRC}},
+  year      = {2007},
+  editor    = {Jim Albert and Ruud Koning},
+  month     = {jul},
+  doi       = {10.1201/9781584888697},
+  file      = {:Articles/stat-thinking-in-sports-toc1.pdf:PDF},
+}
+
+@Book{Miller2015,
+  title     = {Sports Analytics and Data Science: Winning the Game with Methods and Models (FT Press Analytics)},
+  publisher = {Pearson FT Press},
+  year      = {2015},
+  author    = {Thomas W. Miller},
+  isbn      = {9780133886436},
+  url       = {https://www.amazon.com/Sports-Analytics-Data-Science-Winning/dp/0133886433?SubscriptionId=0JYN1NVW651KCA56C102&tag=techkie-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=0133886433},
+}
+
+@Article{atkins2013,
+  author   = {CHRISTOPHER ATKINS},
+  title    = {How Much Does Home-Field Advantage Matter in Soccer?},
+  journal  = {B/R},
+  year     = {2013},
+  month    = apr,
+  abstract = {How important is home advantage in football? It is a question that has been discussed in pubs and bars down the years to great lengths, while also providing the basis for entire fields of academic research.
+
+It's importance is factored into draws for competitions, for example, with the Champions League deciding that a second leg at home is favourable to playing away with the result still in the balance. Just a quick look at a detailed table of league results, meanwhile, will show clearly the disparity of performance.
+
+Whether it be the familiar surroundings, the backing of a vociferous home crowd or the lack of traveling involved, there is a clear benefit to hosting a football match. Indeed, it is an advantage that can be seen from the relative success of host nations at major tournaments over the years.},
+  url      = {http://bleacherreport.com/articles/1604854-how-much-does-home-field-advantage-matter-in-soccer},
+}
+
+@Article{staufenbiel2015home,
+  author    = {Staufenbiel, Kathrin and Lobinger, Babett and Strauss, Bernd},
+  title     = {Home advantage in soccer--A matter of expectations, goal setting and tactical decisions of coaches?},
+  journal   = {Journal of sports sciences},
+  year      = {2015},
+  volume    = {33},
+  number    = {18},
+  pages     = {1932--1941},
+  abstract  = {In soccer, home teams win about 67% of decided games. The causes for this home advantage are still unresolved. There is a shortage of research on the psychological states of actors involved. In this study, we examined soccer coaches’ expectations, goal setting and tactical decisions in relation to game location. Soccer coaches (N = 297) with different expertise levels participated in an experimental, online management game and were randomly assigned to one of two groups, “home game (HG)” or “away game.” Participants received information on the game for which they were asked to make decisions in multiple points. The only differing information between groups was game location. Regardless of expertise, HG coaches had higher expectations to win, set more challenging goals and decided for more offensive and courageous playing tactics. Possible consequences of these findings concerning home advantage in soccer are discussed.},
+  doi       = {10.1080/02640414.2015.1018929},
+  keywords  = {home advantage, coaches, expectations, goal setting, tactical decisions },
+  publisher = {Taylor \& Francis},
+}
+
+@Article{,
+}
+
+@Article{Almeida2017,
+  author    = {Carlos H. Almeida and Anna Volossovitch},
+  title     = {Home advantage in Portuguese football: effects of level of competition and mid-term trends},
+  journal   = {International Journal of Performance Analysis in Sport},
+  year      = {2017},
+  volume    = {17},
+  number    = {3},
+  pages     = {244--255},
+  month     = {may},
+  abstract  = {This study aimed to examine the influence of level of competition (amateur, semi-professional and professional) on the magnitude of home advantage (HA) in Portuguese football, and to verify whether the HA has changed over time. Archival data from 32,400 matches contested in the three levels of competition over 11 seasons (from 2005/2006 to 2015/2016) were analysed. HA was quantified each season for each league as the number of points won at home expressed as a percentage of all points won at home and away. The mean values of HA were significantly greater than 50% in all levels of Portuguese football (p < .001). One-way repeated-measures ANOVA showed a significant effect of competitive level on HA (p < .05). In the professional league, the HA was significantly lower (58.31%) than in amateur and semi-professional competitive levels (60.36 and 60.46%, respectively). Altogether, a declining HA effect was found in Portuguese football in recent years. However, negative linear relationships between HA and time were only significant at amateur and semi-professional levels (p < .05), while the decline in the major professional league has already started to level off. These findings demonstrate that the advantage of playing at home is losing importance in Portugal. The declining effect of HA, previously evidenced in major professional leagues, has been mirrored by a similar decline at amateur and semi-professional levels within the country. Future research should confirm whether the trends identified in Portugal are also verified in football leagues of other countries.},
+  doi       = {10.1080/24748668.2017.1331574},
+  publisher = {Informa {UK} Limited},
+}
+
+@Article{Pollard2017,
+  author    = {Richard Pollard and Vasilis Armatas},
+  title     = {Factors affecting home advantage in football World Cup qualification},
+  journal   = {International Journal of Performance Analysis in Sport},
+  year      = {2017},
+  volume    = {17},
+  number    = {1-2},
+  pages     = {121--135},
+  month     = {mar},
+  abstract  = {An analysis is made of home advantage in the group stages of qualification for the 2006, 2010 and 2014 football World Cup finals, the first such study of national teams worldwide in a competitive setting. Home advantage was greatest in Africa and South America where the home team won just over 69% of all points earned; it was lowest in Europe (56%). Bolivia was the country with the greatest home advantage. Using each of the 2040 games as the observational units, a general linear model produced a significant fit to the data (R2 = 0.326), home points being the dependent variable, with a set of factors believed to influence home advantage as predictor variables. After controlling for team strength and allowing for the effects of other variables in the model, home points were significantly related to altitude of the home stadium, crowd size and number of time zones crossed by the visiting team (all p < 0.05). There was no significant effect for distance travelled by the away team, the existence of a running track or crowd density. Referees, especially in Africa, issued red cards and awarded penalties against the away team significantly more often than against the home team.
+
+Keywords: Home advantage, crowd size, travel distance, altitude, referee bias, World Cup},
+  doi       = {10.1080/24748668.2017.1304031},
+  publisher = {Informa {UK} Limited},
+}
+
+@Article{Lago-Penas2017,
+  author    = {Carlos Lago-Pe{\~{n}}as and Miguel-{\'{A}}ngel Gomez and Richard Pollard},
+  title     = {Home advantage in elite soccer matches. A transient effect?},
+  journal   = {International Journal of Performance Analysis in Sport},
+  year      = {2017},
+  volume    = {17},
+  number    = {1-2},
+  pages     = {86--95},
+  month     = {mar},
+  abstract  = {The aim of the current study was to identify how the performances of home and away teams evolve during the first half of matches and to investigate whether or not the home advantage effect disappears or weakens as the game goes on. The sample consisted of 90 matches during the season 2015/2016 from the English FA Premier League (n = 19), French Ligue 1 (n = 21), Spanish La Liga (n = 18), Italian Serie A (n = 19) and German Bundesliga (n = 13) in which the first half ended with a score of 0–0. Data were examined using the autocorrelation function and linear regression analysis. Ball possession (p < .01), successful passes (p < .05), short passes (p < .01) and touches (p < .01) achieved their greatest values in the 0–5 min period compared with other match periods. However, as the first half went on, the home teams exhibited lower performances compared with those shown at the beginning of the match. This was particularly evident from the 16–20 min period until the end of the first half. This transient effect was enhanced or attenuated, depending on the quality of the opponent (p < .01). The better the opponent the lower the home teams’ performances at the beginning of the match. These variables can be used to develop a model to simulate team performance of home and away teams during the first half of a match.
+
+Keywords: Performance analysis, situational variables, soccer, players’ rotation},
+  doi       = {10.1080/24748668.2017.1304024},
+  publisher = {Informa {UK} Limited},
+}
+
+@Article{Boyko2007,
+  author    = {Ryan H. Boyko and Adam R. Boyko and Mark G. Boyko},
+  title     = {Referee bias contributes to home advantage in English Premiership football},
+  journal   = {Journal of Sports Sciences},
+  year      = {2007},
+  volume    = {25},
+  number    = {11},
+  pages     = {1185--1194},
+  month     = {sep},
+  abstract  = {Officiating bias is thought to contribute to home advantage. Recent research has shown that sports with subjective officiating tend to experience greater home advantage and that referees' decisions can be influenced by crowd noise, but little work has been done to examine whether individual referees vary in their home bias or whether biased decisions contribute to overall home advantage. We develop an ordinal regression model to determine whether various measures of home advantage are affected by the official for the match and by crowd size while controlling for team ability. We examine 5244 English Premier League (EPL) match results involving 50 referees and find that home bias differs between referees. Individual referees give significantly different levels of home advantage, measured as goal differential between the home and away teams, although the significance of this result depends on one referee with a particularly high home advantage (an outlier). Referees vary significantly and robustly in their yellow card and penalty differentials even excluding the outlier. These results confirm that referees are responsible for some of the observed home advantage in the EPL and suggest that home advantage is dependent on the subjective decisions of referees that vary between individuals. We hypothesize that individual referees respond differently to factors such as crowd noise and suggest further research looking at referees' psychological and behavioural responses to biased crowds.},
+  doi       = {10.1080/02640410601038576},
+  file      = {:Articles/Referee bias contributes to home advantage in English Premiership football.pdf:PDF},
+  publisher = {Informa {UK} Limited},
+}
+
+@Article{Carron2005,
+  author    = {Albert V Carron and Todd M Loughhead and Steven R Bray},
+  title     = {The home advantage in sport competitions: Courneya and Carron{\textquotesingle}s (1992) conceptual framework a decade later},
+  journal   = {Journal of Sports Sciences},
+  year      = {2005},
+  volume    = {23},
+  number    = {4},
+  pages     = {395--407},
+  month     = {apr},
+  abstract  = {This paper had three aims. The first was to review research carried out on the home advantage from 1992 to the present. The second was to examine the extent to which a conceptual framework proposed by Courneya and Carron (1992 Courneya, KS and Carron, AV. 1992. The home advantage in sport competitions: A literature review. Journal of Sport and Exercise Psychology, 14: 28–39.
+ 
+) was/is viable as a tool to highlight and organize an understanding of the home advantage. The final aim was to provide suggestions for future research.},
+  doi       = {10.1080/02640410400021542},
+  publisher = {Informa {UK} Limited},
+}
+
+@Article{Arrese2013,
+  author    = {Alejandro Legaz Arrese and Diego Moliner Urdiales and Diego Mungu{\'{\i}}a Izquierdo},
+  title     = {Home Advantage and Sports Performance: Evidence, Causes and Psychological Implications},
+  journal   = {Universitas Psychologica},
+  year      = {2013},
+  volume    = {12},
+  number    = {3},
+  month     = {aug},
+  doi       = {10.11144/javeriana.upsy12-3.hasp},
+  file      = {:Articles/1365-27767-2-PB.pdf:PDF},
+  publisher = {Editorial Pontificia Universidad Javeriana},
+}
+
+@Article{Courneya1992,
+  author    = {Kerry S. Courneya and Albert V. Carron},
+  title     = {The Home Advantage In Sport Competitions: A Literature Review},
+  journal   = {Journal of Sport and Exercise Psychology},
+  year      = {1992},
+  volume    = {14},
+  number    = {1},
+  pages     = {13--27},
+  month     = {mar},
+  abstract  = {A home advantage in sport competitions has been well documented. The strength and consistency of the home advantage has made it a popular phenomenon in sport today. Very little systematic research has been carried out, however, and the home advantage remains one of the least understood phenomena in sport. It appears that much of the game location research has been arbitrary, and a clear sense of direction is lacking. The purpose of the present paper is to provide a conceptual framework to organize a comprehensive review of previous game location research and provide direction for future research. The review of literature indicated that the descriptive phase of inquiry has been completed, and it is time to address the underlying mechanisms responsible for the manifestation of the home advantage. Possible methodologies and areas of inquiry are highlighted and discussed.A home advantage in sport competitions has been well documented. The strength and consistency of the home advantage has made it a popular phenomenon in sport today. Very little systematic research has been carried out, however, and the home advantage remains one of the least understood phenomena in sport. It appears that much of the game location research has been arbitrary, and a clear sense of direction is lacking. The purpose of the present paper is to provide a conceptual framework to organize a comprehensive review of previous game location research and provide direction for future research. The review of literature indicated that the descriptive phase of inquiry has been completed, and it is time to address the underlying mechanisms responsible for the manifestation of the home advantage. Possible methodologies and areas of inquiry are highlighted and discussed.},
+  doi       = {10.1123/jsep.14.1.13},
+  publisher = {Human Kinetics},
+}
+
+@Article{Smith2005,
+  author    = {D Randall Smith},
+  title     = {Disconnects between popular discourse and home advantage research: What can fans and media tell us about the home advantage phenomenon?},
+  journal   = {Journal of Sports Sciences},
+  year      = {2005},
+  volume    = {23},
+  number    = {4},
+  pages     = {351--364},
+  month     = {apr},
+  abstract  = {Many of the factors identified as influencing the home advantage have an underlying social basis, presumably through the influence exerted by the home crowd. Beliefs in the home advantage and the causes of that advantage also have a social basis: sports coverage and fan discourse focus on some aspects of the phenomenon at the expense of others. This paper compares home advantage research with the use of the concept in media narratives and fan Intemet postings. While there are many similarities across sources, the findings suggest three major differences. Fans, and to a lesser extent the media, (1) focus almost exclusively on winning as the evidence for a home advantage, (2) see crowd noise as the main factor for the home advantage, and (3) treat the phenomenon as much more transient than is suggested by academic studies. I identify several features of the phenomenon that facilitate popular views of the home advantage and suggest how future research may benefit from incorporating those views. 
+
+Disconnects between popular discourse and home advantage.... Available from: https://www.researchgate.net/publication/7671542_Disconnects_between_popular_discourse_and_home_advantage_research_What_can_fans_and_media_tell_us_about_the_home_advantage_phenomenon [accessed Apr 02 2018].},
+  doi       = {10.1080/02640410400021633},
+  publisher = {Informa {UK} Limited},
+}
+
+@Article{Page2007,
+  author    = {Lionel Page and Katie Page},
+  title     = {The second leg home advantage: Evidence from European football cup competitions},
+  journal   = {Journal of Sports Sciences},
+  year      = {2007},
+  volume    = {25},
+  number    = {14},
+  pages     = {1547--1556},
+  month     = {dec},
+  abstract  = {The home advantage is a widely acknowledged sporting phenomenon, especially in association football. Here, we examine the second leg home advantage, an effect that is discussed in the public domain but which has received very little scientific attention. The second leg home advantage effect occurs when on average teams are more likely to win a two-stage knock-out competition when they play at home in the second leg. That is, both teams have a home advantage but this advantage is significantly greater for the team that plays at home second. Examining data from three different European Cup football competitions spanning 51 years, we show that the second leg home advantage is a real phenomenon. The second leg home team has more than a 50% probability to qualify for the next round in the competition even after controlling for extra time and team ability as possible alternative explanations. The second leg home advantage appears, however, to have decreased significantly over the past decade. Possible reasons for its existence and subsequent decline are presented. 
+
+The second leg home advantage: Evidence from European.... Available from: https://www.researchgate.net/publication/5987260_The_second_leg_home_advantage_Evidence_from_European_football_cup_competitions [accessed Apr 02 2018].},
+  doi       = {10.1080/02640410701275219},
+  publisher = {Informa {UK} Limited},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -1,15 +1,14 @@
 % Encoding: UTF-8
 
 @Article{Webb2018,
-  author        = {J. Angus Webb and Siobhan C. de Little and Kimberly A. Miller and Michael J. Stewardson},
-  title         = {Quantifying and predicting the benefits of environmental flows: Combining large-scale monitoring data and expert knowledge within hierarchical Bayesian models},
-  journal       = {Freshwater Biology},
-  year          = {2018},
-  month         = {feb},
-  __markedentry = {[cjdua:]},
-  doi           = {10.1111/fwb.13069},
-  file          = {:C\:/Users/cjdua/Documents/Webb_et_al-2018-Freshwater_Biology.pdf:PDF},
-  publisher     = {Wiley-Blackwell},
+  author    = {J. Angus Webb and Siobhan C. de Little and Kimberly A. Miller and Michael J. Stewardson},
+  title     = {Quantifying and predicting the benefits of environmental flows: Combining large-scale monitoring data and expert knowledge within hierarchical Bayesian models},
+  journal   = {Freshwater Biology},
+  year      = {2018},
+  month     = {feb},
+  doi       = {10.1111/fwb.13069},
+  file      = {:C\:/Users/cjdua/Documents/Webb_et_al-2018-Freshwater_Biology.pdf:PDF},
+  publisher = {Wiley-Blackwell},
 }
 
 @TechReport{li2018integrated,
@@ -90,6 +89,7 @@
   abstract  = {Bayesian networks are today one of the most promising approaches to Data Mining and knowledge discovery in databases. This chapter reviews the fundamental aspects of Bayesian networks and some of their technical aspects, with a particular emphasis on the methods to induce Bayesian networks from different types of data. Basic notions are illustrated through the detailed descriptions of two Bayesian network applications: one to survey data and one to marketing data.},
   booktitle = {Data Mining and Knowledge Discovery Handbook},
   doi       = {10.1007/978-0-387-09823-4_10},
+  file      = {:D\:/Dropbox/Articles/[9] 2010 Data Mining and Knowledge Discovery Handbook.pdf:PDF},
   url       = {https://doi.org/10.1007/978-0-387-09823-4_10},
 }
 
@@ -280,7 +280,7 @@ KEYWORDS: Null hypothesis significance testing, p-value, Statistical significanc
 @Article{Overstall2018,
   author        = {Antony M. Overstall and James M. McGree},
   title         = {Bayesian design of experiments for intractable likelihood models using coupled auxiliary models and multivariate emulation},
-  __markedentry = {[cjdua:6]},
+  __markedentry = {[cjdua:]},
   abstract      = {A Bayesian design is given by maximising the expected utility over the design space. The utility is chosen to represent the aim of the experiment and its expectation is taken with respect to all unknowns: responses, parameters and/or models. Although straightforward in principle, there are several challenges to finding Bayesian designs in practice. Firstly, the expected utility is rarely available in closed form and requires approximation. Secondly, the expected utility needs to be maximised over a, potentially, high-dimensional design space. In the case of intractable likelihood models, these problems are compounded by the fact that the likelihood function, whose evaluation is required to approximate the expected utility, is not available in closed form. A strategy is proposed to find Bayesian designs for intractable likelihood models. It relies on the development of new methodology involving auxiliary modelling to approximate the expected utility, under an intractable likelihood model, applied with the latest approaches to maximising approximated expected utilities.},
   date          = {2018-03-19},
   eprint        = {1803.07018v1},
@@ -305,7 +305,7 @@ KEYWORDS: Null hypothesis significance testing, p-value, Statistical significanc
   year          = {2003},
   pages         = {38--45},
   organization  = {Citeseer},
-  __markedentry = {[cjdua:6]},
+  __markedentry = {[cjdua:]},
   file          = {:C\:/Users/cjdua/Documents/download.pdf:PDF},
 }
 
@@ -351,6 +351,77 @@ KEYWORDS: Null hypothesis significance testing, p-value, Statistical significanc
   doi       = {10.1016/j.socscimed.2017.12.005},
   file      = {:Articles/1-s2.0-S0277953617307359-main.pdf:PDF},
   publisher = {Elsevier {BV}},
+}
+
+@Article{Li2018,
+  author    = {Shaobo Li and Yongming Wu and Yanxia Xu and Jie Hu and Jianjun Hu},
+  title     = {A Bayesian Network Based Adaptability Design of Product Structures for Function Evolution},
+  journal   = {Applied Sciences},
+  year      = {2018},
+  volume    = {8},
+  number    = {4},
+  pages     = {493},
+  month     = {mar},
+  doi       = {10.3390/app8040493},
+  file      = {:Articles/applsci-08-00493.pdf:PDF},
+  publisher = {{MDPI} {AG}},
+}
+
+@Article{Chiappa2018,
+  author        = {Silvia Chiappa and Thomas P. S. Gillam},
+  title         = {Path-Specific Counterfactual Fairness},
+  __markedentry = {[cjdua:6]},
+  abstract      = {We consider the problem of learning fair decision systems in complex scenarios in which a sensitive attribute might affect the decision along both fair and unfair pathways. We introduce a causal approach to disregard effects along unfair pathways that simplifies and generalizes previous literature. Our method corrects observations adversely affected by the sensitive attribute, and uses these to form a decision. This avoids disregarding fair information, and does not require an often intractable computation of the path-specific effect. We leverage recent developments in deep learning and approximate inference to achieve a solution that is widely applicable to complex, non-linear scenarios.},
+  date          = {2018-02-22},
+  eprint        = {1802.08139v1},
+  eprintclass   = {stat.ML},
+  eprinttype    = {arXiv},
+  file          = {online:http\://arxiv.org/pdf/1802.08139v1:PDF;:Articles/1802.08139.pdf:PDF},
+  keywords      = {stat.ML},
+}
+
+@InProceedings{bareinboim2018,
+  author    = {J. Zhang, E. Bareinboim},
+  title     = {Fairness in Decision-Making -- The Causal Explanation Formula},
+  booktitle = {Proceedings of the 32nd AAAI Conference on Artificial Intelligence},
+  year      = {2018},
+  file      = {:Articles/r30.pdf:PDF},
+}
+
+@Article{Chen238998,
+  author    = {Gang Chen and Yaqiong Xiao and Paul A Taylor and Justin K Rajendra and Tracy Riggins and Fengji Geng and Elizabeth Redcay and Robert W Cox},
+  title     = {Handling Multiplicity in Neuroimaging through Bayesian Lenses with Multilevel Modeling},
+  journal   = {bioRxiv preprint},
+  year      = {2017},
+  month     = {dec},
+  abstract  = {In neuroimaging, the multiplicity issue may sneak into data analysis through several channels, affecting
+expected false positive rates (FPRs; type I errors) in diverse ways. One widely recognized aspect of multiplicity,
+multiple testing, occurs when the investigator fits a separate model for each voxel in the brain. However,
+multiplicity also occurs when the investigator conducts multiple comparisons within a model, tests two tails of
+a t-test separately when prior information is unavailable about the directionality, and branches in the analytic
+pipelines. The current practice of handling multiple testing through controlling the overall FPR in neuroimaging
+under the null hypothesis significance testing (NHST) paradigm excessively penalizes the statistical power with
+inflated type II errors. More fundamentally, the adoption of dichotomous decisions through sharp thresholding
+under NHST may not be appropriate when the null hypothesis itself is not pragmatically relevant because the
+effect of interest takes a continuum instead of discrete values and is not expected to be null in most brain regions.
+When the noise inundates the signal, two different types of error are more relevant than the concept of FPR:
+incorrect sign (type S) and incorrect magnitude (type M).
+In light of these considerations, we introduce a different strategy using Bayesian hierarchical modeling (BHM)
+to achieve two goals: 1) improving modeling efficiency via one integrative (instead of many separate) model and
+dissolving the multiple testing issue, and 2) turning the focus of conventional NHST on FPR into quality control
+by calibrating type S errors while maintaining a reasonable level of inference efficiency. The performance and
+validity of this approach are demonstrated through an application at the region of interest (ROI) level, with all
+the regions on an equal footing: unlike the current approaches under NHST, small regions are not disadvantaged
+simply because of their physical size. In addition, compared to the massively univariate approach, BHM may
+simultaneously achieve increased spatial specificity and inference efficiency. The benefits of BHM are illustrated in
+model performance and quality checking using an experimental dataset. In addition, BHM offers an alternative,
+confirmatory, or complementary approach to the conventional whole brain analysis under NHST, and promotes
+results reporting in totality and transparency. The methodology also avoids sharp and arbitrary thresholding in
+the p-value funnel to which the multidimensional data are reduced. The modeling approach with its auxiliary
+tools will be available as part of the AFNI suite for general use.},
+  doi       = {10.1101/238998},
+  file      = {:Articles/238998.full.pdf:PDF},
+  publisher = {Cold Spring Harbor Laboratory},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
