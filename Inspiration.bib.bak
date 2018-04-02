@@ -317,4 +317,21 @@
   keywords      = {stat.ME, econ.EM, stat.ML},
 }
 
+@Article{doi:10.1177/2053951717703997,
+  author   = {Giuseppe Alessandro Veltri},
+  title    = {Big Data is not only about data: The two cultures of modelling},
+  journal  = {Big Data \& Society},
+  year     = {2017},
+  volume   = {4},
+  number   = {1},
+  pages    = {2053951717703997},
+  abstract = { The contribution of Big Data to social science is not limited to data availability but includes the introduction of analytical approaches that have been developed in computer science, and in particular in machine learning. This brings about a new ‘culture’ of statistical modelling that bears considerable potential for the social scientist. This argument is illustrated with a brief discussion of model-based recursive partitioning which can bridge the theory and data-driven approach. Such a method is an example of how this new approach can help revise models that work for the full dataset: it can be used for evaluating different models, a traditional weakness of the ‘traditional’ statistical approach used in social science. },
+  doi      = {10.1177/2053951717703997},
+  eprint   = {https://doi.org/10.1177/2053951717703997},
+  url      = { 
+        https://doi.org/10.1177/2053951717703997
+    
+},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
