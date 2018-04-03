@@ -278,16 +278,15 @@ KEYWORDS: Null hypothesis significance testing, p-value, Statistical significanc
 }
 
 @Article{Overstall2018,
-  author        = {Antony M. Overstall and James M. McGree},
-  title         = {Bayesian design of experiments for intractable likelihood models using coupled auxiliary models and multivariate emulation},
-  __markedentry = {[cjdua:]},
-  abstract      = {A Bayesian design is given by maximising the expected utility over the design space. The utility is chosen to represent the aim of the experiment and its expectation is taken with respect to all unknowns: responses, parameters and/or models. Although straightforward in principle, there are several challenges to finding Bayesian designs in practice. Firstly, the expected utility is rarely available in closed form and requires approximation. Secondly, the expected utility needs to be maximised over a, potentially, high-dimensional design space. In the case of intractable likelihood models, these problems are compounded by the fact that the likelihood function, whose evaluation is required to approximate the expected utility, is not available in closed form. A strategy is proposed to find Bayesian designs for intractable likelihood models. It relies on the development of new methodology involving auxiliary modelling to approximate the expected utility, under an intractable likelihood model, applied with the latest approaches to maximising approximated expected utilities.},
-  date          = {2018-03-19},
-  eprint        = {1803.07018v1},
-  eprintclass   = {stat.ME},
-  eprinttype    = {arXiv},
-  file          = {:Articles/2018.arXiv.1803.07018.pdf:PDF},
-  keywords      = {stat.ME},
+  author      = {Antony M. Overstall and James M. McGree},
+  title       = {Bayesian design of experiments for intractable likelihood models using coupled auxiliary models and multivariate emulation},
+  abstract    = {A Bayesian design is given by maximising the expected utility over the design space. The utility is chosen to represent the aim of the experiment and its expectation is taken with respect to all unknowns: responses, parameters and/or models. Although straightforward in principle, there are several challenges to finding Bayesian designs in practice. Firstly, the expected utility is rarely available in closed form and requires approximation. Secondly, the expected utility needs to be maximised over a, potentially, high-dimensional design space. In the case of intractable likelihood models, these problems are compounded by the fact that the likelihood function, whose evaluation is required to approximate the expected utility, is not available in closed form. A strategy is proposed to find Bayesian designs for intractable likelihood models. It relies on the development of new methodology involving auxiliary modelling to approximate the expected utility, under an intractable likelihood model, applied with the latest approaches to maximising approximated expected utilities.},
+  date        = {2018-03-19},
+  eprint      = {1803.07018v1},
+  eprintclass = {stat.ME},
+  eprinttype  = {arXiv},
+  file        = {:Articles/2018.arXiv.1803.07018.pdf:PDF},
+  keywords    = {stat.ME},
 }
 
 @Article{Lakens2017,
@@ -299,14 +298,13 @@ KEYWORDS: Null hypothesis significance testing, p-value, Statistical significanc
 }
 
 @InProceedings{Dash2003,
-  author        = {Dash, Denver and Cooper, Gregory F},
-  title         = {Model-Averaging with Discrete Bayesian Network Classifiers},
-  booktitle     = {Proc. 9th Int. Workshop Artif. Intell. Statist.},
-  year          = {2003},
-  pages         = {38--45},
-  organization  = {Citeseer},
-  __markedentry = {[cjdua:]},
-  file          = {:C\:/Users/cjdua/Documents/download.pdf:PDF},
+  author       = {Dash, Denver and Cooper, Gregory F},
+  title        = {Model-Averaging with Discrete Bayesian Network Classifiers},
+  booktitle    = {Proc. 9th Int. Workshop Artif. Intell. Statist.},
+  year         = {2003},
+  pages        = {38--45},
+  organization = {Citeseer},
+  file         = {:C\:/Users/cjdua/Documents/download.pdf:PDF},
 }
 
 @Article{Amrhein2017,
@@ -370,7 +368,7 @@ KEYWORDS: Null hypothesis significance testing, p-value, Statistical significanc
 @Article{Chiappa2018,
   author        = {Silvia Chiappa and Thomas P. S. Gillam},
   title         = {Path-Specific Counterfactual Fairness},
-  __markedentry = {[cjdua:6]},
+  __markedentry = {[cjdua:]},
   abstract      = {We consider the problem of learning fair decision systems in complex scenarios in which a sensitive attribute might affect the decision along both fair and unfair pathways. We introduce a causal approach to disregard effects along unfair pathways that simplifies and generalizes previous literature. Our method corrects observations adversely affected by the sensitive attribute, and uses these to form a decision. This avoids disregarding fair information, and does not require an often intractable computation of the path-specific effect. We leverage recent developments in deep learning and approximate inference to achieve a solution that is widely applicable to complex, non-linear scenarios.},
   date          = {2018-02-22},
   eprint        = {1802.08139v1},
@@ -422,6 +420,28 @@ tools will be available as part of the AFNI suite for general use.},
   doi       = {10.1101/238998},
   file      = {:Articles/238998.full.pdf:PDF},
   publisher = {Cold Spring Harbor Laboratory},
+}
+
+@Article{Romeijn2018,
+  author    = {Jan-Willem Romeijn and Jon Williamson},
+  title     = {Intervention and Identifiability in Latent Variable Modelling},
+  journal   = {Minds and Machines},
+  year      = {2018},
+  month     = {mar},
+  doi       = {10.1007/s11023-018-9460-y},
+  file      = {:Articles/10.1007%2Fs11023-018-9460-y.pdf:PDF},
+  publisher = {Springer Nature},
+}
+
+@Article{Hoffman2014,
+  author        = {Hoffman, Matthew D and Gelman, Andrew},
+  title         = {The No-U-turn sampler: adaptively setting path lengths in Hamiltonian Monte Carlo.},
+  journal       = {Journal of Machine Learning Research},
+  year          = {2014},
+  volume        = {15},
+  number        = {1},
+  pages         = {1593--1623},
+  __markedentry = {[cjdua:6]},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

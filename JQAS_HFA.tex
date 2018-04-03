@@ -120,19 +120,23 @@ A second motivator for this study is related to the hotly debated topic of home 
 %{Goal Scoring Metrics: Most Home \& Away Goals at the Season Level} 
 \end{table}
 %=====================================================
-\subsection{Results} 
+\section{Computation and Results}
+We run 4 chains using the default sampler in Stan, the HMC variant of No-U-Turn Sampler (NUTS) \citep{Hoffman2014} and set  
 
+The model estimates are shown in figure \ref{fig31} as shift from the 0. The outer contour lines show the 99.5\% credible intervals, while the shaded area underneath covers the corresponding 95\% credible interval. The light bar in the middle represents the mean.
 
 \begin{figure}
 \caption{Home Field Advantage Posterior Plot at Sport and League Levels}
 {\includegraphics[width=0.80\linewidth]{HFA32.pdf}}
-\label{fig2}
+\label{fig31}
 \end{figure}
+
+
 
 \begin{figure}
 \caption{Home Field Advantage Posterior Plot for La Liga Teams}
 {\includegraphics[width=0.90\linewidth]{HFA_La_Liga11.pdf}}
-\label{fig3}
+\label{fig32}
 \end{figure}
 
 
@@ -170,5 +174,5 @@ We would like to thank ESPN FC for compiling the season-level club performance d
 \newpage
 
 %\bibliographystyle{name}
-\bibliography{Soccer}
+\bibliography{Soccer,Bayesian}
 \end{document}
