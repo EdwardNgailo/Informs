@@ -22,7 +22,7 @@
   \title{How Much Does Home-Field Advantage Matter in Professional Soccer?}
   \runningtitle{Bayesian Hierarchical Analysis}
   \subtitle{A Multilevel Bayesian Investigation}
-  \abstract{Using 2001 to 2017 seasonal data,, we fit a Bayesian multilevel nested model to the parameters in a Home-Field Advantage (HFA) model, allowing information obtained from the team level to inform the inferences at the upper league and sport levels.}
+  \abstract{Home Field Advantage (HFA) was traditionally defined in terms of winning percentage of home games at the team level. In this article, we present a hierarchical model of HFA, spanning from the top sport level to the middle league level and all the way to lowest club level. Using scoring performance data from ESPN FC, we fit a Bayesian multilevel nested model to the parameters in the hierarchical model of HFA, allowing information obtained from the team level to inform the inferences at the upper league and sport levels.}
   \keywords{European Professional Soccer Leagues, Home Field Advantage, Poisson generative process, Stan}
   %\classification[PACS]{...}
   %\communicated{...}
@@ -45,13 +45,16 @@
 %Amazon’s cloud computing arm also powers Statcast, the next generation statistics platform for Major League Baseball (MLB). These high-profile tech-sport partnerships are arguably the latest and most visible account of invasion of analytics into the realms of spectator sports.
 
 In professional team sports, the term home field advantage (HFA) – also called home advantage, home ground or home court advantage, defender's advantage, home-ice advantage – describes the benefit that the home team is believed to gain over the visiting opponent. Its scientific definition is ``the consistent finding that home teams in sport competition win over 50\% of the games played under s balanced home and away schedule'' \citep[p. 13]{Courneya1992}.
-Due to the existence of HFA, many vital games, such as playoff or elimination matches, in major professional sports have special rules for determining which match is played at which place. In particular,  the Union of European Football Associations (UEFA) institutionalized the ruling that a second leg of any Champions League knock-off series is favorable to playing away with the the scores still in balance after the first leg competition \citep{atkins2013}.
+Due to the existence of HFA, many vital games, such as playoff or elimination matches, in major professional sports have special rules for determining which match is played at which place.  As shown in Figure \ref{fig11}, the combined revenue of the Big Five European soccer leagues (English Premier League, Spanish La Liga, French Ligue 1, Bundesliga, Italian Serie A) more than doubled to 15 billion euros in 10 years from 2006/07 to 2016/17. The financial implications might partially explain UEFA's (the Union of European Football Associations) decision that a second leg of any Champions League knock-off series is favorable to playing away with the the scores still in balance after the first leg competition \citep{atkins2013}.
+
+%----------------------
 \begin{figure}[ht]
 \caption{\textit{Revenue of the top European soccer leagues (Big Five*) from 2006/07 to 2016/17 (in billion euros)}}
-
 \centering\includegraphics[width=0.8\textwidth]{HFA11.pdf}
 \label{fig11}
 \end{figure}
+%------------------------
+
 
 
 %Accompanying the wide-spreading notoriety in the general populace is the ever-increasing availability and volume of data associated with games, players, teams, and sports.   
@@ -71,27 +74,31 @@ Due to the existence of HFA, many vital games, such as playoff or elimination ma
 %\citep{Gajewski2006}
 %\citep{Carron2005}
 
- 
-
 
 A second motivator for this study is related to the hotly debated topic of home field advantage (HFA) in soccer competition. The contributions we made in this paper are (1) highlighting the different generative process underlying most sports performance metrics and suggesting corresponding solutions.  (2) investigating the long and firmly held belief of HFA simultaneously at sport, league, team levels. (3) using season performance data to rule out incidental game specifics.
  
 \section{Review of Literature} 
 
-%-----------------------
  
-%=====================================================
 
-\section{Data and Analyses} 
+\section{The Hierarchical Model of HFA} 
 
+\ref{fig21}
+
+%------------------------------------------------
 \begin{figure}
 \caption{The Hierarchical Model of Home Field Advantage }
 {\includegraphics[width=1.0\linewidth]{HFA_Model1.pdf}}
 \label{fig21}
 \end{figure} 
- 
+%------------------------------------------------ 
 
-\subsection{Sources} 
+
+
+
+
+
+\section{Data} 
 
 
 
