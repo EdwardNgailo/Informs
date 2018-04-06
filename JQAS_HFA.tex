@@ -19,11 +19,11 @@
   \runningauthor{Duan}
   \affil[1]{Dulun Consulting Group, research@dulun.com}
   %\affil[2]{...}
-  \title{How Much Does Home-Field Advantage Matter in Professional Soccer?}
+  \title{Latent vs. Observable Home-Field Advantage in Professional Soccer}
   \runningtitle{Bayesian Hierarchical Analysis}
-  \subtitle{A Multilevel Bayesian Investigation}
-  \abstract{Home Field Advantage (HFA) was traditionally defined in terms of winning percentage of home games at the team level. In this article, we present a hierarchical model of HFA, spanning from the top sport level to the middle league level and all the way to lowest club level. Using scoring performance data from ESPN FC, we fit a Bayesian multilevel nested model to the parameters in the hierarchical model of HFA, allowing information obtained from the team level to inform the inferences at the upper league and sport levels.}
-  \keywords{European Professional Soccer Leagues, Home Field Advantage, Poisson generative process, Stan}
+  \subtitle{A Multilevel Bayesian Operationalization}
+  \abstract{Home Field Advantage (HFA) was traditionally defined in terms of winning percentage of home games at the team level. In this article, we present a hierarchical model of HFA, spanning from the top sport level to the middle league level and all the way to lowest club level. Using scoring performance data from ESPN FC, we fit a Bayesian multilevel nested model to the parameters in the hierarchical model of HFA, allowing information obtained from the season level to inform the inferences about scoring rates at the upper team, league, and sport levels. Our analysis of latent HFA reveals that much of HFA is attributed to the nature of the sport of interest. While only a handful of teams out of 98 in top 5 European leagues enjoy statistically significant HFA, we found absolutely no teams suffer from home disadvantage.}
+  \keywords{European Professional Soccer Leagues, Latent Home Field Advantage, Poisson generative process, Stan}
   %\classification[PACS]{...}
   %\communicated{...}
   %\dedication{...}
@@ -55,7 +55,7 @@ Due to the existence of HFA, many vital games, such as playoff or elimination ma
 \end{figure}
 %------------------------
 
-The existence of HWP (home winning percentage) -denominated HFA measure has been well documented for a variety of sports. In their book \textit{Scorecasting}, \cite{moskowitz2012scorecasting} compiled the HWPs in all the major sports with some datasets going back as further as 1903 for MLB and 1966 for NFL. MLS figures date back to only 2002, but show the strongest evidence of HWP of 69.1\%. MLB figures, on the other hand, yield the lowest HWP of only 53.9\%. This disparity raises an important high-profile question: ``Are all sports created equal in terms of HFA?''. A subsequent but related question is ``Is HFA primarily determined by the sport being played or teams and who play the sport?''. Answering such questions demands a completely new way of conceptualizing HFA and signals a major departure from the currently reigning framework proposed by \cite{Courneya1992} back in 1992.  
+The existence of HWP (home winning percentage) -denominated HFA measure has been well documented for a variety of sports, even though the contributing factors are still being debated. In their book \textit{Scorecasting}, \cite{moskowitz2012scorecasting} compiled the HWPs in all the major sports with some datasets going back as further as 1903 for MLB and 1966 for NFL. MLS figures date back to only 2002, but show the strongest evidence of HWP of 69.1\%. MLB figures, on the other hand, yield the lowest HWP of only 53.9\%. This disparity raises an important high-profile question: ``Are all sports created equal in terms of HFA?''. A subsequent but related question is ``Is HFA primarily determined by the sport being played or teams who play the sport?''. Answering such questions demands a completely new way of conceptualizing HFA and signals a major departure from the reigning framework proposed by \cite{Courneya1992}, which hinges on game being the unit of analysis.  
 
 
 %Accompanying the wide-spreading notoriety in the general populace is the ever-increasing availability and volume of data associated with games, players, teams, and sports.   
@@ -72,9 +72,9 @@ The existence of HWP (home winning percentage) -denominated HFA measure has been
 %\citep{Carron2005}
 
 
-A second motivator for this study is related to the treatment of sports data in general, and scoring in soccer matches in particular. HWP based measures tend to upstage and upgrade the originally discrete count-based outcome to continuous type, while ignoring the underlying data generating process. 
+A second motivator for this study is related to the treatment of sports data in general, and scoring in soccer matches in particular. HWP based measures tend to upstage and upgrade the originally discrete count-based outcome to continuous type, while ignoring the underlying data generating process. To complicate matters further, consider the two extreme cases of all winning and losing regular season. The HWP and AWP(away winning percentage) are equal, taking values of either 1.o or 0.0. If we adopt HWP as the sole indicator of HFA, we go straightforward to absurd conclusions - the all winning club enjoys 100\% HFA and the zero-win team suffers from 100\% home field disadvantage.   
 
-The contributions we made in this paper are: 
+The current conceptualization and operationalization of HFA prompt us to take an alternative route in search of true latent HFA underlying numbers in record books. Specifically, we seek in this paper to achieve the following goals: 
 
 \begin{enumerate}
 \item  Propose a fresh new vertical hierarchical model of HFA, complementing the existing horizontal framework.
@@ -82,7 +82,7 @@ The contributions we made in this paper are:
 
 \item Highlight the different generative process underlying most sports performance metrics and suggest corresponding approaches for analysis.
 \item Reveal sources of HFA simultaneously at sport, league, team levels.
-\item Presenting a new way of measuring HFA via contrast the same performance metric at home and away venues. 
+\item Presenting a new way of measuring latent HFA via contrast the same performance metric at home and away venues. 
 \end{enumerate}
 
 The remainder of the paper is organized as 

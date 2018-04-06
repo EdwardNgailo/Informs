@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630) (preloaded format=xelatex 2018.3.27)  4 APR 2018 17:15
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630) (preloaded format=xelatex 2018.3.27)  5 APR 2018 18:02
 entering extended mode
 **./JQAS_HFA.tex
 (JQAS_HFA.tex
@@ -1476,7 +1476,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.71748pt on input line 41.
 
-Overfull \vbox (8.40565pt too high) has occurred while \output is active []
+Overfull \vbox (7.98608pt too high) has occurred while \output is active []
 
 
 [1
@@ -1767,9 +1767,9 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *  The current font is "\TU/lmss/bx/n/15.0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
+[3] [4]
 File: HFA32.pdf Graphic file (type pdf)
 <use HFA32.pdf>
-[3] [4]
 File: HFA_La_Liga11.pdf Graphic file (type pdf)
 <use HFA_La_Liga11.pdf>
 File: HFA_Serie_A11.pdf Graphic file (type pdf)
@@ -1780,10 +1780,10 @@ File: HFA_Bundesliga11.pdf Graphic file (type pdf)
 <use HFA_Bundesliga11.pdf>
 File: HFA_EPL11.pdf Graphic file (type pdf)
 <use HFA_EPL11.pdf>
- [5] [6] [7] [8] [9] [10] (JQAS_HFA.bbl)
+ [5] [6] [7] [8] [9] [10] [11] (JQAS_HFA.bbl)
 
 AED: lastpage setting LastPage
-[11]
+[12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
  (JQAS_HFA.aux)
@@ -1794,10 +1794,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
 Here is how much of TeX's memory you used:
  27778 strings out of 427836
  501046 string characters out of 3151345
- 727747 words of memory out of 3000000
+ 729748 words of memory out of 3000000
  31452 multiletter control sequences out of 15000+200000
  538116 words of font info for 89 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 54i,10n,88p,10481b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,10n,88p,10481b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on JQAS_HFA.pdf (11 pages).
+Output written on JQAS_HFA.pdf (12 pages).
