@@ -10,6 +10,12 @@ Courneya, K.~S. and Carron, A.~V. (1992).
 \newblock The home advantage in sport competitions: A literature review.
 \newblock {\em Journal of Sport and Exercise Psychology}, 14(1):13--27.
 
+\bibitem[Gelman et~al., 2014]{Gelman2014}
+Gelman, A., Carlin, J.~B., Stern, H.~S., Dunson, D.~B., Vehtari, A., and Rubin,
+  D.~B. (2014).
+\newblock {\em Bayesian data analysis}, volume~2.
+\newblock CRC press Boca Raton, FL.
+
 \bibitem[Hoffman and Gelman, 2014]{Hoffman2014}
 Hoffman, M.~D. and Gelman, A. (2014).
 \newblock The no-u-turn sampler: adaptively setting path lengths in hamiltonian

@@ -74,7 +74,7 @@ The existence of HWP (home winning percentage) -denominated HFA measure has been
 
 A second motivator for this study is related to the treatment of sports data in general, and scoring in soccer matches in particular. HWP based measures tend to upstage and upgrade the originally discrete count-based outcome to continuous type, while ignoring the underlying data generating process. To complicate matters further, consider the two extreme cases of all winning and losing regular season. The HWP and AWP(away winning percentage) are equal, taking values of either 1.o or 0.0. If we adopt HWP as the sole indicator of HFA, we go straightforward to absurd conclusions - the all winning club enjoys 100\% HFA and the zero-win team suffers from 100\% home field disadvantage.   
 
-The current conceptualization and operationalization of HFA prompt us to take an alternative route in search of true latent HFA underlying numbers in record books. Specifically, we seek in this paper to achieve the following goals: 
+The current conceptualization and operationalization of HFA prompt us to take an alternative route in search of true latent HFA underlying the numbers in record books. Specifically, we seek in this paper to achieve the following goals: 
 
 \begin{enumerate}
 \item  Propose a fresh new vertical hierarchical model of HFA, complementing the existing horizontal framework.
@@ -89,17 +89,29 @@ The remainder of the paper is organized as
  
 \section{Review of Literature} 
 
- 
-
-\section{The Hierarchical Model of HFA} 
-
 \ref{fig21}
 
 %------------------------------------------------
 \begin{figure}
-\caption{The Hierarchical Model of Home Field Advantage }
-{\includegraphics[width=1.0\linewidth]{HFA_Model1.pdf}}
+\caption{The Hierarchical Structure of Professional Soccer }
+{\includegraphics[width=1.0\linewidth]{HFA_22}}
 \label{fig21}
+\end{figure} 
+%------------------------------------------------ 
+ 
+
+\section{The Hierarchical Model of HFA} 
+
+The essence of Bayesian inference is fitting a probability model to a dataset and generating probability distributions on the parameter encapsulated by the model \citep{Gelman2014}.
+For our project, the data set contains the season (s) -level best home and away scoring numbers ($y^H_{ijs}$ and   $y^A_{ijs}$ respectively) of each club i in each j of the Top 5 leagues. As shown in figure \ref{fig33}, our hierarchical model reflects the organizational structure of professional soccer shown in figure \ref{fig21}.
+
+
+
+%------------------------------------------------
+\begin{figure}
+\caption{The Hierarchical Model of Home Field Advantage }
+{\includegraphics[width=1.0\linewidth]{HFA_33}}
+\label{fig33}
 \end{figure} 
 %------------------------------------------------ 
 
@@ -108,7 +120,7 @@ The remainder of the paper is organized as
 
 
 
-\section{Data} 
+\section{Data and Results} 
 
 
 
@@ -130,7 +142,7 @@ The remainder of the paper is organized as
 %{Goal Scoring Metrics: Most Home \& Away Goals at the Season Level} 
 \end{table}
 %=====================================================
-\section{Computation and Results}
+
 We run 4 chains using the default sampler in Stan, the HMC variant of No-U-Turn Sampler (NUTS) \citep{Hoffman2014} and set  
 
 The model estimates are shown in figure \ref{fig31} as shift from the 0. The outer contour lines show the 99.5\% credible intervals, while the shaded area underneath covers the corresponding 95\% credible interval. The light bar in the middle represents the mean.

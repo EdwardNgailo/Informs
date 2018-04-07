@@ -1,0 +1,154 @@
+% Encoding: UTF-8
+
+@Article{Mohammad2014,
+  author        = {R. M. Mohammad and F. Thabtah and L. McCluskey},
+  title         = {Intelligent rule-based phishing websites classification},
+  journal       = {IET Information Security},
+  year          = {2014},
+  volume        = {8},
+  number        = {3},
+  pages         = {153--160},
+  month         = may,
+  issn          = {1751-8709},
+  __markedentry = {[cjdua:6]},
+  doi           = {10.1049/iet-ifs.2013.0202},
+  keywords      = {Web sites, data mining, data privacy, pattern classification, security of data, unsolicited e-mail, Web site echoing, Website class, antiphishing solutions, browser-based security indicators, creditable flrm, intelligent rule-based phishing Web site classification, phishing attack prediction, rule-based data mining classification techniques, social security number, user private information},
+}
+
+@InProceedings{7727750,
+  author    = {F. Thabtah and R. M. Mohammad and L. McCluskey},
+  title     = {A dynamic self-structuring neural network model to combat phishing},
+  booktitle = {2016 International Joint Conference on Neural Networks (IJCNN)},
+  year      = {2016},
+  pages     = {4221-4226},
+  month     = {July},
+  abstract  = {Creating a neural network based classification model is commonly accomplished using the trial and error technique. However, this technique has several difficulties in terms of time wasted and the availability of experts. In this article, an algorithm that simplifies structuring neural network classification models is proposed. The algorithm aims at creating a large enough structure to learn models from the training dataset that can be generalised on the testing dataset. Our algorithm dynamically tunes the structure parameters during the training phase aiming to derive accurate non-overfitting classifiers. The proposed algorithm has been applied to phishing website classification problem and it shows competitive results with respect to various evaluation measures such as harmonic mean (F1-score), precision, and classification accuracy.},
+  doi       = {10.1109/IJCNN.2016.7727750},
+  file      = {:C\:/Users/cjdua/Documents/A-dynamic-self-structuring-neural-network-model-to-combat-phishing.pdf:PDF},
+  keywords  = {Internet;computer crime;neural nets;pattern classification;combat phishing;dataset testing;dataset training;neural network based classification model;phishing Website classification problem;Artificial neural networks;Biological neural networks;Classification algorithms;Density estimation robust algorithm;Heuristic algorithms;Neurons;Training;Classification;Constructive pruning;Neural Network;Phishing},
+}
+
+@Article{Jagatic2007,
+  author = {Tom N. Jagatic and Nathaniel A. Johnson and Markus Jakobsson and Filippo Menczer},
+  title  = {Social phishing},
+  year   = {2007},
+  volume = {50},
+  pages  = {94-100},
+  issn   = {0001-0782},
+  doi    = {10.1145/1290958.1290968},
+}
+
+@Article{Mohammad2015a,
+  author    = {Rami M. Mohammad and Fadi Thabtah and Lee McCluskey},
+  title     = {Tutorial and critical analysis of phishing websites methods},
+  journal   = {Computer Science Review},
+  year      = {2015},
+  volume    = {17},
+  pages     = {1--24},
+  month     = {aug},
+  abstract  = {The Internet has become an essential component of our everyday social and financial activities. Internet is not important for individual users only but also for organizations, because organizations that offer online trading can achieve a competitive edge by serving worldwide clients. Internet facilitates reaching customers all over the globe without any market place restrictions and with effective use of e-commerce. As a result, the number of customers who rely on the Internet to perform procurements is increasing dramatically. Hundreds of millions of dollars are transferred through the Internet every day. This amount of money was tempting the fraudsters to carry out their fraudulent operations. Hence, Internet users may be vulnerable to different types of web threats, which may cause financial damages, identity theft, loss of private information, brand reputation damage and loss of customers’ confidence in e-commerce and online banking. Therefore, suitability of the Internet for commercial transactions becomes doubtful. Phishing is considered a form of web threats that is defined as the art of impersonating a website of an honest enterprise aiming to obtain user’s confidential credentials such as usernames, passwords and social security numbers. In this article, the phishing phenomena will be discussed in detail. In addition, we present a survey of the state of the art research on such attack. Moreover, we aim to recognize the up-to-date developments in phishing and its precautionary measures and provide a comprehensive study and evaluation of these researches to realize the gap that is still predominating in this area. This research will mostly focus on the web based phishing detection methods rather than email based detection methods.},
+  doi       = {10.1016/j.cosrev.2015.04.001},
+  file      = {:Articles/Tutorial_and_Critical_Analysis_of_Phishing_Websites_Methods.pdf:PDF},
+  keywords  = {PhishingAnti-phishingData miningBlacklistWhitelist},
+  publisher = {Elsevier {BV}},
+}
+
+@Misc{Dua2017,
+  author      = {Dheeru, Dua and Karra Taniskidou, Efi},
+  title       = {{UCI} Machine Learning Repository},
+  year        = {2017},
+  institution = {University of California, Irvine, School of Information and Computer Sciences},
+  url         = {http://archive.ics.uci.edu/ml},
+}
+
+@InProceedings{Mohammad2012,
+  author        = {R. M. Mohammad and F. Thabtah and L. McCluskey},
+  title         = {An assessment of features related to phishing websites using an automated technique},
+  booktitle     = {Proc. Int. Conf. for Internet Technology and Secured Transactions},
+  year          = {2012},
+  pages         = {492--497},
+  month         = dec,
+  __markedentry = {[cjdua:]},
+  abstract      = {Corporations that offer online trading can achieve a competitive edge by serving worldwide clients. Nevertheless, online trading faces many obstacles such as the unsecured money orders. Phishing is considered a form of internet crime that is defined as the art of mimicking a website of an honest enterprise aiming to acquire confidential information such as usernames, passwords and social security number. There are some characteristics that distinguish phishing websites from legitimate ones such as long URL, IP address in URL, adding prefix and suffix to domain and request URL, etc. In this paper, we explore important features that are automatically extracted from websites using a new tool instead of relying on an experienced human in the extraction process and then judge on the features importance in deciding website legitimacy. Our research aims to develop a group of features that have been shown to be sound and effective in predicting phishing websites and to extract those features according to new scientific precise rules.},
+  keywords      = {Web sites, computer crime, electronic money, electronic trading, IP address, Internet crime, Internet protocol, URL prefix, URL suffix, Web site legitimacy, confidential information acquisition, money order security, online trading, password, phishing Web site, social security number, username, Accuracy, Educational institutions, Feature extraction, HTML, Protocols, Reliability, World Wide Web, Phishing, Rule, Security, Website features, features extraction},
+}
+
+@InProceedings{10.1007/978-981-10-3932-4_3,
+  author    = {Gautam, Sudhanshu and Rani, Kritika and Joshi, Bansidhar},
+  title     = {Detecting Phishing Websites Using Rule-Based Classification Algorithm: A Comparison},
+  booktitle = {Information and Communication Technology for Sustainable Development},
+  year      = {2018},
+  editor    = {Mishra, Durgesh Kumar and Nayak, Malaya Kumar and Joshi, Amit},
+  pages     = {21--33},
+  address   = {Singapore},
+  publisher = {Springer Singapore},
+  abstract  = {In today's time, phishy website detection is one of the important challenges in the field of information security due to the large numbers of online transactions going through over the websites. Website phishing means stealing one's personal information over the Internet such as system backup data, user login credentials, bank account details or other security information. Phishing means creation of phishy or fake websites which look like legitimate ones. In this research paper, we use the associative classification data mining approach that is also named as rule-based classification technique by which we can detect a phishy website and thereby identifying the better detection algorithm which has a higher accuracy detection rate. The algorithms used are Na{\"i}ve Bayes and PART algorithms of associative classification data mining approach. Moreover, we classify the websites into a legitimate website or a phishy website from the collected datasets of websites. The implementation will be done on the datasets of 1,353 websites which contain phishy sites as well as legitimate sites. At the end, results will show us the higher accuracy detection rate algorithm, which will more correctly identify phishing or legitimate websites.},
+  isbn      = {978-981-10-3932-4},
+}
+
+@InProceedings{10.1007/978-981-10-5699-4_50,
+  author    = {Gupta, Surbhi and Singhal, Abhishek},
+  title     = {Dynamic Classification Mining Techniques for Predicting Phishing URL},
+  booktitle = {Soft Computing: Theories and Applications},
+  year      = {2018},
+  editor    = {Pant, Millie and Ray, Kanad and Sharma, Tarun K. and Rawat, Sanyog and Bandyopadhyay, Anirban},
+  pages     = {537--546},
+  address   = {Singapore},
+  publisher = {Springer Singapore},
+  abstract  = {The online community faces the security challenge due to Phishing attack because many numbers of transactions are performed online to save time of users. It is a continual threat, and the risk of this attack is mostly on social networking sites such as Facebook, Twitter, LinkedIn, and Google+. In this paper, a dynamic approach based on minimum time to detect Phishing URL by using classification technique is described. This approach is based on different parameters such as high accuracy, Recall, Precision, Specification, and many more. The analysis result of these algorithms shows that Random tree is a good classification technique with comparison to others; it takes very less training build data time.},
+  isbn      = {978-981-10-5699-4},
+}
+
+@Book{jakobsson2006phishing,
+  title     = {Phishing and countermeasures: understanding the increasing problem of electronic identity theft},
+  publisher = {John Wiley \& Sons},
+  year      = {2006},
+  author    = {Jakobsson, Markus and Myers, Steven},
+}
+
+@InProceedings{8004877,
+  author    = {N. Abdelhamid and F. Thabtah and H. Abdel-jaber},
+  title     = {Phishing detection: A recent intelligent machine learning comparison based on models content and features},
+  booktitle = {2017 IEEE International Conference on Intelligence and Security Informatics (ISI)},
+  year      = {2017},
+  pages     = {72-77},
+  month     = {July},
+  doi       = {10.1109/ISI.2017.8004877},
+  file      = {:C\:/Users/cjdua/Documents/A-dynamic-self-structuring-neural-network-model-to-combat-phishing.pdf:PDF},
+  keywords  = {Internet;Web sites;computer crime;learning (artificial intelligence);trusted computing;ML predictive models;World Wide Web;anti-phishing tools;data analysis;fake Websites;financial assets;intelligent machine learning comparison;online attack;online community;phishing attacks;phishing datasets;phishing detection rate;trusted Websites;Artificial neural networks;Classification algorithms;Decision trees;Predictive models;Security;Tools;Training;Computer Security;Machine Learning;Phishing Detection;Web Threat},
+}
+
+@Misc{Mohammad2015,
+  author    = {Mohammad, Rami M},
+  title     = {Phishing Websites Features},
+  year      = {2015},
+  abstract  = {If an IP address is used as an alternative of the domain name in the URL, such as 
+“http://125.98. 3.123/fake. html”, users can be sure that someone is trying to steal their 
+personal information. Sometimes, the IP address is even transformed into hexadecimal code 
+as shown in the following link “http://0x58. 0xCC. 0xCA. 0x62/2/paypal. ca/index. html”.},
+  doi       = {10.13140/rg.2.1.2595.6000},
+  file      = {:C\:/Users/cjdua/Documents/PhishingWebsitesFeatures.pdf:PDF},
+  language  = {en},
+  pages     = {-},
+  publisher = {Unpublished},
+}
+
+@Article{Mohammad2013,
+  author    = {Rami M. Mohammad and Fadi Thabtah and Lee McCluskey},
+  title     = {Predicting phishing websites based on self-structuring neural network},
+  journal   = {Neural Computing and Applications},
+  year      = {2013},
+  volume    = {25},
+  number    = {2},
+  pages     = {443--458},
+  month     = {nov},
+  abstract  = {Internet has become an essential component of our everyday social and financial activities. Nevertheless, internet users may be vulnerable to different types of web threats, which may cause financial damages, identity theft, loss of private information, brand reputation damage and loss of customer’s confidence in e-commerce and online banking. Phishing is considered as a form of web threats that is defined as the art of impersonating a website of an honest enterprise aiming to obtain confidential information such as usernames, passwords and social security number. So far, there is no single solution that can capture every phishing attack. In this article, we proposed an intelligent model for predicting phishing attacks based on artificial neural network particularly self-structuring neural networks. Phishing is a continuous problem where features significant in determining the type of web pages are constantly changing. Thus, we need to constantly improve the network structure in order to cope with these changes. Our model solves this problem by automating the process of structuring the network and shows high acceptance for noisy data, fault tolerance and high prediction accuracy. Several experiments were conducted in our research, and the number of epochs differs in each experiment. From the results, we find that all produced structures have high generalization ability.
+
+Keywords
+Web threat Phishing Information security Neural network Data mining },
+  doi       = {10.1007/s00521-013-1490-z},
+  file      = {:Articles/RamiPredicting_Phishing_Websites_based_on_Self-Structuring_Neural_Network.pdf:PDF},
+  publisher = {Springer Nature},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

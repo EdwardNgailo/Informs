@@ -466,15 +466,14 @@ Key Words: Bayesian, Longitudinal clinical trial, Missing data, Sensitivity anal
 }
 
 @Article{Buerkner2016,
-  author        = {B{\"u}rkner, Paul-Christian and others},
-  title         = {brms: An R package for Bayesian multilevel models using Stan},
-  journal       = {Journal of Statistical Software},
-  year          = {2016},
-  volume        = {80},
-  number        = {1},
-  pages         = {1--28},
-  __markedentry = {[dulunche:]},
-  abstract      = {The brms package implements Bayesian multilevel models in R using the probabilistic
+  author   = {B{\"u}rkner, Paul-Christian and others},
+  title    = {brms: An R package for Bayesian multilevel models using Stan},
+  journal  = {Journal of Statistical Software},
+  year     = {2016},
+  volume   = {80},
+  number   = {1},
+  pages    = {1--28},
+  abstract = {The brms package implements Bayesian multilevel models in R using the probabilistic
 programming language Stan. A wide range of distributions and link functions are
 supported, allowing users to fit – among others – linear, robust linear, binomial, Poisson,
 survival, response times, ordinal, quantile, zero-inflated, hurdle, and even non-linear
@@ -486,7 +485,7 @@ easily be assessed and compared using posterior-predictive checks and leave-one-
 If you use the software, please cite this article as published in the Journal of
 Statistical Software Burkner ¨ (2017).
 Keywords: Bayesian inference, multilevel model, ordinal data, MCMC, Stan, R.},
-  file          = {:Articles/brms_overview.pdf:PDF},
+  file     = {:Articles/brms_overview.pdf:PDF},
 }
 
 @Article{Carpenter2016,
@@ -497,7 +496,7 @@ Keywords: Bayesian inference, multilevel model, ordinal data, MCMC, Stan, R.},
   volume        = {20},
   number        = {2},
   pages         = {1--37},
-  __markedentry = {[dulunche:6]},
+  __markedentry = {[dulunche:]},
   file          = {:Articles/Stan - Probabilistic Programming Language.pdf:PDF},
 }
 
@@ -509,7 +508,7 @@ Keywords: Bayesian inference, multilevel model, ordinal data, MCMC, Stan, R.},
   volume        = {40},
   number        = {5},
   pages         = {530--543},
-  __markedentry = {[dulunche:6]},
+  __markedentry = {[dulunche:]},
   publisher     = {SAGE Publications Sage CA: Los Angeles, CA},
 }
 
@@ -522,6 +521,28 @@ Keywords: Bayesian inference, multilevel model, ordinal data, MCMC, Stan, R.},
   doi       = {10.1101/292037},
   file      = {:Articles/292037.full.pdf:PDF},
   publisher = {Cold Spring Harbor Laboratory},
+}
+
+@Article{Kruschke2010,
+  author    = {John K. Kruschke},
+  title     = {Bayesian data analysis},
+  journal   = {Wiley Interdisciplinary Reviews: Cognitive Science},
+  year      = {2010},
+  volume    = {1},
+  number    = {5},
+  pages     = {658--676},
+  month     = {apr},
+  doi       = {10.1002/wcs.72},
+  publisher = {Wiley-Blackwell},
+}
+
+@Book{Gelman2014,
+  title         = {Bayesian data analysis},
+  publisher     = {CRC press Boca Raton, FL},
+  year          = {2014},
+  author        = {Gelman, Andrew and Carlin, John B and Stern, Hal S and Dunson, David B and Vehtari, Aki and Rubin, Donald B},
+  volume        = {2},
+  __markedentry = {[dulunche:6]},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
