@@ -102,7 +102,14 @@ The remainder of the paper is organized as
 
 \section{The Hierarchical Model of HFA} 
 
-The essence of Bayesian inference is fitting a probability model to a dataset and generating probability distributions on the parameter encapsulated by the model \citep{Gelman2014}.
+The essence of Bayesian inference is fitting a probability model to a dataset and generating probability distributions on the parameter encapsulated by the model \citep{Gelman2014}. The process of Bayesian data analysis can be ideally divided into three steps:
+
+\begin{enumerate}
+\item Constructing a full project-specific probabilistic model, which is mainly a joint probability distribution for all observed and latent quantities in a problem, consistent with domain knowledge and the data collection process.
+\item Computing and displaying the posterior distribution of the unobserved model parameters, given the observed data.
+\item Evaluating the fit of the model and the implications of the resulting posterior distribution.
+\end{enumerate}
+ 
 For our project, the data set contains the season (s) -level best home and away scoring numbers ($y^H_{ijs}$ and   $y^A_{ijs}$ respectively) of each club i in each j of the Top 5 leagues. As shown in figure \ref{fig33}, our hierarchical model reflects the organizational structure of professional soccer shown in figure \ref{fig21}.
 
 
