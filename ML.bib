@@ -585,4 +585,133 @@ Keywords: Decision Theory, Risk, Expected Utility Theory, Allais paradox, Disapp
   publisher = {Springer Nature},
 }
 
+@Article{Bzdok2017,
+  author    = {Danilo Bzdok},
+  title     = {Classical Statistics and Statistical Learning in Imaging Neuroscience},
+  journal   = {Frontiers in Neuroscience},
+  year      = {2017},
+  volume    = {11},
+  month     = {oct},
+  doi       = {10.3389/fnins.2017.00543},
+  file      = {:Articles/fnins-11-00543.pdf:PDF},
+  publisher = {Frontiers Media {SA}},
+}
+
+@Article{Bzdok2017a,
+  author    = {Danilo Bzdok and Martin Krzywinski and Naomi Altman},
+  title     = {Points of Significance: Machine learning: a primer},
+  journal   = {Nature Methods},
+  year      = {2017},
+  volume    = {14},
+  number    = {12},
+  pages     = {1119--1120},
+  month     = {nov},
+  doi       = {10.1038/nmeth.4526},
+  file      = {:Articles/preprint_pos-ml1-v06-nsa.pdf:PDF},
+  publisher = {Springer Nature},
+}
+
+@Article{Altman2017,
+  author    = {Naomi Altman and Martin Krzywinski},
+  title     = {Points of Significance: Ensemble methods: bagging and random forests},
+  journal   = {Nature Methods},
+  year      = {2017},
+  volume    = {14},
+  number    = {10},
+  pages     = {933--934},
+  month     = {sep},
+  doi       = {10.1038/nmeth.4438},
+  publisher = {Springer Nature},
+}
+
+@Article{Kulesa2015,
+  author    = {Anthony Kulesa and Martin Krzywinski and Paul Blainey and Naomi Altman},
+  title     = {Sampling distributions and the bootstrap},
+  journal   = {Nature Methods},
+  year      = {2015},
+  volume    = {12},
+  number    = {6},
+  pages     = {477--478},
+  month     = {jun},
+  doi       = {10.1038/nmeth.3414},
+  file      = {:Articles/nihms-751295.pdf:PDF},
+  publisher = {Springer Nature},
+}
+
+@Article{breiman2001random,
+  author    = {Breiman, Leo},
+  title     = {Random forests},
+  journal   = {Machine learning},
+  year      = {2001},
+  volume    = {45},
+  number    = {1},
+  pages     = {5--32},
+  file      = {:Articles/A_1010933404324.pdf:PDF},
+  publisher = {Springer},
+}
+
+@Article{,
+}
+
+@Misc{krzywinski2017points,
+  author    = {Krzywinski, Martin and Altman, Naomi},
+  title     = {Points of Significance: Classification and regression trees},
+  year      = {2017},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{Krzywinski2017,
+  author    = {Martin Krzywinski and Naomi Altman},
+  title     = {Points of Significance: Classification and regression trees},
+  journal   = {Nature Methods},
+  year      = {2017},
+  volume    = {14},
+  number    = {8},
+  pages     = {757--758},
+  month     = {jul},
+  doi       = {10.1038/nmeth.4370},
+  publisher = {Springer Nature},
+}
+
+@Article{Krzywinski_2017,
+  author    = {Martin Krzywinski and Naomi Altman},
+  title     = {Points of Significance: Classification and regression trees},
+  journal   = {Nature Methods},
+  year      = {2017},
+  volume    = {14},
+  number    = {8},
+  pages     = {757--758},
+  month     = {jul},
+  doi       = {10.1038/nmeth.4370},
+  publisher = {Springer Nature},
+}
+
+@Article{Altman2017a,
+  author    = {Naomi Altman and Martin Krzywinski},
+  title     = {Interpreting P values},
+  journal   = {Nature Methods},
+  year      = {2017},
+  volume    = {14},
+  number    = {3},
+  pages     = {213--214},
+  month     = {mar},
+  abstract  = {Although P values are convenient and popular summaries of experimental results, we can be led astray if we consider them as our only metric1. Even in the ideal case of a rigorously designed randomized study fit to a predetermined model, P values still need to be supplemented with other information to avoid misinterpretation. A P value is a probability statement about the observed sample in the context of a hypothesis, not about the hypotheses being tested. For example, suppose we wish to know whether disease affects the level of a biomarker. The P value of a comparison of the mean biomarker levels in healthy versus diseased samples would be the probability that a difference in means at least as large as the one observed can be generated from random samples if the disease does not affect the mean biomarker level. It is not the probability of the biomarker-level means in the two samples being equal—they either are or are not equal. However, this relationship between P values and inference about hypotheses is a critical point—interpretation of statistical analysis depends on it. It is one of the key themes in the American Statistical Association’s statement on statistical significance and P values2, published to mitigate widespread misuse and misinterpretation of P values. This relationship is discussed in some of the 18 short commentaries that accompany the statement, from which three main ideas for using, interpreting and reporting P values emerge: the use of more stringent P value cutoffs supported by Bayesian analysis, use of the observed P value to estimate false discovery rate (FDR), and the combination of P values and effect sizes to create more informative confidence intervals. The first two of these ideas are currently most useful as guidelines for assessing how strongly the data support null versus alternative hypotheses, whereas the third could be used to assess how strongly the data support parameter values in the confidence interval. However, like P values, these methods will be biased toward the alternative hypothesis when used with a P value selected from the most significant of multiple tests or models1. To illustrate these three ideas, let’s expand on the biomarker example above with the null hypothesis that disease does not influence the biomarker level. For samples, we’ll use n = 10 individuals, randomly chosen from each of the unaffected and affected populations, assumed to be normally distributed with σ2 = 1. At this sample size, a two-sample t-test has 80% power to reject the null at significance a = 0.05 when the effect size is 1.32 (Fig. 1a). Suppose that we observe a difference in sample means of 1.2 and that our samples have a pooled s.d. of sp = 1.1. These give us t = 1.2/(sp√(2/n)) = 2.44 with d.f. = 2(n – 1) = 18 and a P value of 0.025. Once a P value has been computed, it is useful to assess the strength of evidence of the truth or falsehood of the null hypothesis. Here we can look to Bayesian analysis for ways to make this connection3, where decisions about statistical significance can be based on the Bayes factor, B, which is the ratio of average likelihoods under the alternative and null hypotheses. However, using Bayesian analysis adds an element of subjectivity because it requires the specification of a prior distribution for the model parameters under both hypotheses. Benjamin and Berger, in their discussion in ref. 2, note that the P value can be used to compute an upper bound for the Bayes factor, . The bound does not require the specification of a prior and holds for many reasonable choices of priors. For example, = 10 means that the alternative hypothesis is at most ten times more likely to be true than the null. Because it quantifies the extent to which the alternative hypothesis is more likely, the Bayes factor can be used for significance testing. Decision boundaries for the Bayes factor are less prescriptive than those for P values, with descriptors such as “anectodal,” “substantial,” “strong” and “decisive” often used for cutoff values. The exact terms and corresponding values vary across the literature, and their interpretation requires active consideration on the part of the researcher4. A Bayes factor of 20 or more is generally considered to be strong evidence for the alternative hypothesis. The Benjamin and Berger bound is given by ≤ –1/(e P ln(P)) for a given P value5 (Fig. 1b). For example, when we reject the null at P < a = 0.05, we do so when the alternative hypothesis is at most ≤ 2.5 times more likely than the null! This significance boundary is considered by many Bayesians to be extremely weak to nonexistent evidence against the null hypothesis. For our biomarker example, we found P = 0.025 and thus conclude that the alternative hypothesis that disease affects the biomarker level is at most ≤ 3.9 times more likely than the null. If we insist on > 20, which corresponds to ‘strong’ evidence for the alternative, we need P < 0.0032 (Fig. 1b). Johnson, in a discussion in ref. 2, suggests testing at P < a = 0.005 ( > 14) for statistical significance (Fig. 1b). Notice that the computation for does not use the power of the test. If we compute power using the same effect size of 1.32 but reject the null at a < 0.005 ( > 14), the power is only 43% (Fig. 1c). To achieve 80% power at this cutoff, we would need a sample size of n = 18. Altman (this author), in a discussion in ref. 2, proposes to supplement P values with an estimate of the FDR by using plug-in values to account for both the power of the test and the prior evidence in Figure 1 | Using a Bayesian heuristic to interpret the P value. (a) Power drops at more stringent P value cutoffs a. The curve is based on a twosample t-test with n = 10 and an effect size of 1.32. (b) The Benjamin and Berger bound calibrates the P value to probability statements about the hypothesis. At P = 0.05, the bound suggests that our alternative hypothesis is at most 2.5 times more likely than the null (black dashed line). Also shown are the conventional Bayesian B– = 20 (blue dashed line; P = 0.0032) cutoff and B– = 14 (orange dashed line; P = 0.005), suggested by Johnson in ref. 2. (c) Use of the more stringent Benjamin and Berger bounds in b reduces the power of the test, because now testing is performed at a < 0.05. For B– = 14 (orange dashed line; a = 0.005), the power is only 43%. The blue and orange dashed lines show the same bounds as in b. In all panels, black dotted lines are present to help the reader locate values discussed in the text. Benjamin–Berger bound calibrates the P value Power versus P value cutoff Power versus Benjamin–Berger bound b a c (Less)},
+  doi       = {10.1038/nmeth.4210},
+  publisher = {Springer Nature},
+}
+
+@Article{Altman2017b,
+  author    = {Naomi Altman and Martin Krzywinski},
+  title     = {P values and the search for significance},
+  journal   = {Nature Methods},
+  year      = {2017},
+  volume    = {14},
+  number    = {1},
+  pages     = {3--4},
+  month     = {jan},
+  abstract  = {Little P value  What are you trying to say  Of significance?  —Steve Ziliak},
+  doi       = {10.1038/nmeth.4120},
+  publisher = {Springer Nature},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
