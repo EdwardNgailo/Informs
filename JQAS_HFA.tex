@@ -22,7 +22,7 @@
   \title{Latent vs. Observable Home-Field Advantage in Professional Soccer}
   \runningtitle{Bayesian Hierarchical Analysis}
   \subtitle{A Multilevel Bayesian Operationalization}
-  \abstract{Home Field Advantage (HFA) was traditionally defined in terms of winning percentage of home games at the team level. In this article, we present a hierarchical model of HFA, spanning from the top sport level to the middle league level and all the way to lowest club level. Using scoring performance data from ESPN FC, we fit a Bayesian multilevel nested model to the parameters in the hierarchical model of HFA, allowing information obtained from the season level to inform the inferences about scoring rates at the upper team, league, and sport levels. Our analysis of latent HFA reveals that much of HFA is attributed to the nature of the sport of interest. While only a handful of teams out of 98 in top 5 European leagues enjoy statistically significant HFA, we found absolutely no teams suffer from home disadvantage.}
+  \abstract{Home Field Advantage (HFA) was traditionally defined in terms of winning percentage of home games at the team level. In this article, we present a hierarchical model of HFA, spanning from the top sport level to the middle league level and all the way to lowest club level. Using scoring performance data from ESPN FC, we fit a Bayesian multilevel nested model to the parameters in the hierarchical model of HFA, allowing information obtained from the season level to inform the inferences about scoring rates at the upper team, league, and sport levels. On the one hand, our analysis reveals that much of HFA is attributed to the nature of the sport of interest. League level source of HFA , on the other hand, can be safely ignored. While only a handful of teams out of 98 in top 5 European leagues enjoy statistically significant HFA, we found absolutely no teams suffer from home disadvantage.}
   \keywords{European Professional Soccer Leagues, Latent Home Field Advantage, Poisson generative process, Stan}
   %\classification[PACS]{...}
   %\communicated{...}
@@ -100,7 +100,7 @@ The remainder of the paper is organized as
 %------------------------------------------------ 
  
 
-\section{The Hierarchical Model of HFA} 
+\section{Definition of the Hierarchical Model} 
 
 The essence of Bayesian inference is fitting a probability model to a dataset and generating probability distributions on the parameter encapsulated by the model \citep{Gelman2014}. The process of Bayesian data analysis can be ideally divided into three steps:
 
@@ -109,10 +109,6 @@ The essence of Bayesian inference is fitting a probability model to a dataset an
 \item Computing and displaying the posterior distribution of the unobserved model parameters, given the observed data.
 \item Evaluating the fit of the model and the implications of the resulting posterior distribution.
 \end{enumerate}
- 
-For our project, the data set contains the season (s) -level best home and away scoring numbers ($y^H_{ijs}$ and   $y^A_{ijs}$ respectively) of each club i in each j of the Top 5 leagues. As shown in figure \ref{fig33}, our hierarchical model reflects the organizational structure of professional soccer shown in figure \ref{fig21}.
-
-
 
 %------------------------------------------------
 \begin{figure}
@@ -122,6 +118,24 @@ For our project, the data set contains the season (s) -level best home and away 
 \end{figure} 
 %------------------------------------------------ 
 
+ 
+For our project, the data set contains the season (s) -level best home and away scoring numbers ($y^H_{ijs}$ and   $y^A_{ijs}$ respectively) of each club i in each j of the Top 5 leagues. As shown in figure \ref{fig33}, our hierarchical model reflects the organizational structure of professional soccer shown in figure \ref{fig21}. We treat the generative processes of $y^H_{ijs}$ and $y^A_{ijs}$ as similar but independently governed by their own respective parameters. At the measurement level, we encode $y^H_{ijs}$ and $y^A_{ijs}$ into corresponding latent scoring rate  with Poisson distribution, which is a commonly accepted distributional model for sports count data \citep{Miller2015}:
+\begin{equation}
+y^H_{ijs} \sim Poisson(\lambda^H_{ij}),    y^A_{ijs} \sim Poisson(\lambda^A_{ij})
+\end{equation}
+
+Because team i is nested within league j, we can decompose the latent $\lambda_{ij}$ into $\Delta_{ij}+\lambda_j$ and thus acquire inference about league level latent scoring rate $\lambda_j$. By the same token, we can drill $\lambda_j$ down into $\Delta_{j}+\lambda$ and estimate sport level latent scoring rate of $\lambda$. In the final step, we take the differentials between the three matched pairs of home-away scoring rate and express the hierarchical model of HFA formally as equations (2),(3), and (4). 
+\begin{equation}
+\delta_{ij} = \lambda^H_{ij} - \lambda^A_{ij}, with \Delta_{ij} \sim N(0, \sigma^2_c), \sigma_c \sim cauchy(0,2)
+\end{equation} 
+
+\begin{equation}
+\delta_{j} = \lambda^H_{j} - \lambda^A_{j}, with \Delta_{j} \sim N(0, \sigma^2_l), \sigma_l \sim cauchy(0,2)
+\end{equation} 
+
+\begin{equation}
+\delta = \lambda^H - \lambda^A, with \lambda^H, \lambda^A \sim cauchy(0, 10)
+\end{equation} 
 
 
 
