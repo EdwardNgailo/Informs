@@ -119,26 +119,39 @@ The essence of Bayesian inference is fitting a probability model to a dataset an
 %------------------------------------------------ 
 
  
-For our project, the data set contains the season (s) -level best home and away scoring numbers ($y^H_{ijs}$ and   $y^A_{ijs}$ respectively) of each club i in each j of the Top 5 leagues. As shown in figure \ref{fig33}, our hierarchical model reflects the organizational structure of professional soccer shown in figure \ref{fig21}. We treat the generative processes of $y^H_{ijs}$ and $y^A_{ijs}$ as similar but independently governed by their own respective parameters. At the measurement level, we encode $y^H_{ijs}$ and $y^A_{ijs}$ into corresponding latent scoring rate  with Poisson distribution, which is a commonly accepted distributional model for sports count data \citep{Miller2015}:
+For our project, the data set contains the season (s) -level best home and away scoring numbers ($y^H_{ijs}$ and   $y^A_{ijs}$ respectively) of each club i in each j of the Top 5 leagues. As shown in figure \ref{fig33}, our hierarchical model reflects the organizational structure of professional soccer shown in figure \ref{fig21}. We treat the generative processes of $y^H_{ijs}$ and $y^A_{ijs}$ as similar but independently governed by their own respective parameters. At the measurement level, we encode $y^H_{ijs}$ and $y^A_{ijs}$ into corresponding latent scoring rate $\lambda^H_{ij}$ and $\lambda^A_{ij}$ with Poisson distribution, which is a commonly accepted distributional model for sports count data \citep{Miller2015}:
+
+Because team i is nested within league j, we can decompose the latent $\lambda_{ij}$ into $\Delta_{ij}+\lambda_j$ and thus acquire inference about league level latent scoring rate $\lambda_j$. By the same token, we can drill $\lambda_j$ down into $\Delta_{j}+\lambda$ and estimate sport level latent scoring rate of $\lambda$. In the final step, we take the differentials between the three matched pairs of home-away scoring rate and express the hierarchical model of HFA formally as the set of equations consisting of (1), (2),(3), and (4). 
+
 \begin{equation}
-y^H_{ijs} \sim Poisson(\lambda^H_{ij}),    y^A_{ijs} \sim Poisson(\lambda^A_{ij})
+\begin{cases}
+y^H_{ijs} \sim Poisson(\lambda^H_{ij})\\
+y^A_{ijs} \sim Poisson(\lambda^A_{ij})
+\end{cases}
 \end{equation}
 
-Because team i is nested within league j, we can decompose the latent $\lambda_{ij}$ into $\Delta_{ij}+\lambda_j$ and thus acquire inference about league level latent scoring rate $\lambda_j$. By the same token, we can drill $\lambda_j$ down into $\Delta_{j}+\lambda$ and estimate sport level latent scoring rate of $\lambda$. In the final step, we take the differentials between the three matched pairs of home-away scoring rate and express the hierarchical model of HFA formally as equations (2),(3), and (4). 
 \begin{equation}
-\delta_{ij} = \lambda^H_{ij} - \lambda^A_{ij}, with \Delta_{ij} \sim N(0, \sigma^2_c), \sigma_c \sim cauchy(0,2)
+\begin{cases}
+\delta_{ij} = \lambda^H_{ij} - \lambda^A_{ij}\\  
+\Delta^H_{ij}, \Delta^A_{ij}  \sim N(0, \sigma^2_c)\\  
+\sigma_c \sim cauchy(0,2)
+\end{cases}
 \end{equation} 
 
 \begin{equation}
-\delta_{j} = \lambda^H_{j} - \lambda^A_{j}, with \Delta_{j} \sim N(0, \sigma^2_l), \sigma_l \sim cauchy(0,2)
+\begin{cases}
+\delta_{j} = \lambda^H_{j} - \lambda^A_{j}\\  
+\Delta^H_{j}, \Delta^A_{j} \sim N(0, \sigma^2_l)\\
+\sigma_l \sim cauchy(0,2)
+\end{cases}
 \end{equation} 
 
 \begin{equation}
-\delta = \lambda^H - \lambda^A, with \lambda^H, \lambda^A \sim cauchy(0, 10)
+\begin{cases}
+\delta = \lambda^H - \lambda^A\\
+\lambda^H, \lambda^A \sim cauchy(0, 10)
+\end{cases}
 \end{equation} 
-
-
-
 
 
 \section{Data and Results} 
