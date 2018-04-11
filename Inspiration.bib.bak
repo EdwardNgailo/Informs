@@ -347,4 +347,38 @@ Key Words: Comparison of tests, Expected p value, Power, Random p value},
   publisher = {Informa {UK} Limited},
 }
 
+@Workingpaper{607533,
+  author   = {Gary King and Nathaniel Persily},
+  title    = {A New Model for Industry-Academic Partnerships},
+  year     = {Working Paper},
+  abstract = {The mission of the academic social sciences is to understand and ameliorate society{\textquoteright}s greatest challenges. The data held by private companies holds vast potential to further this mission. Yet, because of its interaction with highly politicized issues, customer privacy, proprietary content, and differing goals of firms and academics, these data are often inaccessible to university researchers. We propose here a new model for industry-academic partnerships that addresses these problems via a novel organizational structure: Respected scholars form a commission which, as a trusted third party, receives access to all relevant firm information and systems, and then recruits independent academics to do research in specific areas following standard peer review protocols organized and funded by nonprofit foundations. We also report on a partnership we helped forge under this model to make data available about the extremely visible and highly politicized issues surrounding the impact of social media on elections and democracy. In our partnership, Facebook will provide privacy-preserving data and access; seven major politically and substantively diverse nonprofit foundations will fund the research; and the Social Science Research Council will oversee the peer review process for funding and data access.},
+  file     = {:Articles/partnerships.pdf:PDF},
+}
+
+@Article{Pratt2018,
+  author    = {Michael G. Pratt and Douglas A. Lepisto and Erik Dane},
+  title     = {The Hidden Side of Trust: Supporting and Sustaining Leaps of Faith among Firefighters},
+  journal   = {Administrative Science Quarterly},
+  year      = {2018},
+  pages     = {000183921876925},
+  month     = {apr},
+  doi       = {10.1177/0001839218769252},
+  file      = {:Articles/0001839218769252.pdf:PDF},
+  publisher = {{SAGE} Publications},
+}
+
+@Article{Gilbert2018,
+  author    = {Jack A Gilbert and Martin J Blaser and J Gregory Caporaso and Janet K Jansson and Susan V Lynch and Rob Knight},
+  title     = {Current understanding of the human microbiome},
+  journal   = {Nature Medicine},
+  year      = {2018},
+  volume    = {24},
+  number    = {4},
+  pages     = {392--400},
+  month     = {apr},
+  abstract  = {Our understanding of the link between the human microbiome and disease, including obesity, inflammatory bowel disease, arthritis and autism, is rapidly expanding. Improvements in the throughput and accuracy of DNA sequencing of the genomes of microbial communities that are associated with human samples, complemented by analysis of transcriptomes, proteomes, metabolomes and immunomes and by mechanistic experiments in model systems, have vastly improved our ability to understand the structure and function of the microbiome in both diseased and healthy states. However, many challenges remain. In this review, we focus on studies in humans to describe these challenges and propose strategies that leverage existing knowledge to move rapidly from correlation to causation and ultimately to translation into therapies.},
+  doi       = {10.1038/nm.4517},
+  publisher = {Springer Nature},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

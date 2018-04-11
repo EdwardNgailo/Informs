@@ -56,40 +56,27 @@ Due to the existence of HFA, many vital games, such as playoff or elimination ma
 %------------------------
 
 The existence of HWP (home winning percentage) -denominated HFA measure has been well documented for a variety of sports, even though the contributing factors are still being debated. In their book \textit{Scorecasting}, \cite{moskowitz2012scorecasting} compiled the HWPs in all the major sports with some datasets going back as further as 1903 for MLB and 1966 for NFL. MLS figures date back to only 2002, but show the strongest evidence of HWP of 69.1\%. MLB figures, on the other hand, yield the lowest HWP of only 53.9\%. This disparity raises an important high-profile question: ``Are all sports created equal in terms of HFA?''. A subsequent but related question is ``Is HFA primarily determined by the sport being played or teams who play the sport?''. Answering such questions demands a completely new way of conceptualizing HFA and signals a major departure from the reigning framework proposed by \cite{Courneya1992}, which hinges on game being the unit of analysis.  
-
-
-%Accompanying the wide-spreading notoriety in the general populace is the ever-increasing availability and volume of data associated with games, players, teams, and sports.   
-
-%a new platform that uses data from player and ball tracking devices to produce new advanced statistics like distance covered, speed, and acceleration — the idea is to better show a receiver’s ability to get open, for example, or how well the offensive line protects the quarterback. The information is shown to fans online and on TV broadcasts; teams also leverage the data internally for strategic purposes.
-
-%we’ll be able to kick off our 2018 season with even more impactful and meaningful content, uncovering deeper insights into the game of football than we’ve ever done before,” 
-
-%Matt Swensson, vice president of emerging products and technology at the NFL, said in a statement. “We chose AWS because of its combination of advanced cloud offering, powerful machine learning capabilities, and experience operating at the scale we need.”
-
  
-
-%\citep{Gajewski2006}
-%\citep{Carron2005}
-
-
 A second motivator for this study is related to the treatment of sports data in general, and scoring in soccer matches in particular. HWP based measures tend to upstage and upgrade the originally discrete count-based outcome to continuous type, while ignoring the underlying data generating process. To complicate matters further, consider the two extreme cases of all winning and losing regular season. The HWP and AWP(away winning percentage) are equal, taking values of either 1.o or 0.0. If we adopt HWP as the sole indicator of HFA, we go straightforward to absurd conclusions - the all winning club enjoys 100\% HFA and the zero-win team suffers from 100\% home field disadvantage.   
 
 The current conceptualization and operationalization of HFA prompt us to take an alternative route in search of true latent HFA underlying the numbers in record books. Specifically, we seek in this paper to achieve the following goals: 
 
 \begin{enumerate}
 \item  Propose a fresh new vertical hierarchical model of HFA, complementing the existing horizontal framework.
- 
-
 \item Highlight the different generative process underlying most sports performance metrics and suggest corresponding approaches for analysis.
 \item Reveal sources of HFA simultaneously at sport, league, team levels.
 \item Presenting a new way of measuring latent HFA via contrast the same performance metric at home and away venues. 
 \end{enumerate}
 
-The remainder of the paper is organized as 
+The remainder of the paper is organized as follows: In the section immediately after this opening introduction, we review relevant literature and assemble existing knowledge for the development of our unique hierarchical view of HFA. 
+In the section of \textit{Definition of the Hierarchical Model}, we construct a full HFA-specific probabilistic model, which is mainly a joint probability distribution for all observed and latent quantities in a problem, consistent with domain knowledge and the data collection process.
+In the next section of \textit{Data and Results}, we computing and display the posterior distribution of the unobserved model parameters, given the observed data collected from ESPN FC website.
+In the Discussions section, we evaluate the fit of the hierarchical model and discuss the implications of the resulting posterior distribution. We conclude our paper with limitations and directions for future HFA research.
+%\end{enumerate}
  
 \section{Review of Literature} 
 
-\ref{fig21}
+The UEFA oversees 55 European country-level member associations (such as the English Football Association- EFA), which in turn oversees all professional football leagues within their respective jurisdictions. Figure \ref{fig21} provides a rough sketch of the organizational structure of professional football in Europe, with an emphasis on the Top 5.
 
 %------------------------------------------------
 \begin{figure}
@@ -98,17 +85,19 @@ The remainder of the paper is organized as
 \label{fig21}
 \end{figure} 
 %------------------------------------------------ 
+
+
+With game as the anchoring unit of analysis, \cite{Courneya1992} developed a conceptual framework along the timeline axis of a typical professional soccer game. For simplicity of reference and purpose of contrasting, we designate their framework as the horizontal view of HFA (HVHFA). From left to right along the axis, HVHFA incorporates five major components: game site location, game location factors, psychological states, behavioral sates, and the final performance outcomes. At the end of their review, they pointed out that future research should be directed at factors causing HFA rather than the verification of its existence. 
+
+\cite{Pollard1986} discovered that the extent of HFA in English soccer has remained relatively consistent since the formation of the English Football League in 1888. 
+
+Frequentist approaches with the rare exception of \cite{Gajewski2006}.
+
  
 
 \section{Definition of the Hierarchical Model} 
 
-The essence of Bayesian inference is fitting a probability model to a dataset and generating probability distributions on the parameter encapsulated by the model \citep{Gelman2014}. The process of Bayesian data analysis can be ideally divided into three steps:
-
-\begin{enumerate}
-\item Constructing a full project-specific probabilistic model, which is mainly a joint probability distribution for all observed and latent quantities in a problem, consistent with domain knowledge and the data collection process.
-\item Computing and displaying the posterior distribution of the unobserved model parameters, given the observed data.
-\item Evaluating the fit of the model and the implications of the resulting posterior distribution.
-\end{enumerate}
+The essence of Bayesian inference is fitting a probability model to a dataset and generating probability distributions on the parameter encapsulated by the model \citep{Gelman2014}.
 
 %------------------------------------------------
 \begin{figure}
@@ -156,7 +145,14 @@ y^A_{ijs} \sim Poisson(\lambda^A_{ij})
 
 \section{Data and Results} 
 
+On ESPN FC website, we find only a pair of location-delineating (home and away) goal scoring metrics used to characterize a professional soccer team's regular league season in search of possible HFA. Below, we define those statistics using the 2015/16 La Liga season of Real Madrid C.F. as an example.
 
+\begin{itemize}
+\item Most Home Goals (as $y^H_{ijs}$) = maximum goals scored in a single match played at home. For the season 2015/2016, Real Madrid’s $y^H_{3,1,16}$ is 10. They beat Rayo Vallecano by 10-2 at Santiago Bernabéu Stadium on 12/20/2015.
+\item Most Away Goals (as $y^A_{ijs}$) = maximum goals scored in a single away match. For the season 2015/2016, Real Madrid’s $y^A_{3,1,16}$ is 6. They defeated Espanyol 6-0 on 9/12/2015 at RCDE stadium.
+\end{itemize}
+
+Table \ref{tab1} provides the summary statistics of $y^H_{ijs}$ and $y^A_{ijs}$. Both averages and medians suggests the existence of positive goal differential between home and away scoring metrics.
 
 %-----------------------
 \begin{table}[ht]

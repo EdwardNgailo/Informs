@@ -10,6 +10,13 @@ Courneya, K.~S. and Carron, A.~V. (1992).
 \newblock The home advantage in sport competitions: A literature review.
 \newblock {\em Journal of Sport and Exercise Psychology}, 14(1):13--27.
 
+\bibitem[Gajewski, 2006]{Gajewski2006}
+Gajewski, B.~J. (2006).
+\newblock There{\textquotesingle}s no place like home: Estimating
+  intra-conference home field advantage in college football using a bayesian
+  piecewise linear model.
+\newblock {\em Journal of Quantitative Analysis in Sports}, 2(1).
+
 \bibitem[Gelman et~al., 2014]{Gelman2014}
 Gelman, A., Carlin, J.~B., Stern, H.~S., Dunson, D.~B., Vehtari, A., and Rubin,
   D.~B. (2014).
@@ -33,5 +40,10 @@ Moskowitz, T. and Wertheim, L.~J. (2012).
 \newblock {\em Scorecasting: The hidden influences behind how sports are played
   and games are won}.
 \newblock Three Rivers Press (CA).
+
+\bibitem[Pollard, 1986]{Pollard1986}
+Pollard, R. (1986).
+\newblock Home advantage in soccer: A retrospective analysis.
+\newblock {\em Journal of Sports Sciences}, 4(3):237--248.
 
 \end{thebibliography}
