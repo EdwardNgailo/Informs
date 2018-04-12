@@ -546,4 +546,18 @@ Keywords: Bayesian inference, multilevel model, ordinal data, MCMC, Stan, R.},
   __markedentry = {[dulunche:6]},
 }
 
+@Article{Mitchell2018,
+  author    = {Shira Mitchell and Andrew Gelman and Rebecca Ross and Joyce Chen and Sehrish Bari and Uyen Kim Huynh and Matthew W Harris and Sonia Ehrlich Sachs and Elizabeth A Stuart and Avi Feller and Susanna Makela and Alan M Zaslavsky and Lucy McClellan and Seth Ohemeng-Dapaah and Patricia Namakula and Cheryl A Palm and Jeffrey D Sachs},
+  title     = {The Millennium Villages Project: a retrospective, observational, endline evaluation},
+  journal   = {The Lancet Global Health},
+  year      = {2018},
+  volume    = {6},
+  number    = {5},
+  pages     = {e500--e513},
+  month     = {may},
+  doi       = {10.1016/s2214-109x(18)30065-2},
+  file      = {:Articles/PIIS2214109X18300652.pdf:PDF},
+  publisher = {Elsevier {BV}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
