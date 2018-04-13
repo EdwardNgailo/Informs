@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630) (preloaded format=xelatex 2018.3.27)  10 APR 2018 18:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630) (preloaded format=xelatex 2018.3.27)  12 APR 2018 19:11
 entering extended mode
 **./JQAS_HFA.tex
 (JQAS_HFA.tex
@@ -1768,6 +1768,7 @@ File: HFA32.pdf Graphic file (type pdf)
 [6]
 File: HFA_La_Liga11.pdf Graphic file (type pdf)
 <use HFA_La_Liga11.pdf>
+ [7] [8]
 File: HFA_Serie_A11.pdf Graphic file (type pdf)
 <use HFA_Serie_A11.pdf>
 File: HFA_Ligue111.pdf Graphic file (type pdf)
@@ -1776,24 +1777,33 @@ File: HFA_Bundesliga11.pdf Graphic file (type pdf)
 <use HFA_Bundesliga11.pdf>
 File: HFA_EPL11.pdf Graphic file (type pdf)
 <use HFA_EPL11.pdf>
- [7] [8] [9] [10] [11] [12] [13] (JQAS_HFA.bbl)
 
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 230; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmss/bx/n/15.0 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+[9] [10] [11] [12] [13] [14] (JQAS_HFA.bbl) 
 AED: lastpage setting LastPage
-[14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
  (JQAS_HFA.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 230.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 230.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 247.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
  27799 strings out of 427836
  501329 string characters out of 3151345
- 732942 words of memory out of 3000000
+ 732925 words of memory out of 3000000
  31468 multiletter control sequences out of 15000+200000
  538116 words of font info for 89 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  54i,10n,88p,10481b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on JQAS_HFA.pdf (14 pages).
+Output written on JQAS_HFA.pdf (15 pages).

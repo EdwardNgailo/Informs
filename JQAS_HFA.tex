@@ -145,7 +145,7 @@ y^A_{ijs} \sim Poisson(\lambda^A_{ij})
 
 \section{Data and Results} 
 
-On ESPN FC website, we find only a pair of location-delineating (home and away) goal scoring metrics used to characterize a professional soccer team's regular league season in search of possible HFA. Below, we define those statistics using the 2015/16 La Liga season of Real Madrid C.F. as an example.
+On ESPN FC website, we find only a pair of venue-delineating (home and away) goal scoring metrics used to characterize a professional soccer team's regular league season in search of possible HFA. Below, we define those statistics using the 2015/16 La Liga season of Real Madrid C.F. as an example.
 
 \begin{itemize}
 \item Most Home Goals (as $y^H_{ijs}$) = maximum goals scored in a single match played at home. For the season 2015/2016, Real Madrid’s $y^H_{3,1,16}$ is 10. They beat Rayo Vallecano by 10-2 at Santiago Bernabéu Stadium on 12/20/2015.
@@ -173,17 +173,19 @@ Table \ref{tab1} provides the summary statistics of $y^H_{ijs}$ and $y^A_{ijs}$.
 \end{table}
 %=====================================================
 
-We run 4 chains using the default sampler in Stan, the HMC variant of No-U-Turn Sampler (NUTS) \citep{Hoffman2014} and set  
+We fit our model with 4 chains of length 999 (with the first 1/3 for warmup) using the default sampler in Stan, the HMC variant of No-U-Turn Sampler (NUTS) \citep{Hoffman2014}.  
 
-The model estimates are shown in figure \ref{fig31} as shift from the 0. The outer contour lines show the 99.5\% credible intervals, while the shaded area underneath covers the corresponding 95\% credible interval. The light bar in the middle represents the mean.
+The sport and league level estimates of goal-scoring rate differential are shown in figure \ref{fig31} as shift from the 0. The outer contour lines show the 99.5\% uncertainty intervals, while the shaded area underneath covers the corresponding 95\% uncertainty intervals. The light bar in the middle represents the mean.
 
 \begin{figure}
-\caption{Home Field Advantage Posterior Plot at Sport and League Levels}
-{\includegraphics[width=0.80\linewidth]{HFA32.pdf}}
+\caption{HFA Posterior Plot at Sport and League Levels}
+\centering
+{\includegraphics[width=0.60\linewidth]{HFA32.pdf}}
 \label{fig31}
 \end{figure}
 
-
+In Figure \ref{fig33}, we observe universal and absolutely strong (99.5\%) manifestation of HFA for the sport of soccer. The goal-scoring differentials are centered around 0.65 goals with comparable lengths of uncertainty intervals.  
+It is also clear that the Top 5 leagues as a whole did not assert much influence on either location or shape of the parameters of interest. The English Premier League was able to slightly push the center close to 0.7 goals, which indicates EPL teams enjoy relatively stronger HFA.
 
 \begin{figure}
 \caption{Home Field Advantage Posterior Plot for La Liga Teams}
@@ -191,12 +193,18 @@ The model estimates are shown in figure \ref{fig31} as shift from the 0. The out
 \label{fig32}
 \end{figure}
 
+To summarize team level estimates, we use the outer thin line and the inner thick line to represent the 95\% and 90\% uncertainty intervals respectively. The light bar in the middle still represents the mean as before.
+
+
+As shown in Figure \ref{fig32}, Real Madrid is the only club in La Liga enjoys strong HFA with the left tip of its 95\% uncertainty interval not crossing the dashed line of zero. Another set of 7 teams enjoys marginal HFA with the left tips of their 90\% uncertainty interval not crossing the dashed line of zero. It is noteworthy that the worst performer of the current 2016/17 season - Malaga - enjoys almost strong HFA.     
 
 \begin{figure}
 \caption{Home Field Advantage Posterior Plot for Serie A Teams}
 {\includegraphics[width=0.90\linewidth]{HFA_Serie_A11.pdf}}
 \label{fig4}
 \end{figure}
+
+For Serie A, Figure \ref{fig4} paints a different picture. Only a total of 6 out of 20 clubs exhibit marginal HFA. As displyed in Figure \ref{fig5}, the number of teams enjoying marginal HFA improved to 10 out of 20 for French Ligue 1. Still, no teams in Ligue 1 enjoy statistically significant HFA. In Figure \ref{fig6}, Bundesliga demonstrates a similar pattern with only 9 teams possesses marginal HFA.   
 
 \begin{figure}
 \caption{Home Field Advantage Posterior Plot for Ligue 1 Teams}
@@ -216,7 +224,16 @@ The model estimates are shown in figure \ref{fig31} as shift from the 0. The out
 \label{fig7}
 \end{figure}
 
+Compared to the rest of Top 5 leagues, the English Premiere League shines with 4 out of 20 teams enjoy strong HFA and another 5 teams show signs of marginal HFA. Again, we witness one bottom team enjoys the strongest HFA among all Top 5 clubs. Altogether, we observe with confidence that no teams among the Top 5 leagues suffer home field disadvantage with its corresponding uncertainty intervals lying completely to the right side of the neutral line. 
 
+
+\section{Discussion}
+
+With the unique hierarchical view and modeling flexibility of Bayesian inferential analysis, we were able to   
+
+The advantage exists in all sports with varying degrees. A great deal of future reserach efforts should be devoted to the investigation of 
+
+\newpage
 \begin{acknowledgement}
 
 We would like to thank ESPN FC for compiling the season-level club performance data and allow public access.
