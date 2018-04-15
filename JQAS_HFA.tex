@@ -224,7 +224,13 @@ For Serie A, Figure \ref{fig4} paints a different picture. Only a total of 6 out
 \label{fig7}
 \end{figure}
 
-Compared to the rest of Top 5 leagues, the English Premiere League shines with 4 out of 20 teams enjoy strong HFA and another 5 teams show signs of marginal HFA. Again, we witness one bottom team enjoys the strongest HFA among all Top 5 clubs. Altogether, we observe with confidence that no teams among the Top 5 leagues suffer home field disadvantage with its corresponding uncertainty intervals lying completely to the right side of the neutral line. 
+Compared to the rest of Top 5 leagues, the English Premiere League shines with 4 out of 20 teams enjoy strong HFA and another 5 teams show signs of marginal HFA. Again, we witness one bottom team enjoys the strongest HFA among all Top 5 clubs. Altogether, we observe with confidence that no teams among the Top 5 leagues suffer home field disadvantage with its corresponding uncertainty intervals lying completely to the right of the neutral line.
+
+As part of the Stan model \citep{team2015stan}, we sample replicated data for the best scoring differential - ydiff - in the \textit{generated quantities} block. We can then check whether the actual score differences are consistent with the distribution of replicated data. For each of the 1122 seasons, we compute the 95\% and 50\% uncertainty intervals (UI) based on the replicated results. We observe that all of the actual ydiffs are in the 95\% UIs and 84.1\% in the 50\% UIs.   
+
+As the last step of model checking, we adopt a one sport-level common parameter for all leagues and teams. After fitting the uni-parameter model to the data, we notice a 3\%  drop in the 50\%-UI containment rate from 84.1\% to 81\%.
+The relatively small incremental effect of team-level parametrization seems confirm our earlier observation that only a few teams were able to show statistically strong HFA.
+
 
 
 \section{Discussion}

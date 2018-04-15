@@ -46,4 +46,9 @@ Pollard, R. (1986).
 \newblock Home advantage in soccer: A retrospective analysis.
 \newblock {\em Journal of Sports Sciences}, 4(3):237--248.
 
+\bibitem[Team, 2015]{team2015stan}
+Team, S.~D. (2015).
+\newblock Stan modeling language: User’s guide and reference manual.
+\newblock {\em Version 2.12}.
+
 \end{thebibliography}
