@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630) (preloaded format=xelatex 2018.3.27)  14 APR 2018 17:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630) (preloaded format=xelatex 2018.3.27)  15 APR 2018 15:16
 entering extended mode
 **./JQAS_HFA.tex
 (JQAS_HFA.tex
@@ -1512,11 +1512,11 @@ File: HFA11.pdf Graphic file (type pdf)
 [3]
 File: HFA_22.pdf Graphic file (type pdf)
 <use HFA_22.pdf>
-
+ [4]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 98; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 100; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
@@ -1524,11 +1524,11 @@ File: HFA_22.pdf Graphic file (type pdf)
 *************************************************
 File: HFA_33.png Graphic file (type bmp)
 <HFA_33.png>
-[4] [5]
+[5]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 146; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 148; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
@@ -1537,7 +1537,7 @@ File: HFA_33.png Graphic file (type bmp)
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 161; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 163; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/latinmodern-math.otf(3)/m/n/4.01495 ".
@@ -1550,78 +1550,6 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 164; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 164; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 164; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 164; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 164; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 164; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 164; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 164; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
 * \addfontfeature(s) ignored on line 166; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
@@ -1763,12 +1691,83 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+[6]
 File: HFA32.pdf Graphic file (type pdf)
 <use HFA32.pdf>
-[6]
 File: HFA_La_Liga11.pdf Graphic file (type pdf)
 <use HFA_La_Liga11.pdf>
- [7] [8]
 File: HFA_Serie_A11.pdf Graphic file (type pdf)
 <use HFA_Serie_A11.pdf>
 File: HFA_Ligue111.pdf Graphic file (type pdf)
@@ -1777,36 +1776,31 @@ File: HFA_Bundesliga11.pdf Graphic file (type pdf)
 <use HFA_Bundesliga11.pdf>
 File: HFA_EPL11.pdf Graphic file (type pdf)
 <use HFA_EPL11.pdf>
-
+ [7] [8] [9] [10] [11] [12] [13]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 236; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 239; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
-[9] [10] [11] [12] [13] [14] [15] (JQAS_HFA.bbl)
-
+[14] [15] (JQAS_HFA.bbl) 
 AED: lastpage setting LastPage
 [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  (JQAS_HFA.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 253.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 256.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 27802 strings out of 427836
- 501389 string characters out of 3151345
- 732948 words of memory out of 3000000
- 31471 multiletter control sequences out of 15000+200000
+ 27805 strings out of 427836
+ 501443 string characters out of 3151345
+ 733981 words of memory out of 3000000
+ 31474 multiletter control sequences out of 15000+200000
  538116 words of font info for 89 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  54i,10n,88p,10481b,395s stack positions out of 5000i,500n,10000p,200000b,50000s

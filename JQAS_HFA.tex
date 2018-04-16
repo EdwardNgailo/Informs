@@ -87,9 +87,11 @@ The UEFA oversees 55 European country-level member associations (such as the Eng
 %------------------------------------------------ 
 
 
-With game as the anchoring unit of analysis, \cite{Courneya1992} developed a conceptual framework along the timeline axis of a typical professional soccer game. For simplicity of reference and purpose of contrasting, we designate their framework as the horizontal view of HFA (HVHFA). From left to right along the axis, HVHFA incorporates five major components: game site location, game location factors, psychological states, behavioral sates, and the final performance outcomes. At the end of their review, they pointed out that future research should be directed at factors causing HFA rather than the verification of its existence. 
+With game as the anchoring unit of analysis, \cite{Courneya1992} developed a conceptual framework along the timeline axis of a typical professional soccer game. For simplicity of reference and purpose of contrasting, we designate their framework as the horizontal view of HFA (HVHFA). From left to right along the axis, HVHFA incorporates five major components: game site location, game location factors, psychological states, behavioral sates, and the final performance outcomes. At the end of their review, they pointed out that future research should be directed at factors causing HFA rather than the verification of its existence. After taking stock of decades' HFA research findings suffused with equivocality, \cite{Carron2005} surprisingly revised the original HVHFA with the deletion of ``officials'' and the inclusion of ``psychological states''. The rationale behind their removal of officiating factors is rather methodological inconvenience. Unlike spectators, players and coaches, referees and umpires can't be easily assigned to either hosting or visiting status for each game they officiated.   
 
 \cite{Pollard1986} discovered that the extent of HFA in English soccer has remained relatively consistent since the formation of the English Football League in 1888. 
+
+The main substantive goal of this paper is HFA decomposition in a multilevel format.
 
 Frequentist approaches with the rare exception of \cite{Gajewski2006}.
 
@@ -180,7 +182,7 @@ The sport and league level estimates of goal-scoring rate differential are shown
 \begin{figure}
 \caption{HFA Posterior Plot at Sport and League Levels}
 \centering
-{\includegraphics[width=0.60\linewidth]{HFA32.pdf}}
+{\includegraphics[width=0.90\linewidth]{HFA32.pdf}}
 \label{fig31}
 \end{figure}
 
@@ -229,15 +231,16 @@ Compared to the rest of Top 5 leagues, the English Premiere League shines with 4
 As part of the Stan model \citep{team2015stan}, we sample replicated data for the best scoring differential - ydiff - in the \textit{generated quantities} block. We can then check whether the actual score differences are consistent with the distribution of replicated data. For each of the 1122 seasons, we compute the 95\% and 50\% uncertainty intervals (UI) based on the replicated results. We observe that all of the actual ydiffs are in the 95\% UIs and 84.1\% in the 50\% UIs.   
 
 As the last step of model checking, we adopt a one sport-level common parameter for all leagues and teams. After fitting the uni-parameter model to the data, we notice a 3\%  drop in the 50\%-UI containment rate from 84.1\% to 81\%.
-The relatively small incremental effect of team-level parametrization seems confirm our earlier observation that only a few teams were able to show statistically strong HFA.
+In addition, we eliminate the middle layer of leagues from the original model and test the simplified two-layer sport-team model. The reduced model complexity is actually compensated by a minor 0.5\% increase in 50\%-UI containment rate.  
+The relatively small incremental effect of team-level parametrization seems confirm our earlier observation that only a few teams were able to show statistically strong HFA and leagues show no palpable impact on HFA distribution.
 
 
 
 \section{Discussion}
 
-With the unique hierarchical view and modeling flexibility of Bayesian inferential analysis, we were able to   
+With the unique hierarchical view and modeling flexibility of Bayesian inferential analysis, we were able to explore the locality of sources of home field advantage. Mirroring the organization structure of professional soccer, we originally proposed a three-level (sport-league-team) model of HFA and tested it with maximum home and away scoring data from 2000/01 to 2016/17. Alternatively, we tested other configurations of the multilevel modeling structure, namely one-level model with sport only and two-level model without the middle layer of leagues.
 
-The advantage exists in all sports with varying degrees. A great deal of future reserach efforts should be devoted to the investigation of 
+The home filed advantage exists in all sports with varying degrees. A great deal of future research efforts should be devoted to the inter-sport investigation of HFA. 
 
 \newpage
 \begin{acknowledgement}
