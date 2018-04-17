@@ -76,8 +76,11 @@ In the Discussions section, we evaluate the fit of the hierarchical model and di
  
 \section{Review of Literature} 
 
-The UEFA oversees 55 European country-level member associations (such as the English Football Association- EFA), which in turn oversees all professional football leagues within their respective jurisdictions. Figure \ref{fig21} provides a rough sketch of the organizational structure of professional football in Europe, with an emphasis on the Top 5.
+The UEFA oversees 55 European country-level member associations (such as the English Football Association- EFA), which in turn oversees all professional football leagues within their respective jurisdictions. Figure \ref{fig21} provides a rough sketch of the organizational structure of professional football in Europe, with an emphasis on the elite Top 5. According to UEFA's mission statement,``UEFA's core mission is to promote, protect and develop European football at every level of the game, to promote the principles of unity and solidarity, and to deal with all questions relating to European football ... UEFA is an association of associations based on representative democracy, and is the governing body of European football. Football is the priority in everything that we do''.
+In conjunction with its 55 member associations, the union strives to nurture and promote the European refereeing sector  and ensure that newcomers to the UEFA list are given the proper training for their duties.
 
+The speed and movement in top-level football competition, allied to the intense scrutiny of media on the actions on the field, means that officiating crews must be well-prepared, possess the tactical acumen, the mental strength to withstand pressure and the ability to take split-second decisions with confidence and consistency. Such split-second decisions made under severe pressure from home crowds have been proved to show systematic favoritism for the home squad   
+both experimentally \citep{Nevill1999, Nevill2002} and in observational settings \citep{Nevill1996, DOHMEN2008}.
 %------------------------------------------------
 \begin{figure}
 \caption{The Hierarchical Structure of Professional Soccer }
@@ -87,15 +90,18 @@ The UEFA oversees 55 European country-level member associations (such as the Eng
 %------------------------------------------------ 
 
 
-With game as the anchoring unit of analysis, \cite{Courneya1992} developed a conceptual framework along the timeline axis of a typical professional soccer game. For simplicity of reference and purpose of contrasting, we designate their framework as the horizontal view of HFA (HVHFA). From left to right along the axis, HVHFA incorporates five major components: game site location, game location factors, psychological states, behavioral sates, and the final performance outcomes. At the end of their review, they pointed out that future research should be directed at factors causing HFA rather than the verification of its existence. After taking stock of decades' HFA research findings suffused with equivocality, \cite{Carron2005} surprisingly revised the original HVHFA with the deletion of ``officials'' and the inclusion of ``psychological states''. The rationale behind their removal of officiating factors is rather methodological inconvenience. Unlike spectators, players and coaches, referees and umpires can't be easily assigned to either hosting or visiting status for each game they officiated.   
+With game as the anchoring unit of analysis, \cite{Courneya1992} developed a conceptual framework along the timeline axis of a typical professional soccer game. For simplicity of reference and purpose of contrasting, we designate their framework as the horizontal view of HFA (HVHFA). From left to right along the axis, HVHFA incorporates five major components: game site location, game location factors, psychological states, behavioral sates, and the final performance outcomes. At the end of their review, they pointed out that future research should be directed at factors causing HFA rather than the verification of its existence. After taking stock of decades' HFA research findings suffused with equivocality, \cite{Carron2005} surprisingly revised the original HVHFA with the deletion of ``officials'' and the inclusion of ``psychological states''. The rationale behind their removal of officiating factors is rather methodological inconvenience. Unlike spectators, players and coaches, referees and umpires can't be easily assigned to either hosting or visiting status for each game they officiated. 
 
-\cite{Pollard1986} discovered that the extent of HFA in English soccer has remained relatively consistent since the formation of the English Football League in 1888. 
 
-The main substantive goal of this paper is HFA decomposition in a multilevel format.
+\cite{Pollard1986} discovered that the extent of HFA in English soccer has remained relatively consistent since the formation of the English Football League in 1888. The time-invariant tendency, coupled with the largest betrayed effects, makes professional soccer an excellent venue for studying HFA at a more aggregate level beyond individual matches and even seasons. 
 
-Frequentist approaches with the rare exception of \cite{Gajewski2006}.
 
- 
+
+As \cite{Boyko2007} pointed out, traditional frequentist statistical approaches don't address whether referees or players alone or combined channel crowd effects to impart on final match outcome.
+
+with the rare exception of \cite{Gajewski2006}.
+
+The main substantive goal of this paper is HFA decomposition in a multilevel format that naturally reflects the structure of professional soccer. With the aid of Bayesian nested modeling, we shall demonstrate next how easily we can alter the structural complexity of candidate models with just a few lines of code.
 
 \section{Definition of the Hierarchical Model} 
 
@@ -144,17 +150,18 @@ y^A_{ijs} \sim Poisson(\lambda^A_{ij})
 \end{cases}
 \end{equation} 
 
+As outlined in Figure \ref{fig33} and above equations, the total number of parameters included in the full model is 208, including 2 $\lambda$s at the top + 10 $\Delta$s at the league level + 196 team-level $\Delta$s. In addition, there are two hyper-parameters governing the distribution of league and team level parameters.
 
 \section{Data and Results} 
 
-On ESPN FC website, we find only a pair of venue-delineating (home and away) goal scoring metrics used to characterize a professional soccer team's regular league season in search of possible HFA. Below, we define those statistics using the 2015/16 La Liga season of Real Madrid C.F. as an example.
+For practical reasons, the Top 5 leagues serve as a convenient sample as performance data at season level are reliable and retrievable via internet.  On ESPN FC website, we find a pair of venue-delineating (home and away) goal scoring metrics used to characterize a professional soccer team's regular season suggestive of our desired parameters. Below, we define those statistics using the 2015/16 La Liga season of Real Madrid C.F. as an example.
 
 \begin{itemize}
 \item Most Home Goals (as $y^H_{ijs}$) = maximum goals scored in a single match played at home. For the season 2015/2016, Real Madrid’s $y^H_{3,1,16}$ is 10. They beat Rayo Vallecano by 10-2 at Santiago Bernabéu Stadium on 12/20/2015.
 \item Most Away Goals (as $y^A_{ijs}$) = maximum goals scored in a single away match. For the season 2015/2016, Real Madrid’s $y^A_{3,1,16}$ is 6. They defeated Espanyol 6-0 on 9/12/2015 at RCDE stadium.
 \end{itemize}
 
-Table \ref{tab1} provides the summary statistics of $y^H_{ijs}$ and $y^A_{ijs}$. Both averages and medians suggests the existence of positive goal differential between home and away scoring metrics.
+Table \ref{tab1} provides the summary statistics of $y^H_{ijs}$ and $y^A_{ijs}$. Both averages and medians evince the existence of positive goal differential between maximum home and away goals.
 
 %-----------------------
 \begin{table}[ht]
@@ -182,7 +189,7 @@ The sport and league level estimates of goal-scoring rate differential are shown
 \begin{figure}
 \caption{HFA Posterior Plot at Sport and League Levels}
 \centering
-{\includegraphics[width=0.90\linewidth]{HFA32.pdf}}
+{\includegraphics[width=1.00\linewidth]{HFA32.pdf}}
 \label{fig31}
 \end{figure}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630) (preloaded format=xelatex 2018.3.27)  15 APR 2018 15:16
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630) (preloaded format=xelatex 2018.3.27)  16 APR 2018 18:09
 entering extended mode
 **./JQAS_HFA.tex
 (JQAS_HFA.tex
@@ -1516,7 +1516,7 @@ File: HFA_22.pdf Graphic file (type pdf)
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 100; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 106; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
@@ -1524,11 +1524,11 @@ File: HFA_22.pdf Graphic file (type pdf)
 *************************************************
 File: HFA_33.png Graphic file (type bmp)
 <HFA_33.png>
-[5]
+[5] [6]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 148; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 155; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
@@ -1537,7 +1537,7 @@ File: HFA_33.png Graphic file (type bmp)
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 163; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/latinmodern-math.otf(3)/m/n/4.01495 ".
@@ -1550,7 +1550,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1559,7 +1559,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1568,7 +1568,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1577,7 +1577,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1586,7 +1586,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1595,7 +1595,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1604,7 +1604,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1613,7 +1613,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1622,7 +1622,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1631,7 +1631,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1640,7 +1640,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1649,7 +1649,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1658,7 +1658,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1667,7 +1667,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1676,7 +1676,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1685,7 +1685,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1694,7 +1694,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 177; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1703,7 +1703,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 177; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1712,7 +1712,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 177; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1721,7 +1721,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 177; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1730,7 +1730,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 177; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1739,7 +1739,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 177; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1748,7 +1748,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 177; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
@@ -1757,13 +1757,13 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 177; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\OMX/cmex/m/n/4.01495 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
-[6]
+[7]
 File: HFA32.pdf Graphic file (type pdf)
 <use HFA32.pdf>
 File: HFA_La_Liga11.pdf Graphic file (type pdf)
@@ -1776,33 +1776,33 @@ File: HFA_Bundesliga11.pdf Graphic file (type pdf)
 <use HFA_Bundesliga11.pdf>
 File: HFA_EPL11.pdf Graphic file (type pdf)
 <use HFA_EPL11.pdf>
- [7] [8] [9] [10] [11] [12] [13]
+ [8] [9] [10] [11] [12] [13] [14]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 239; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 246; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
-[14] [15] (JQAS_HFA.bbl) 
+[15] [16] (JQAS_HFA.bbl) 
 AED: lastpage setting LastPage
-[16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (JQAS_HFA.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 256.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  ) 
 Here is how much of TeX's memory you used:
- 27805 strings out of 427836
- 501443 string characters out of 3151345
- 733981 words of memory out of 3000000
- 31474 multiletter control sequences out of 15000+200000
+ 27820 strings out of 427836
+ 501710 string characters out of 3151345
+ 734139 words of memory out of 3000000
+ 31489 multiletter control sequences out of 15000+200000
  538116 words of font info for 89 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  54i,10n,88p,10481b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on JQAS_HFA.pdf (16 pages).
+Output written on JQAS_HFA.pdf (17 pages).
