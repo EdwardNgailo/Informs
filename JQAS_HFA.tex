@@ -89,19 +89,20 @@ both experimentally \citep{Nevill1999, Nevill2002} and in observational settings
 \end{figure} 
 %------------------------------------------------ 
 
+Following the episode of hooligan-induced riot on Feb. 2, 2007, the Italian authorities forced soccer clubs with deficient security standards at their home stadiums to play their home games with no spectators. The ruling inadvertently created a sizable and scarece sample of 21 professional soccer games played before empty bleachers. \cite{Pettersson-Lidbom2010} seized on this historical opportunity and contrasted the performance metrics of both referees and players by looking at the matches played by same team and officiated by the same referee crew. They found convincing evidence for the effect of crowds on referees, manifested in the 70\% (26\%) drop for red (yellow) cards issued favoring the home team. On the other hand, the players did not seem to play any differently whether the yelling crowds were present or absent. 
 
 With game as the anchoring unit of analysis, \cite{Courneya1992} developed a conceptual framework along the timeline axis of a typical professional soccer game. For simplicity of reference and purpose of contrasting, we designate their framework as the horizontal view of HFA (HVHFA). From left to right along the axis, HVHFA incorporates five major components: game site location, game location factors, psychological states, behavioral sates, and the final performance outcomes. At the end of their review, they pointed out that future research should be directed at factors causing HFA rather than the verification of its existence. After taking stock of decades' HFA research findings suffused with equivocality, \cite{Carron2005} surprisingly revised the original HVHFA with the deletion of ``officials'' and the inclusion of ``psychological states''. The rationale behind their removal of officiating factors is rather methodological inconvenience. Unlike spectators, players and coaches, referees and umpires can't be easily assigned to either hosting or visiting status for each game they officiated. 
 
 
-\cite{Pollard1986} discovered that the extent of HFA in English soccer has remained relatively consistent since the formation of the English Football League in 1888. The time-invariant tendency, coupled with the largest betrayed effects, makes professional soccer an excellent venue for studying HFA at a more aggregate level beyond individual matches and even seasons. 
+\cite{Pollard1986} discovered that the extent of HFA in English soccer has remained relatively consistent since the formation of the English Football League in 1888. The time-invariant tendency, coupled with the largest betrayed effect, makes professional soccer an excellent venue for studying HFA at a more aggregate level beyond individual matches and even seasons. 
 
+ 
 
+As \cite{Boyko2007} pointed out, traditional frequentist statistical approaches don't address whether referees or players alone or combined channel crowd effects to impart on final match outcome. Bayesian inferential approach separates itself from its frequentist counterpart due to its emphasis on modeling all forms of uncertainty rather than providing point estimates. Regardless of the inferential approaches taken, one major goal of statistical analysis is model selection among a set of competing models that were assumed to have generated the observed data. With the aid of posterior predictive checking \citep{Gelman1996}, researchers can assess the fitness of competing models with realized discrepancies between the actual and replicated data points. 
 
-As \cite{Boyko2007} pointed out, traditional frequentist statistical approaches don't address whether referees or players alone or combined channel crowd effects to impart on final match outcome.
+With the rare exception of \cite{Gajewski2006} and \cite{Glickman1998, Glickman2005}, Bayesian statistical approach has not been widely adopted in the analysis of HFA. One unique feature of the \cite{Gajewski2006} study is that they model longitudinal data across seasons while unitizing a unique HFA parameter dedicated to each team involved in the investigation. One problem common to these Bayesian studies is that they directly model the match-based goal differentials between the hosting and visiting teams. Such estimates based on score differentials of individual matches are effectually  blending home team's HFA and visitors' guest field disadvantage. Thus, we sense an urgent need to break down HFA into sub-components, which we can pinpoint to their originating sources.    
 
-with the rare exception of \cite{Gajewski2006}.
-
-The main substantive goal of this paper is HFA decomposition in a multilevel format that naturally reflects the structure of professional soccer. With the aid of Bayesian nested modeling, we shall demonstrate next how easily we can alter the structural complexity of candidate models with just a few lines of code.
+The subject and methodology-matter motivations for this research lie in the decomposition of home field advantage in a multilevel format that naturally reflects the structure of professional soccer. With the help of Bayesian nested modeling, we shall demonstrate next how easily we can alter the structural complexity of the main candidate model with just a few lines of code.
 
 \section{Definition of the Hierarchical Model} 
 
@@ -150,7 +151,7 @@ y^A_{ijs} \sim Poisson(\lambda^A_{ij})
 \end{cases}
 \end{equation} 
 
-As outlined in Figure \ref{fig33} and above equations, the total number of parameters included in the full model is 208, including 2 $\lambda$s at the top + 10 $\Delta$s at the league level + 196 team-level $\Delta$s. In addition, there are two hyper-parameters governing the distribution of league and team level parameters.
+As outlined in Figure \ref{fig33} and above equations, the total number of parameters included in the full model is 208, including 2 $\lambda$s at the top + 2 X 5 $\Delta$s at the league level + 2 X 98 team-level $\Delta$s. In addition, there are two hyper-parameters ($\sigma$) governing the distribution of league and team level parameters.
 
 \section{Data and Results} 
 
@@ -161,7 +162,7 @@ For practical reasons, the Top 5 leagues serve as a convenient sample as perform
 \item Most Away Goals (as $y^A_{ijs}$) = maximum goals scored in a single away match. For the season 2015/2016, Real Madrid’s $y^A_{3,1,16}$ is 6. They defeated Espanyol 6-0 on 9/12/2015 at RCDE stadium.
 \end{itemize}
 
-Table \ref{tab1} provides the summary statistics of $y^H_{ijs}$ and $y^A_{ijs}$. Both averages and medians evince the existence of positive goal differential between maximum home and away goals.
+Table \ref{tab1} provides the summary statistics of $y^H_{ijs}$ and $y^A_{ijs}$. Both averages and medians evince the existence of positive goal differential between maximum home and away goals. 
 
 %-----------------------
 \begin{table}[ht]
@@ -245,7 +246,7 @@ The relatively small incremental effect of team-level parametrization seems conf
 
 \section{Discussion}
 
-With the unique hierarchical view and modeling flexibility of Bayesian inferential analysis, we were able to explore the locality of sources of home field advantage. Mirroring the organization structure of professional soccer, we originally proposed a three-level (sport-league-team) model of HFA and tested it with maximum home and away scoring data from 2000/01 to 2016/17. Alternatively, we tested other configurations of the multilevel modeling structure, namely one-level model with sport only and two-level model without the middle layer of leagues.
+With the unique hierarchical view and modeling flexibility of Bayesian inferential analysis, we were able to explore the locality of sources of home field advantage. Mirroring the organization structure of professional soccer, we originally proposed a three-level (sport-league-team) vertical view of HFA and tested it with maximum home and away scoring data from 2000/01 to 2016/17. Alternatively, we tested other configurations of the multilevel modeling structure, namely one-level model with sport only and two-level model without the middle layer of leagues.
 
 The home filed advantage exists in all sports with varying degrees. A great deal of future research efforts should be devoted to the inter-sport investigation of HFA. 
 

@@ -41,6 +41,23 @@ Gelman, A., Carlin, J.~B., Stern, H.~S., Dunson, D.~B., Vehtari, A., and Rubin,
 \newblock {\em Bayesian data analysis}, volume~2.
 \newblock CRC press Boca Raton, FL.
 
+\bibitem[Gelman et~al., 1996]{Gelman1996}
+Gelman, A., Meng, X.-L., and Stern, H. (1996).
+\newblock Posterior predictive assessment of model fitness via realized
+  discrepancies.
+\newblock {\em Statistica sinica}, pages 733--760.
+
+\bibitem[Glickman and Stern, 1998]{Glickman1998}
+Glickman, M.~E. and Stern, H.~S. (1998).
+\newblock A state-space model for national football league scores.
+\newblock {\em Journal of the American Statistical Association},
+  93(441):25--35.
+
+\bibitem[Glickman and Stern, 2005]{Glickman2005}
+Glickman, M.~E. and Stern, H.~S. (2005).
+\newblock A state-space model for national football league scores.
+\newblock In {\em Anthology of Statistics in Sports}, pages 23--33. SIAM.
+
 \bibitem[Hoffman and Gelman, 2014]{Hoffman2014}
 Hoffman, M.~D. and Gelman, A. (2014).
 \newblock The no-u-turn sampler: adaptively setting path lengths in hamiltonian
@@ -75,6 +92,12 @@ Nevill, A.~M., Newell, S.~M., and Gale, S. (1996).
 \newblock Factors associated with home advantage in english and scottish soccer
   matches.
 \newblock {\em Journal of Sports Sciences}, 14(2):181--186.
+
+\bibitem[Pettersson-Lidbom and Priks, 2010]{Pettersson-Lidbom2010}
+Pettersson-Lidbom, P. and Priks, M. (2010).
+\newblock Behavior under social pressure: Empty italian stadiums and referee
+  bias.
+\newblock {\em Economics Letters}, 108(2):212--214.
 
 \bibitem[Pollard, 1986]{Pollard1986}
 Pollard, R. (1986).
