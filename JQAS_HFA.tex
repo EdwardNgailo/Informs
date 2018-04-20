@@ -162,7 +162,7 @@ For practical reasons, the Top 5 leagues serve as a convenient sample as perform
 \item Most Away Goals (as $y^A_{ijs}$) = maximum goals scored in a single away match. For the season 2015/2016, Real Madrid’s $y^A_{3,1,16}$ is 6. They defeated Espanyol 6-0 on 9/12/2015 at RCDE stadium.
 \end{itemize}
 
-Table \ref{tab1} provides the summary statistics of $y^H_{ijs}$ and $y^A_{ijs}$. Both averages and medians evince the existence of positive goal differential between maximum home and away goals. 
+Table \ref{tab1} provides the summary statistics of $y^H_{ijs}$ and $y^A_{ijs}$. Both averages and medians evince the existence of positive goal differential between maximum home and away goals. However, the MAG is more skewed than MHG in that the max. of MAG is actually greater than that of MHG. Deletion of such outliers is not an option in conducting sports analytics, because they are quintessential of the underlying exceptional performance by athletes. Fortunately, Bayesian statistics can accommodate such wide dispersion of data points with alternative distribution functions other than the commonly-applied Gaussian PDF (normal probability density function). 
 
 %-----------------------
 \begin{table}[ht]
@@ -246,9 +246,20 @@ The relatively small incremental effect of team-level parametrization seems conf
 
 \section{Discussion}
 
-With the unique hierarchical view and modeling flexibility of Bayesian inferential analysis, we were able to explore the locality of sources of home field advantage. Mirroring the organization structure of professional soccer, we originally proposed a three-level (sport-league-team) vertical view of HFA and tested it with maximum home and away scoring data from 2000/01 to 2016/17. Alternatively, we tested other configurations of the multilevel modeling structure, namely one-level model with sport only and two-level model without the middle layer of leagues.
+With the unique hierarchical view and modeling flexibility of Bayesian inferential analysis, we were able to explore the locality of sources of home field advantage. Mirroring the organization structure of professional soccer, we originally proposed a three-level (sport-league-team) vertical view of HFA and tested it with maximum home and away scoring data from 2000/01 to 2016/17. Further, we tested other configurations of the multilevel model structure, namely one-level model with sport only and two-level model without the middle layer of leagues. 
 
-The home filed advantage exists in all sports with varying degrees. A great deal of future research efforts should be devoted to the inter-sport investigation of HFA. 
+
+
+Unexpectedly, we found that no signs of significant HFA variations at the middle league level. But even more remarkedly is the revelation from the post-hoc comparative analysis of goodness of fit between the single-level model and the sport-team double-deck model. Considering the fact the single-level model already measures around 81\% in terms of predictive accuracy, we would trade off the extra 3\% improvement offered by the two-level model for the ultra-simple uni-parameter model for practical reasons. For the purpose of conducting better HFA research, we might need to shift our focus of attention away from the predominant levels of team and game to a broader level of sport.
+
+
+
+We all know that the home filed advantage exists in all sports with varying degrees. A great deal of future research efforts should be devoted to the inter-sport investigation of HFA and quantifying the subjectivity of refereeing standards. 
+Refereeing controversies regularly arise in professional competitions. Barcelona coach Ernesto Valverde complained on March 1, 2018 about an “invisible penalty” awarded to Las Palmas during the match that ended  in 1-1 draw.
+The Spanish Football Federation (RFEF) has announced it is seeking approval from the International Football Association Board (IFAB) to roll out VAR ( video assistant referee)  in La Liga at the start of the 2018-19 campaign. VAR is already active in the top divisions in both Italy and Germany, while in England it has been used on a trial basis in the current 2017/18 season in selected domestic cup games. It might be just pure coincidental that Serie A and Bundesliga showed the least extent of HFA in our analysis. 
+
+The VAR system is purported to correct clear and obvious refereeing errors, regarding decisions on goals, red cards, penalties and cases of mistaken identity. If implementation of such technology enabled assistance becomes widespread, we can expect a clear downward trend with regard to the effect size of home field advantage. Accordingly, we, as researchers, should incorporate the technology related factors into our models and assess their contributions to our understanding of HFA at the sport level.   
+ 
 
 \newpage
 \begin{acknowledgement}
