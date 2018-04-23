@@ -757,4 +757,15 @@ Keywords Bayesian model averaging, large-scale assessments, education},
   keywords      = {stat.CO},
 }
 
+@Article{Wiedermann2018,
+  author    = {Wolfgang Wiedermann and Xintong Li},
+  title     = {Direction dependence analysis: A framework to test the direction of effects in linear models with an implementation in {SPSS}},
+  journal   = {Behavior Research Methods},
+  year      = {2018},
+  month     = {apr},
+  doi       = {10.3758/s13428-018-1031-x},
+  file      = {:Articles/10.3758-s13428-018-1031-x[2213].pdf:PDF},
+  publisher = {Springer Nature},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
