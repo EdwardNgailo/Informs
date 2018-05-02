@@ -1270,7 +1270,7 @@ Prediction is at the heart of making decisions under uncertainty. Our businesses
 Prediction tools increase productivity--operating machines, handling documents, communicating with customers.
 Uncertainty constrains strategy. Better prediction creates opportunities for new business structures and strategies to compete.
 Penetrating, fun, and always insightful and practical, Prediction Machines follows its inescapable logic to explain how to navigate the },
-  review    = {Lawrence H. Summers, Charles W. Eliot Professor, former president, Harvard University; former secretary, US Treasury; and former chief economist, World Bank--
+  comment   = {Lawrence H. Summers, Charles W. Eliot Professor, former president, Harvard University; former secretary, US Treasury; and former chief economist, World Bank--
 "AI may transform your life. And Prediction Machines will transform your understanding of AI. This is the best book yet on what may be the best technology that has come along."
 
 Susan Athey, Economics of Technology Professor, Stanford University; former consulting researcher, Microsoft Research New England--
@@ -1289,7 +1289,7 @@ Kevin Kelly, founding executive editor, Wired; author, What Technology Wants and
   journal = {The Conversation},
   year    = {2018},
   month   = feb,
-  review  = {An increasing number of businesses invest in advanced technologies that can help them forecast the future of their workforce and gain a competitive advantage.
+  comment = {An increasing number of businesses invest in advanced technologies that can help them forecast the future of their workforce and gain a competitive advantage.
 
 Many analysts and professional practitioners believe that, with enough data, algorithms embedded in People Analytics (PA) applications can predict all aspects of employee behavior: from productivity, to engagement, to interactions and emotional states.
 
