@@ -767,22 +767,21 @@ Keywords Bayesian model averaging, large-scale assessments, education},
 }
 
 @Article{Luedtke2018,
-  author        = {Stefan Lüdtke and Max Schröder and Frank Krüger and Sebastian Bader and Thomas Kirste},
-  title         = {State-Space Abstractions for Probabilistic Inference: A Systematic Review},
-  __markedentry = {[dulunche:]},
-  abstract      = {Tasks such as social network analysis, human behavior recognition, or modeling biochemical reactions, can be solved elegantly by using the probabilistic inference framework. However, standard probabilistic inference algorithms work at a propositional level, and thus cannot capture the symmetries and redundancies that are present in these tasks. Algorithms that exploit those symmetries have been devised in different research fields, for example by the lifted inference-, multiple object tracking-, and modeling and simulation-communities. The common idea, that we call state space abstraction, is to perform inference over compact representations of sets of symmetric states. Although they are concerned with a similar topic, the relationship between these approaches has not been investigated systematically. This survey provides the following contributions. We perform a systematic literature review to outline the state of the art in probabilistic inference methods exploiting symmetries. From an initial set of more than 4,000 papers, we identify 116 relevant papers. Furthermore, we provide new high-level categories that classify the approaches, based on the problem classes the different approaches can solve. Researchers from different fields that are confronted with a state space explosion problem in a probabilistic system can use this classification to identify possible solutions. Finally, based on this conceptualization, we identify potentials for future research, as some relevant application domains are not addressed by current approaches.},
-  date          = {2018-04-18},
-  eprint        = {1804.06748v2},
-  eprintclass   = {cs.AI},
-  eprinttype    = {arXiv},
-  file          = {:Articles/1804.06748.pdf:PDF},
-  keywords      = {cs.AI},
+  author      = {Stefan Lüdtke and Max Schröder and Frank Krüger and Sebastian Bader and Thomas Kirste},
+  title       = {State-Space Abstractions for Probabilistic Inference: A Systematic Review},
+  abstract    = {Tasks such as social network analysis, human behavior recognition, or modeling biochemical reactions, can be solved elegantly by using the probabilistic inference framework. However, standard probabilistic inference algorithms work at a propositional level, and thus cannot capture the symmetries and redundancies that are present in these tasks. Algorithms that exploit those symmetries have been devised in different research fields, for example by the lifted inference-, multiple object tracking-, and modeling and simulation-communities. The common idea, that we call state space abstraction, is to perform inference over compact representations of sets of symmetric states. Although they are concerned with a similar topic, the relationship between these approaches has not been investigated systematically. This survey provides the following contributions. We perform a systematic literature review to outline the state of the art in probabilistic inference methods exploiting symmetries. From an initial set of more than 4,000 papers, we identify 116 relevant papers. Furthermore, we provide new high-level categories that classify the approaches, based on the problem classes the different approaches can solve. Researchers from different fields that are confronted with a state space explosion problem in a probabilistic system can use this classification to identify possible solutions. Finally, based on this conceptualization, we identify potentials for future research, as some relevant application domains are not addressed by current approaches.},
+  date        = {2018-04-18},
+  eprint      = {1804.06748v2},
+  eprintclass = {cs.AI},
+  eprinttype  = {arXiv},
+  file        = {:Articles/1804.06748.pdf:PDF},
+  keywords    = {cs.AI},
 }
 
 @Article{Talts2018,
   author        = {Sean Talts and Michael Betancourt and Daniel Simpson and Aki Vehtari and Andrew Gelman},
   title         = {Validating Bayesian Inference Algorithms with Simulation-Based Calibration},
-  __markedentry = {[dulunche:6]},
+  __markedentry = {[dulunche:]},
   abstract      = {Verifying the correctness of Bayesian computation is challenging. This is especially true for complex models that are common in practice, as these require sophisticated model implementations and algorithms. In this paper we introduce \emph{simulation-based calibration} (SBC), a general procedure for validating inferences from Bayesian algorithms capable of generating posterior samples. This procedure not only identifies inaccurate computation and inconsistencies in model implementations but also provides graphical summaries that can indicate the nature of the problems that arise. We argue that SBC is a critical part of a robust Bayesian workflow, as well as being a useful tool for those developing computational algorithms and statistical software.},
   date          = {2018-04-18},
   eprint        = {1804.06788v1},
@@ -790,6 +789,30 @@ Keywords Bayesian model averaging, large-scale assessments, education},
   eprinttype    = {arXiv},
   file          = {:Articles/1804.06788.pdf:PDF},
   keywords      = {stat.ME},
+}
+
+@Article{Kamalabad2018,
+  author    = {Mahdi Shafiee Kamalabad and Marco Grzegorczyk},
+  title     = {Improving nonhomogeneous dynamic Bayesian networks with sequentially coupled parameters},
+  journal   = {Statistica Neerlandica},
+  year      = {2018},
+  month     = {apr},
+  abstract  = {In systems biology, nonhomogeneous dynamic Bayesian networks (NH‐DBNs) have become a popular modeling tool for reconstructing cellular regulatory networks from postgenomic data. In this paper, we focus our attention on NH‐DBNs that are based on Bayesian piecewise linear regression models. The new NH‐DBN model, proposed here, is a generalization of an earlier proposed model with sequentially coupled network interaction parameters. Unlike the original model, our novel model possesses segment‐specific coupling parameters, so that the coupling strengths between parameters can vary over time. Thereby, to avoid model overflexibility and to allow for some information exchange among time segments, we globally couple the segment‐specific coupling (strength) parameters by a hyperprior. Our empirical results on synthetic and on real biological network data show that the new model yields better network reconstruction accuracies than the original model.},
+  doi       = {10.1111/stan.12136},
+  file      = {:Articles/Kamalabad_et_al-2018-Statistica_Neerlandica.pdf:PDF},
+  publisher = {Wiley},
+}
+
+@Book{SAVAGE1962,
+  title         = {Subjective probability and statistical practice},
+  publisher     = {Methuen, London, England},
+  year          = {1962},
+  author        = {SAVAGE, Leonard Jimmie},
+  editor        = {G.A. Barnard, G.A. Cox},
+  __markedentry = {[dulunche:6]},
+}
+
+@InBook{,
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
