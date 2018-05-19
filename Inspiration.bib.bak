@@ -419,4 +419,16 @@ Key Words: Comparison of tests, Expected p value, Power, Random p value},
   publisher = {{SAGE} Publications},
 }
 
+@Article{Govrin2018,
+  author    = {Aner Govrin},
+  title     = {The Cognition of Severe Moral Failure: A Novel Approach to the Perception of Evil},
+  journal   = {Frontiers in Psychology},
+  year      = {2018},
+  volume    = {9},
+  month     = {apr},
+  doi       = {10.3389/fpsyg.2018.00557},
+  file      = {:Articles/fpsyg-09-00557.pdf:PDF},
+  publisher = {Frontiers Media {SA}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
