@@ -75,4 +75,17 @@
   publisher = {Now Publishers},
 }
 
+@Article{Startz2014,
+  author    = {Richard Startz},
+  title     = {Choosing the More Likely Hypothesis},
+  journal   = {Foundations and Trends{\textregistered} in Econometrics},
+  year      = {2014},
+  volume    = {7},
+  number    = {2},
+  pages     = {119--189},
+  abstract  = {Much of economists' statistical work centers on testing hypotheses in which parameter values are partitioned between a null hypothesis and an alternative hypothesis in order to distinguish two views about the world. Our traditional procedures are based on the probabilities of a test statistic under the null but ignore what the statistics say about the probability of the test statistic under the alternative. Traditional procedures are not intended to provide evidence for the relative probabilities of the null versus alternative hypotheses, but are regularly treated as if they do. Unfortunately, when used to distinguish two views of the world, traditional procedures can lead to wildly misleading inference. In order to correctly distinguish between two views of the world, one needs to report the probabilities of the hypotheses given parameter estimates rather than the probability of the parameter estimates given the hypotheses. This monograph shows why failing to consider the alternative hypothesis often leads to incorrect conclusions. I show that for most standard econometric estimators, it is not difficult to compute the proper probabilities using Bayes theorem. Simple formulas that require only information already available in standard estimation reports are provided. I emphasize that frequentist approaches for deciding between the null and alternative hypothesis are not free of priors. Rather, the usual procedures involve an implicit, unstated prior that is likely to be far from scientifically neutral.},
+  doi       = {10.1561/0800000028},
+  publisher = {Now Publishers},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

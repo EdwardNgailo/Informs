@@ -815,4 +815,15 @@ Keywords Bayesian model averaging, large-scale assessments, education},
 @InBook{,
 }
 
+@Article{Ropero2018,
+  author    = {Rosa F. Ropero and Rafael Rum{\'{\i}} and Pedro A. Aguilera},
+  title     = {Bayesian networks for evaluating climate change influence in olive crops in Andalusia, Spain},
+  journal   = {Natural Resource Modeling},
+  year      = {2018},
+  pages     = {e12169},
+  month     = {may},
+  doi       = {10.1111/nrm.12169},
+  publisher = {Wiley},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

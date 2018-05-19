@@ -431,4 +431,15 @@ Key Words: Comparison of tests, Expected p value, Power, Random p value},
   publisher = {Frontiers Media {SA}},
 }
 
+@Article{Dahabreh2018,
+  author    = {Issa J. Dahabreh},
+  title     = {Randomization, randomized trials, and analyses using observational data: A commentary on Deaton and Cartwright},
+  journal   = {Social Science {\&} Medicine},
+  year      = {2018},
+  month     = {may},
+  doi       = {10.1016/j.socscimed.2018.05.012},
+  file      = {:Articles/1-s2.0-S0277953618301953-main[2291].pdf:PDF},
+  publisher = {Elsevier {BV}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
