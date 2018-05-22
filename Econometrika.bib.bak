@@ -88,4 +88,28 @@
   publisher = {Now Publishers},
 }
 
+@Article{Keele2018,
+  author        = {Luke Keele and Dylan Small},
+  title         = {Comparing Covariate Prioritization via Matching to Machine Learning Methods for Causal Inference using Five Empirical Applications},
+  __markedentry = {[dulunche:6]},
+  abstract      = {Matching methods have become one frequently used method for statistical adjustment under a selection on observables identification strategy. Matching methods typically focus on modeling the treatment assignment process rather than the outcome. Many of the recent advances in matching allow for various forms of covariate prioritization. This allows analysts to emphasize the adjustment of some covariates over others, typically based on subject matter expertise. While flexible machine learning methods have a long history of being used for statistical prediction, they have generally seen little use in causal modeliing. However, recent work has developed flexible machine learning methods based on outcome models for the esimation of causal effects. These methods are designed to use little analyst input. All covariate prioritization is done by the learner. In this study, we replicate five published studies that used customized matching methods for covariate prioritization. In each of these studies, subsets of covariates were given priority in the match based on substantive expertise. We replicate these studies using three different machine learning methods that have designed for causal modeling. We find that in almost every case matching and machine learning methods produce identical results. We conclude by discussing the implications for applied analysts.},
+  date          = {2018-05-09},
+  eprint        = {1805.03743v1},
+  eprintclass   = {stat.AP},
+  eprinttype    = {arXiv},
+  file          = {:Articles/1805.03743[2293].pdf:PDF},
+  keywords      = {stat.AP},
+}
+
+@Article{Imbens2018,
+  author    = {Guido Imbens},
+  title     = {Comments on understanding and misunderstanding randomized controlled trials: A commentary on Cartwright and Deaton},
+  journal   = {Social Science {\&} Medicine},
+  year      = {2018},
+  month     = {apr},
+  doi       = {10.1016/j.socscimed.2018.04.028},
+  file      = {:Articles/1-s2.0-S0277953618301953-main[2291].pdf:PDF},
+  publisher = {Elsevier {BV}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
