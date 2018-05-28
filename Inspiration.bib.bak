@@ -442,4 +442,15 @@ Key Words: Comparison of tests, Expected p value, Power, Random p value},
   publisher = {Elsevier {BV}},
 }
 
+@Article{Huang2018,
+  author    = {David T. Huang and Donald M. Yealy and Michael R. Filbin and Aaron M. Brown and Chung-Chou H. Chang and Yohei Doi and Michael W. Donnino and Jonathan Fine and Michael J. Fine and Michelle A. Fischer and John M. Holst and Peter C. Hou and John A. Kellum and Feras Khan and Michael C. Kurz and Shahram Lotfipour and Frank LoVecchio and Octavia M. Peck-Palmer and Francis Pike and Heather Prunty and Robert L. Sherwin and Lauren Southerland and Thomas Terndrup and Lisa A. Weissfeld and Jonathan Yabes and Derek C. Angus},
+  title     = {Procalcitonin-Guided Use of Antibiotics for Lower Respiratory Tract Infection},
+  journal   = {New England Journal of Medicine},
+  year      = {2018},
+  month     = {may},
+  doi       = {10.1056/nejmoa1802670},
+  file      = {:Articles/nejmoa1802670.pdf:PDF},
+  publisher = {New England Journal of Medicine ({NEJM}/{MMS})},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

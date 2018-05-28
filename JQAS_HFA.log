@@ -1,40 +1,73 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630) (preloaded format=xelatex 2018.3.27)  24 APR 2018 17:13
-entering extended mode
-**./JQAS_HFA.tex
-(JQAS_HFA.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6700 64-bit)  (format=lualatex 2018.5.18)  24 MAY 2018 15:55
+ restricted system commands enabled.
+**JQAS_HFA.tex
+(./JQAS_HFA.tex
+LaTeX2e <2018-04-01> patch level 4
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using cache: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-cache/gene
+ric)
+luaotfload | conf : Root cache directory is C:/Users/cjdua/AppData/Local/MiKTeX/
+2.9/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “D:/Program Files/MiKTeX 2.9/tex/luatex/luaotfload/fontloader-2
+017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is C:/Users/cjdua/AppData/Local/MiKTeX/
+2.9/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.742 seconds
+Babel <3.20> and hyphenation patterns for 1 language(s) loaded.
+("D:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+("D:/Program Files/MiKTeX 2.9/tex/latex/base/size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+luaotfload | db : Font names database loaded from C:/Users/cjdua/AppData/Local/M
+iKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc(load luc: C:/Users/cjd
+ua/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman10-regular.luc
+))
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-Package: expl3 2018/03/05 L3 programming layer (loader) 
+) ("D:/Program Files/MiKTeX 2.9/tex/latex/fontspec/fontspec.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/l3packages/xparse/xparse.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/l3kernel/expl3.sty"
+Package: expl3 2018-05-13 L3 programming layer (loader) 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
-Package: expl3 2018/03/05 L3 programming layer (code)
-\c_max_int=\count87
-\l_tmpa_int=\count88
-\l_tmpb_int=\count89
-\g_tmpa_int=\count90
-\g_tmpb_int=\count91
-\g__intarray_font_int=\count92
-\g__prg_map_int=\count93
+("D:/Program Files/MiKTeX 2.9/tex/latex/l3kernel/expl3-code.tex"
+Package: expl3 2018-05-13 L3 programming layer (code)
+\ucharcat@table=\catcodetable5
+\c_max_int=\count88
+\l_tmpa_int=\count89
+\l_tmpb_int=\count90
+\g_tmpa_int=\count91
+\g_tmpb_int=\count92
+\g__kernel_prg_map_int=\count93
 \c_log_iow=\count94
 \l_iow_line_count_int=\count95
 \l__iow_line_target_int=\count96
@@ -59,93 +92,96 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
 \l_keys_choice_int=\count99
-\c__fp_leading_shift_int=\count100
-\c__fp_middle_shift_int=\count101
-\c__fp_trailing_shift_int=\count102
-\c__fp_big_leading_shift_int=\count103
-\c__fp_big_middle_shift_int=\count104
-\c__fp_big_trailing_shift_int=\count105
-\c__fp_Bigg_leading_shift_int=\count106
-\c__fp_Bigg_middle_shift_int=\count107
-\c__fp_Bigg_trailing_shift_int=\count108
-\l__sort_length_int=\count109
-\l__sort_min_int=\count110
-\l__sort_top_int=\count111
-\l__sort_max_int=\count112
-\l__sort_true_max_int=\count113
-\l__sort_block_int=\count114
-\l__sort_begin_int=\count115
-\l__sort_end_int=\count116
-\l__sort_A_int=\count117
-\l__sort_B_int=\count118
-\l__sort_C_int=\count119
-\l__tl_build_start_index_int=\count120
-\l__tl_build_index_int=\count121
-\l__tl_analysis_normal_int=\count122
-\l__tl_analysis_index_int=\count123
-\l__tl_analysis_nesting_int=\count124
-\l__tl_analysis_type_int=\count125
-\l__regex_internal_a_int=\count126
-\l__regex_internal_b_int=\count127
-\l__regex_internal_c_int=\count128
-\l__regex_balance_int=\count129
-\l__regex_group_level_int=\count130
-\l__regex_mode_int=\count131
-\c__regex_cs_in_class_mode_int=\count132
-\c__regex_cs_mode_int=\count133
-\l__regex_catcodes_int=\count134
-\l__regex_default_catcodes_int=\count135
-\c__regex_catcode_L_int=\count136
-\c__regex_catcode_O_int=\count137
-\c__regex_catcode_A_int=\count138
-\c__regex_all_catcodes_int=\count139
-\l__regex_show_lines_int=\count140
-\l__regex_min_state_int=\count141
-\l__regex_max_state_int=\count142
-\l__regex_left_state_int=\count143
-\l__regex_right_state_int=\count144
-\l__regex_capturing_group_int=\count145
-\l__regex_min_pos_int=\count146
-\l__regex_max_pos_int=\count147
-\l__regex_curr_pos_int=\count148
-\l__regex_start_pos_int=\count149
-\l__regex_success_pos_int=\count150
-\l__regex_curr_char_int=\count151
-\l__regex_curr_catcode_int=\count152
-\l__regex_last_char_int=\count153
-\l__regex_case_changed_char_int=\count154
-\l__regex_curr_state_int=\count155
-\l__regex_step_int=\count156
-\l__regex_min_active_int=\count157
-\l__regex_max_active_int=\count158
-\l__regex_replacement_csnames_int=\count159
-\l__regex_match_count_int=\count160
-\l__regex_min_submatch_int=\count161
-\l__regex_submatch_int=\count162
-\l__regex_zeroth_submatch_int=\count163
-\g__regex_trace_regex_int=\count164
+\l__intarray_loop_int=\count100
+\c__intarray_sp_dim=\dimen109
+\g__intarray_font_int=\count101
+\c__fp_leading_shift_int=\count102
+\c__fp_middle_shift_int=\count103
+\c__fp_trailing_shift_int=\count104
+\c__fp_big_leading_shift_int=\count105
+\c__fp_big_middle_shift_int=\count106
+\c__fp_big_trailing_shift_int=\count107
+\c__fp_Bigg_leading_shift_int=\count108
+\c__fp_Bigg_middle_shift_int=\count109
+\c__fp_Bigg_trailing_shift_int=\count110
+\g__fp_array_int=\count111
+\l__fp_array_loop_int=\count112
+\l__sort_length_int=\count113
+\l__sort_min_int=\count114
+\l__sort_top_int=\count115
+\l__sort_max_int=\count116
+\l__sort_true_max_int=\count117
+\l__sort_block_int=\count118
+\l__sort_begin_int=\count119
+\l__sort_end_int=\count120
+\l__sort_A_int=\count121
+\l__sort_B_int=\count122
+\l__sort_C_int=\count123
+\l__tl_analysis_normal_int=\count124
+\l__tl_analysis_index_int=\count125
+\l__tl_analysis_nesting_int=\count126
+\l__tl_analysis_type_int=\count127
+\l__regex_internal_a_int=\count128
+\l__regex_internal_b_int=\count129
+\l__regex_internal_c_int=\count130
+\l__regex_balance_int=\count131
+\l__regex_group_level_int=\count132
+\l__regex_mode_int=\count133
+\c__regex_cs_in_class_mode_int=\count134
+\c__regex_cs_mode_int=\count135
+\l__regex_catcodes_int=\count136
+\l__regex_default_catcodes_int=\count137
+\c__regex_catcode_L_int=\count138
+\c__regex_catcode_O_int=\count139
+\c__regex_catcode_A_int=\count140
+\c__regex_all_catcodes_int=\count141
+\l__regex_show_lines_int=\count142
+\l__regex_min_state_int=\count143
+\l__regex_max_state_int=\count144
+\l__regex_left_state_int=\count145
+\l__regex_right_state_int=\count146
+\l__regex_capturing_group_int=\count147
+\l__regex_min_pos_int=\count148
+\l__regex_max_pos_int=\count149
+\l__regex_curr_pos_int=\count150
+\l__regex_start_pos_int=\count151
+\l__regex_success_pos_int=\count152
+\l__regex_curr_char_int=\count153
+\l__regex_curr_catcode_int=\count154
+\l__regex_last_char_int=\count155
+\l__regex_case_changed_char_int=\count156
+\l__regex_curr_state_int=\count157
+\l__regex_step_int=\count158
+\l__regex_min_active_int=\count159
+\l__regex_max_active_int=\count160
+\l__regex_replacement_csnames_int=\count161
+\l__regex_match_count_int=\count162
+\l__regex_min_submatch_int=\count163
+\l__regex_submatch_int=\count164
+\l__regex_zeroth_submatch_int=\count165
+\g__regex_trace_regex_int=\count166
 \c_empty_box=\box26
 \l_tmpa_box=\box27
 \l_tmpb_box=\box28
 \g_tmpa_box=\box29
 \g_tmpb_box=\box30
-\l__box_top_dim=\dimen109
-\l__box_bottom_dim=\dimen110
-\l__box_left_dim=\dimen111
-\l__box_right_dim=\dimen112
-\l__box_top_new_dim=\dimen113
-\l__box_bottom_new_dim=\dimen114
-\l__box_left_new_dim=\dimen115
-\l__box_right_new_dim=\dimen116
+\l__box_top_dim=\dimen110
+\l__box_bottom_dim=\dimen111
+\l__box_left_dim=\dimen112
+\l__box_right_dim=\dimen113
+\l__box_top_new_dim=\dimen114
+\l__box_bottom_new_dim=\dimen115
+\l__box_left_new_dim=\dimen116
+\l__box_right_new_dim=\dimen117
 \l__box_internal_box=\box31
 \l__coffin_internal_box=\box32
-\l__coffin_internal_dim=\dimen117
-\l__coffin_offset_x_dim=\dimen118
-\l__coffin_offset_y_dim=\dimen119
-\l__coffin_x_dim=\dimen120
-\l__coffin_y_dim=\dimen121
-\l__coffin_x_prime_dim=\dimen122
-\l__coffin_y_prime_dim=\dimen123
+\l__coffin_internal_dim=\dimen118
+\l__coffin_offset_x_dim=\dimen119
+\l__coffin_offset_y_dim=\dimen120
+\l__coffin_x_dim=\dimen121
+\l__coffin_y_dim=\dimen122
+\l__coffin_x_prime_dim=\dimen123
+\l__coffin_y_prime_dim=\dimen124
 \c_empty_coffin=\box33
 \l__coffin_aligned_coffin=\box34
 \l__coffin_aligned_internal_coffin=\box35
@@ -154,300 +190,310 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l__coffin_display_coffin=\box38
 \l__coffin_display_coord_coffin=\box39
 \l__coffin_display_pole_coffin=\box40
-\l__coffin_display_offset_dim=\dimen124
-\l__coffin_display_x_dim=\dimen125
-\l__coffin_display_y_dim=\dimen126
-\l__coffin_bounding_shift_dim=\dimen127
-\l__coffin_left_corner_dim=\dimen128
-\l__coffin_right_corner_dim=\dimen129
-\l__coffin_bottom_corner_dim=\dimen130
-\l__coffin_top_corner_dim=\dimen131
-\l__coffin_scaled_total_height_dim=\dimen132
-\l__coffin_scaled_width_dim=\dimen133
+\l__coffin_display_offset_dim=\dimen125
+\l__coffin_display_x_dim=\dimen126
+\l__coffin_display_y_dim=\dimen127
+\g__file_internal_ior=\read1
+\l__coffin_bounding_shift_dim=\dimen128
+\l__coffin_left_corner_dim=\dimen129
+\l__coffin_right_corner_dim=\dimen130
+\l__coffin_bottom_corner_dim=\dimen131
+\l__coffin_top_corner_dim=\dimen132
+\l__coffin_scaled_total_height_dim=\dimen133
+\l__coffin_scaled_width_dim=\dimen134
+\l__seq_internal_a_int=\count167
+\l__seq_internal_b_int=\count168
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3xdvipdfmx.def"
-File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count165
+("D:/Program Files/MiKTeX 2.9/tex/latex/l3kernel/l3pdfmode.def"
+File: l3pdfmode.def 2018-05-13 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count169
 ))
-Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count166
-\g__xparse_grabber_int=\count167
-\l__xparse_m_args_int=\count168
-\l__xparse_mandatory_args_int=\count169
-\l__xparse_v_nesting_int=\count170
+Package: xparse 2018-05-12 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count170
+\g__xparse_grabber_int=\count171
+\l__xparse_m_args_int=\count172
+\l__xparse_mandatory_args_int=\count173
+\l__xparse_v_nesting_int=\count174
 )
 Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fontspec\fontspec-xetex.sty"
-Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+Lua module: fontspec 2017/11/09 2.6g Font selection for XeLaTeX and LuaLaTeX
+("D:/Program Files/MiKTeX 2.9/tex/latex/fontspec/fontspec-luatex.sty"
+Package: fontspec-luatex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count171
-\l__fontspec_language_int=\count172
-\l__fontspec_strnum_int=\count173
-\l__fontspec_tmp_int=\count174
-\l__fontspec_em_int=\count175
-\l__fontspec_emdef_int=\count176
-\l__fontspec_strong_int=\count177
-\l__fontspec_strongdef_int=\count178
-\l__fontspec_tmpa_dim=\dimen134
-\l__fontspec_tmpb_dim=\dimen135
-\l__fontspec_tmpc_dim=\dimen136
-\g__file_internal_ior=\read1
+\l__fontspec_script_int=\count175
+\l__fontspec_language_int=\count176
+\l__fontspec_strnum_int=\count177
+\l__fontspec_tmp_int=\count178
+\l__fontspec_em_int=\count179
+\l__fontspec_emdef_int=\count180
+\l__fontspec_strong_int=\count181
+\l__fontspec_strongdef_int=\count182
+\l__fontspec_tmpa_dim=\dimen135
+\l__fontspec_tmpb_dim=\dimen136
+\l__fontspec_tmpc_dim=\dimen137
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\tuenc.def"
+("D:/Program Files/MiKTeX 2.9/tex/latex/base/tuenc.def"
 File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 ))
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fontspec with sig. 'O{}mO{}' on line 542.
+. Defining command \fontspec with sig. 'O{}mO{}' on line 545.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmainfont with sig. 'O{}mO{}' on line 546.
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 549.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setsansfont with sig. 'O{}mO{}' on line 550.
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 553.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmonofont with sig. 'O{}mO{}' on line 554.
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 557.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathrm with sig. 'O{}mO{}' on line 558.
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 561.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 562.
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 565.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathsf with sig. 'O{}mO{}' on line 566.
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 569.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathtt with sig. 'O{}mO{}' on line 570.
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 573.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setromanfont with sig. 'O{}mO{}' on line 574.
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 577.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 578.
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 581.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontface with sig. 'mO{}mO{}' on line 582.
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 585.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \defaultfontfeatures with sig. 't+om' on line 586.
+. Defining command \defaultfontfeatures with sig. 't+om' on line 589.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeatures with sig. 'm' on line 590.
+. Defining command \addfontfeatures with sig. 'm' on line 593.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeature with sig. 'm' on line 594.
+. Defining command \addfontfeature with sig. 'm' on line 597.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfeature with sig. 'mm' on line 598.
+. Defining command \newfontfeature with sig. 'mm' on line 601.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newAATfeature with sig. 'mmmm' on line 602.
+. Defining command \newAATfeature with sig. 'mmmm' on line 605.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newopentypefeature with sig. 'mmm' on line 606.
+. Defining command \newopentypefeature with sig. 'mmm' on line 609.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newICUfeature with sig. 'mmm' on line 610.
+. Defining command \newICUfeature with sig. 'mmm' on line 613.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeature with sig. 'mm' on line 614.
+. Defining command \aliasfontfeature with sig. 'mm' on line 617.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 618.
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 621.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontscript with sig. 'mm' on line 622.
+. Defining command \newfontscript with sig. 'mm' on line 625.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontlanguage with sig. 'mm' on line 626.
+. Defining command \newfontlanguage with sig. 'mm' on line 629.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareFontsExtensions with sig. 'm' on line 630.
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 633.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 634.
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 637.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCommand with sig. 'mO{}m' on line 3632.
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3366.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingAccent with sig. 'mm' on line 3638.
+. Defining command \EncodingAccent with sig. 'mm' on line 3372.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingSymbol with sig. 'mm' on line 3644.
+. Defining command \EncodingSymbol with sig. 'mm' on line 3378.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingComposite with sig. 'mmm' on line 3650.
+. Defining command \EncodingComposite with sig. 'mmm' on line 3384.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3656.
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3390.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3681.
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3415.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareSymbol with sig. 'm' on line 3687.
+. Defining command \UndeclareSymbol with sig. 'm' on line 3421.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareAccent with sig. 'm' on line 3693.
+. Defining command \UndeclareAccent with sig. 'm' on line 3427.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareCommand with sig. 'm' on line 3699.
+. Defining command \UndeclareCommand with sig. 'm' on line 3433.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareComposite with sig. 'mm' on line 3706.
+. Defining command \UndeclareComposite with sig. 'mm' on line 3440.
 .................................................
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg")
-LaTeX Info: Redefining \itshape on input line 3891.
-LaTeX Info: Redefining \slshape on input line 3896.
-LaTeX Info: Redefining \scshape on input line 3901.
-LaTeX Info: Redefining \upshape on input line 3906.
-LaTeX Info: Redefining \em on input line 3936.
-LaTeX Info: Redefining \emph on input line 3961.
-LaTeX Info: Redefining \- on input line 4015.
+("D:/Program Files/MiKTeX 2.9/tex/latex/fontspec/fontspec.cfg")
+LaTeX Info: Redefining \itshape on input line 3625.
+LaTeX Info: Redefining \slshape on input line 3630.
+LaTeX Info: Redefining \scshape on input line 3635.
+LaTeX Info: Redefining \upshape on input line 3640.
+LaTeX Info: Redefining \em on input line 3670.
+LaTeX Info: Redefining \emph on input line 3695.
+(load luc: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/ot
+l/lmroman10-bold.luc)(load luc: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-c
+ache/generic/fonts/otl/lmroman10-italic.luc)
+LaTeX Info: Redefining \- on input line 3749.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \oldstylenums with sig. 'm' on line 4110.
+. Redefining command \oldstylenums with sig. 'm' on line 3844.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \liningnums with sig. 'm' on line 4114.
+. Defining command \liningnums with sig. 'm' on line 3848.
 .................................................
-))
-(dgruyter.sty
+)) (./dgruyter.sty
 Package: dgruyter 2017/09/19 v2.00 De Gruyter layout
+
+("D:/Program Files/MiKTeX 2.9/tex/generic/luatex85/luatex85.sty"
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+)
 LaTeX Info: Redefining \numberline on input line 148.
 Applying: [2015/01/01] Nowadays obsolete fixes on input line 160.
 Already applied: [0000/00/00] Nowadays obsolete fixes on input line 163.
-\gridwidth=\dimen137
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+\gridwidth=\dimen138
+
+("D:/Program Files/MiKTeX 2.9/tex/generic/pdftex/glyphtounicode.tex")
+("D:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
-\ex@=\dimen138
+\ex@=\dimen139
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen139
+\pmbraise@=\dimen140
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count179
+\inf@bad=\count183
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count180
-\leftroot@=\count181
+\uproot@=\count184
+\leftroot@=\count185
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count182
-\DOTSCASE@=\count183
+\classnum@=\count186
+\DOTSCASE@=\count187
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box41
 \strutbox@=\box42
-\big@size=\dimen140
+\big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count184
-\c@MaxMatrixCols=\count185
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
 \dotsspace@=\muskip16
-\c@parentequation=\count186
-\dspbrk@lvl=\count187
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
 \tag@help=\toks15
-\row@=\count188
-\column@=\count189
-\maxfields@=\count190
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
 \andhelp@=\toks16
-\eqnshift@=\dimen141
-\alignsep@=\dimen142
-\tagshift@=\dimen143
-\tagwidth@=\dimen144
-\totwidth@=\dimen145
-\lineht@=\dimen146
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
 \@envbody=\toks17
 \multlinegap=\skip50
 \multlinetaggap=\skip51
@@ -455,66 +501,91 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\unicode-math\unicode-math.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/unicode-math/unicode-math.sty"
 Package: unicode-math 2018/02/02 vv0.8l Unicode maths in XeLaTeX and LuaLaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-xetex.s
-ty"
-Package: unicode-math-xetex 2018/02/02 vv0.8l Unicode maths in XeLaTeX and LuaL
+("D:/Program Files/MiKTeX 2.9/tex/latex/unicode-math/unicode-math-luatex.sty"
+Package: unicode-math-luatex 2018/02/02 vv0.8l Unicode maths in XeLaTeX and LuaL
 aTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
-Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\filehook\filehook.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty"
+Package: l3keys2e 2018-05-12 LaTeX2e option processing using LaTeX3 keys
+)
+("D:/Program Files/MiKTeX 2.9/tex/latex/filehook/filehook.sty"
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fix-cm.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/base/fix-cm.sty"
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("D:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 ))
-\g__um_fam_int=\count191
-\g__um_fonts_used_int=\count192
-\l__um_primecount_int=\count193
+("D:/Program Files/MiKTeX 2.9/tex/lualatex/lualatex-math/lualatex-math.sty"
+Package: lualatex-math 2017/06/15 v1.7 Patches for mathematics typesetting with 
+LuaLaTeX
+
+("D:/Program Files/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+)
+Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
+h LuaLaTeX
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \subarray.
+.................................................
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \frac .
+.................................................
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \genfrac .
+.................................................
+)
+\g__um_fam_int=\count196
+\g__um_fonts_used_int=\count197
+\l__um_primecount_int=\count198
 \g__um_primekern_muskip=\muskip17
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \unimathsetup with sig. 'm' on line 269.
+. Defining command \unimathsetup with sig. 'm' on line 277.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathfont with sig. 'O{}mO{}' on line 273.
+. Defining command \setmathfont with sig. 'O{}mO{}' on line 281.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathfontface with sig. 'mO{}mO{}' on line 277.
+. Defining command \setmathfontface with sig. 'mO{}mO{}' on line 285.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setoperatorfont with sig. 'm' on line 282.
+. Defining command \setoperatorfont with sig. 'm' on line 290.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addnolimits with sig. 'm' on line 287.
+. Defining command \addnolimits with sig. 'm' on line 295.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \removenolimits with sig. 'm' on line 291.
+. Defining command \removenolimits with sig. 'm' on line 299.
 .................................................
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-table.t
-ex")
+("D:/Program Files/MiKTeX 2.9/tex/latex/unicode-math/unicode-math-table.tex")
 .................................................
 . unicode-math info: "patch-macro"
 . 
-. I'm going to patch macro \subarray.
+. I'm going to patch macro \plainroot@.
 .................................................
 .................................................
 . unicode-math info: "patch-macro"
@@ -524,19 +595,19 @@ ex")
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \not with sig. 'm' on line 3835.
+. Redefining command \not with sig. 'm' on line 3840.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \NewNegationCommand with sig. 'mm' on line 3839.
+. Defining command \NewNegationCommand with sig. 'mm' on line 3844.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \RenewNegationCommand with sig. 'mm' on line 3843.
+. Defining command \RenewNegationCommand with sig. 'mm' on line 3848.
 .................................................
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+)) ("D:/Program Files/MiKTeX 2.9/tex/latex/base/textcomp.sty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -551,7 +622,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("D:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 )
@@ -580,7 +651,6 @@ Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
 Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
 Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
 Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
 Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
 Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
 Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
@@ -619,29 +689,38 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-\c@mv@ss=\count194
-\c@mv@ssbold=\count195
-\g__fontspec_family_Inconsolatazi4-Regular.otf_int=\count196
+\c@mv@ss=\count199
+\c@mv@ssbold=\count266
+(load luc: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/ot
+l/inconsolatazi4-regular.luc)
+\g__fontspec_family_Inconsolatazi4-Regular.otf_int=\count267
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 29(load luc: C:/Users/cjdua/AppData/Local/MiK
+TeX/2.9/luatex-cache/generic/fonts/otl/inconsolatazi4-bold.luc)
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 31
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'Inconsolatazi4-Regular.otf(0)' created for font
 . 'Inconsolatazi4-Regular.otf' with options
-. [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,StylisticSet=3,
-BoldFont
+. [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,StylisticSet=3,B
+oldFont
 . =Inconsolatazi4-Bold.otf].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"[Inconsolatazi4-Regular.otf]/OT:script=latn;language=DFLT;+ss03;"
+. <->"[Inconsolatazi4-Regular.otf]:mode=node;script=latn;language=DFLT;+ss03;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
 . \tex_hyphenchar:D \font =-1\scan_stop: 
 . - 'bold' (bx/n) with NFSS spec.:
-. <->"[Inconsolatazi4-Bold.otf]/OT:script=latn;language=DFLT;+ss03;"
+. <->"[Inconsolatazi4-Bold.otf]:mode=node;script=latn;language=DFLT;+ss03;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
@@ -649,28 +728,37 @@ BoldFont
 . \tex_hyphenchar:D \font =-1\scan_stop: 
 .................................................
 LaTeX Info: Redefining \ttfamily on input line 1273.
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 29
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 31
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'Inconsolatazi4-Regular.otf(1)' created for font
-. 'Inconsolatazi4-Regular.otf' with options [StylisticSet=3,BoldFont
-. =Inconsolatazi4-Bold.otf].
+. 'Inconsolatazi4-Regular.otf' with options
+. [Renderer=Basic,StylisticSet=3,BoldFont =Inconsolatazi4-Bold.otf].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"[Inconsolatazi4-Regular.otf]/OT:script=latn;language=DFLT;+ss03;"
+. <->"[Inconsolatazi4-Regular.otf]:mode=base;script=latn;language=DFLT;+ss03;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.:
-. <->"[Inconsolatazi4-Bold.otf]/OT:script=latn;language=DFLT;+ss03;"
+. <->"[Inconsolatazi4-Bold.otf]:mode=base;script=latn;language=DFLT;+ss03;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(1)/m/n o
-n input line 1273.
+(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(1)/m/n on
+ input line 1273.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(1)/bx/n 
-on input line 1273.
+(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(1)/bx/n o
+n input line 1273.
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 29
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -680,26 +768,29 @@ on input line 1273.
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"[Inconsolatazi4-Regular.otf]/OT:script=latn;language=DFLT;"
+. <->"[Inconsolatazi4-Regular.otf]:mode=node;script=latn;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 1273.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/Inconsolatazi4-Regular.otf(1)/m/n --> TU/Inconsolata
-zi4-Regular.otf(2)/m/n on input line 1273.
+(Font)                  TU/Inconsolatazi4-Regular.otf(1)/m/n --> TU/Inconsolataz
+i4-Regular.otf(2)/m/n on input line 1273.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/Inconsolatazi4-Regular.otf(1)/bx/n --> TU/Inconsolat
-azi4-Regular.otf(2)/m/n on input line 1273.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `ss'
-(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(2)/m/n o
-n input line 1273.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `ssbold'
-(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(2)/m/n o
-n input line 1273.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/Inconsolatazi4-Regular.otf(2)/m/n --> TU/Inconsolata
+(Font)                  TU/Inconsolatazi4-Regular.otf(1)/bx/n --> TU/Inconsolata
 zi4-Regular.otf(2)/m/n on input line 1273.
-\g__fontspec_family_Inconsolatazi4-Bold.otf_int=\count197
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `ss'
+(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(2)/m/n on
+ input line 1273.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `ssbold'
+(Font)                  OT1/cmtt/m/n --> TU/Inconsolatazi4-Regular.otf(2)/m/n on
+ input line 1273.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  TU/Inconsolatazi4-Regular.otf(2)/m/n --> TU/Inconsolataz
+i4-Regular.otf(2)/m/n on input line 1273.
+\g__fontspec_family_Inconsolatazi4-Bold.otf_int=\count268
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 31
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -709,61 +800,137 @@ zi4-Regular.otf(2)/m/n on input line 1273.
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"[Inconsolatazi4-Bold.otf]/OT:script=latn;language=DFLT;"
+. <->"[Inconsolatazi4-Bold.otf]:mode=node;script=latn;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/Inconsolatazi4-Regular.otf(2)/m/n --> TU/Inconsolata
-zi4-Bold.otf(0)/m/n on input line 1273.
+(Font)                  TU/Inconsolatazi4-Regular.otf(2)/m/n --> TU/Inconsolataz
+i4-Bold.otf(0)/m/n on input line 1273.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `ssbold'
-(Font)                  TU/Inconsolatazi4-Regular.otf(2)/m/n --> TU/Inconsolata
-zi4-Bold.otf(0)/m/n on input line 1273.
+(Font)                  TU/Inconsolatazi4-Regular.otf(2)/m/n --> TU/Inconsolataz
+i4-Bold.otf(0)/m/n on input line 1273.
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: "File not fou
+nd: DGMetaSerifScience-Regular.otf.".
 \dg@wordmark=\box43
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2018/02/14 3.18 The Babel package
+("D:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.sty"
+Package: babel 2018/05/02 3.20 The Babel package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
+("D:/Program Files/MiKTeX 2.9/tex/generic/babel/switch.def"
+File: switch.def 2018/05/02 3.20 Babel switching mechanism
+)
+("D:/Program Files/MiKTeX 2.9/tex/generic/babel/luababel.def"
+\l@afrikaans=\language2
+Package babel Info: Non-standard hyphenation setup on input line 113.
+\l@ancientgreek=\language3
+\l@arabic=\language4
+\l@armenian=\language5
+\l@assamese=\language6
+\l@basque=\language7
+\l@bengali=\language8
+\l@bokmal=\language9
+\l@bulgarian=\language10
+\l@catalan=\language11
+\l@classiclatin=\language12
+\l@coptic=\language13
+\l@croatian=\language14
+\l@czech=\language15
+\l@danish=\language16
+\l@dutch=\language17
+\l@esperanto=\language18
+\l@estonian=\language19
+\l@farsi=\language20
+\l@finnish=\language21
+\l@french=\language22
+\l@galician=\language23
+\l@georgian=\language24
+\l@german=\language25
+\l@german-x-2018-03-31=\language26
+\l@greek=\language27
+\l@gujarati=\language28
+\l@hindi=\language29
+\l@hungarian=\language30
+\l@icelandic=\language31
+\l@indonesian=\language32
+\l@interlingua=\language33
+\l@irish=\language34
+\l@italian=\language35
+\l@kannada=\language36
+\l@kurmanji=\language37
+\l@latin=\language38
+\l@latvian=\language39
+\l@lithuanian=\language40
+\l@malayalam=\language41
+\l@marathi=\language42
+\l@mongolian=\language43
+\l@mongolianlmc=\language44
+\l@monogreek=\language45
+\l@ngerman=\language46
+\l@ngerman-x-2018-03-31=\language47
+\l@nynorsk=\language48
+\l@oriya=\language49
+\l@panjabi=\language50
+\l@piedmontese=\language51
+\l@pinyin=\language52
+\l@polish=\language53
+\l@portuguese=\language54
+\l@romanian=\language55
+\l@romansh=\language56
+\l@russian=\language57
+\l@sanskrit=\language58
+\l@serbian=\language59
+\l@serbianc=\language60
+\l@slovak=\language61
+\l@slovenian=\language62
+\l@spanish=\language63
+\l@swedish=\language64
+\l@swissgerman=\language65
+\l@tamil=\language66
+\l@telugu=\language67
+\l@thai=\language68
+\l@turkish=\language69
+\l@turkmen=\language70
+\l@ukenglish=\language71
+\l@ukrainian=\language72
+\l@uppersorbian=\language73
+\l@usenglishmax=\language74
+\l@welsh=\language75
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
+("D:/Program Files/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
+babel
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+("D:/Program Files/MiKTeX 2.9/tex/latex/babel-english/english.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count198
-\U@D=\dimen147
+("D:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.def"
+File: babel.def 2018/05/02 3.20 Babel common definitions
+\babel@savecnt=\count269
+\U@D=\dimen148
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\xebabel.def"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\txtbabel.def"))
-\bbl@dirlevel=\count199
-)
+("D:/Program Files/MiKTeX 2.9/tex/generic/babel/luababel.def"))
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\USenglish.ldf"
+("D:/Program Files/MiKTeX 2.9/tex/latex/babel-english/USenglish.ldf"
 Language: USenglish 2017/06/06 v3.3r English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+("D:/Program Files/MiKTeX 2.9/tex/latex/babel-english/english.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 )))
 
 Package Babel Warning: The package option `english' should not be used
-(Babel)                with a more specific one (like `USenglish') on input lin
-e 1709.
+(Babel)                with a more specific one (like `USenglish') on input line
+ 1709.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/ms/ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/ms/everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip52
@@ -781,21 +948,20 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip64
 \JustifyingParindent=\skip65
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/footmisc/footmisc.sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks19
-\footnotemargin=\dimen148
-\c@pp@next@reset=\count266
+\footnotemargin=\dimen149
+\c@pp@next@reset=\count270
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
-
 Package footmisc Info: Declaring symbol style lamport* on input line 903.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
-.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
+
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/amscls/amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks20
 \thm@bodyfont=\toks21
@@ -807,122 +973,121 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip68
 \dth@everypar=\toks25
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks26
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("D:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: luatex.def on input line 99.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\xetex.def"
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+("D:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/luatex.def"
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen151
-\extrarowheight=\dimen152
+("D:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box44
+\extrarowheight=\dimen153
 \NC@list=\toks27
 \extratabsurround=\skip69
 \backup@length=\skip70
+\ar@cellbox=\box45
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/multirow/multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip71
-\multirow@cntb=\count267
+\multirow@cntb=\count271
 \multirow@dima=\skip72
-\bigstrutjot=\dimen153
+\bigstrutjot=\dimen154
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-\TX@col@width=\dimen154
-\TX@old@table=\dimen155
-\TX@old@col=\dimen156
-\TX@target=\dimen157
-\TX@delta=\dimen158
-\TX@cols=\count268
+("D:/Program Files/MiKTeX 2.9/tex/latex/tools/tabularx.sty"
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen155
+\TX@old@table=\dimen156
+\TX@old@col=\dimen157
+\TX@target=\dimen158
+\TX@delta=\dimen159
+\TX@cols=\count272
 \TX@ftn=\toks28
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\bigstrut.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/multirow/bigstrut.sty"
 Package: bigstrut 2016/11/25 v2.2 Provide larger struts in tabulars
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/supertabular/supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count269
-\ST@wd=\dimen159
+\c@tracingst=\count273
+\ST@wd=\dimen160
 \ST@rightskip=\skip73
 \ST@leftskip=\skip74
 \ST@parfillskip=\skip75
-\ST@pageleft=\dimen160
-\ST@headht=\dimen161
-\ST@tailht=\dimen162
-\ST@pagesofar=\dimen163
-\ST@pboxht=\dimen164
-\ST@lineht=\dimen165
-\ST@stretchht=\dimen166
-\ST@prevht=\dimen167
-\ST@toadd=\dimen168
-\ST@dimen=\dimen169
-\ST@pbox=\box44
+\ST@pageleft=\dimen161
+\ST@headht=\dimen162
+\ST@tailht=\dimen163
+\ST@pagesofar=\dimen164
+\ST@pboxht=\dimen165
+\ST@lineht=\dimen166
+\ST@stretchht=\dimen167
+\ST@prevht=\dimen168
+\ST@toadd=\dimen169
+\ST@dimen=\dimen170
+\ST@pbox=\box46
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+(./booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen170
-\lightrulewidth=\dimen171
-\cmidrulewidth=\dimen172
-\belowrulesep=\dimen173
-\belowbottomsep=\dimen174
-\aboverulesep=\dimen175
-\abovetopsep=\dimen176
-\cmidrulesep=\dimen177
-\cmidrulekern=\dimen178
-\defaultaddspace=\dimen179
-\@cmidla=\count270
-\@cmidlb=\count271
-\@aboverulesep=\dimen180
-\@belowrulesep=\dimen181
-\@thisruleclass=\count272
-\@lastruleclass=\count273
-\@thisrulewidth=\dimen182
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count274
-\mult@box=\box45
-\multicol@leftmargin=\dimen183
-\c@unbalance=\count275
-\c@collectmore=\count276
-\doublecol@number=\count277
-\multicoltolerance=\count278
-\multicolpretolerance=\count279
-\full@width=\dimen184
-\page@free=\dimen185
-\premulticols=\dimen186
-\postmulticols=\dimen187
+\heavyrulewidth=\dimen171
+\lightrulewidth=\dimen172
+\cmidrulewidth=\dimen173
+\belowrulesep=\dimen174
+\belowbottomsep=\dimen175
+\aboverulesep=\dimen176
+\abovetopsep=\dimen177
+\cmidrulesep=\dimen178
+\cmidrulekern=\dimen179
+\defaultaddspace=\dimen180
+\@cmidla=\count274
+\@cmidlb=\count275
+\@aboverulesep=\dimen181
+\@belowrulesep=\dimen182
+\@thisruleclass=\count276
+\@lastruleclass=\count277
+\@thisrulewidth=\dimen183
+) ("D:/Program Files/MiKTeX 2.9/tex/latex/tools/multicol.sty"
+Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
+\c@tracingmulticols=\count278
+\mult@box=\box47
+\multicol@leftmargin=\dimen184
+\c@unbalance=\count279
+\c@collectmore=\count280
+\doublecol@number=\count281
+\multicoltolerance=\count282
+\multicolpretolerance=\count283
+\full@width=\dimen185
+\page@free=\dimen186
+\premulticols=\dimen187
+\postmulticols=\dimen188
 \multicolsep=\skip76
 \multicolbaselineskip=\skip77
-\partial@page=\box46
-\last@line=\box47
-\maxbalancingoverflow=\dimen188
-\mult@rightbox=\box48
-\mult@grightbox=\box49
-\mult@gfirstbox=\box50
-\mult@firstbox=\box51
-\@tempa=\box52
-\@tempa=\box53
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen189
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
 \@tempa=\box54
 \@tempa=\box55
 \@tempa=\box56
@@ -938,100 +1103,139 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box66
 \@tempa=\box67
 \@tempa=\box68
-\c@columnbadness=\count280
-\c@finalcolumnbadness=\count281
-\last@try=\dimen189
-\multicolovershoot=\dimen190
-\multicolundershoot=\dimen191
-\mult@nat@firstbox=\box69
-\colbreak@box=\box70
-\mc@col@check@num=\count282
+\@tempa=\box69
+\@tempa=\box70
+\c@columnbadness=\count284
+\c@finalcolumnbadness=\count285
+\last@try=\dimen190
+\multicolovershoot=\dimen191
+\multicolundershoot=\dimen192
+\mult@nat@firstbox=\box71
+\colbreak@box=\box72
+\mc@col@check@num=\count286
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/caption/caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/caption/caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen192
-\captionmargin@=\dimen193
-\captionwidth=\dimen194
-\caption@tempdima=\dimen195
-\caption@indent=\dimen196
-\caption@parindent=\dimen197
-\caption@hangindent=\dimen198
+\captionmargin=\dimen193
+\captionmargin@=\dimen194
+\captionwidth=\dimen195
+\caption@tempdima=\dimen196
+\caption@indent=\dimen197
+\caption@parindent=\dimen198
+\caption@hangindent=\dimen199
 )
-\c@ContinuedFloat=\count283
+\c@ContinuedFloat=\count287
 Package caption Info: supertabular package is loaded.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\sidecap\sidecap.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/sidecap/sidecap.sty"
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\SC@BOXWD=\dimen199
-\SC@CAPWD=\dimen256
-\SC@tempdima=\dimen257
-\SC@tempdimb=\dimen258
-\c@SC@C=\count284
-\SC@BOX=\box71
+\SC@BOXWD=\dimen256
+\SC@CAPWD=\dimen257
+\SC@tempdima=\dimen258
+\SC@tempdimb=\dimen259
+\c@SC@C=\count288
+\SC@BOX=\box73
+) (./rotating.sty
+Package: rotating 1997/09/26, v2.13 Rotation package
+\c@r@tfl@t=\count289
+\rot@float@box=\box74
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
-Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count285
-\rotFPtop=\skip78
-\rotFPbot=\skip79
-\rot@float@box=\box72
-\rot@mess@toks=\toks29
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+! Undefined control sequence.
+<argument> \rotFPtop 
+          
+l.2065 \setlength\rotFPtop{0\p@ \@plus 1fil}
+                                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2065 \setlength\rotFPtop{0\p@ \@plus 1fil}
+                                          
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing number, treated as zero.
+<to be read again> 
+p
+l.2065 \setlength\rotFPtop{0\p@ \@plus 1fil}
+                                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+p
+l.2065 \setlength\rotFPtop{0\p@ \@plus 1fil}
+                                          
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+("D:/Program Files/MiKTeX 2.9/tex/latex/base/makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write3
-\openout3 = `JQAS_HFA.idx'.
 
+\openout3 = JQAS_HFA.idx
 
 Writing index file JQAS_HFA.idx
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/url/url.sty"
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty"
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("D:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("D:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package ifluatex Info: LuaTeX detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(D:/Program Files/MiKTeX 2.9/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks29
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -1040,36 +1244,35 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("D:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen259
-\Hy@linkcounter=\count286
-\Hy@pagecounter=\count287
+\@linkdim=\dimen260
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("D:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def"
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count288
+\Hy@SavedSpaceFactor=\count292
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("D:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 4383.
 Package hyperref Info: Option `linktocpage' set `true' on input line 4383.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4383
-.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4383.
+
 Package hyperref Info: Hyper figures OFF on input line 4509.
 Package hyperref Info: Link nesting OFF on input line 4514.
 Package hyperref Info: Hyper index ON on input line 4517.
@@ -1077,12 +1280,12 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count289
+\c@Hy@tempcnt=\count293
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen260
-\Fld@menulength=\count290
-\Field@Width=\dimen261
-\Fld@charsize=\dimen262
+\XeTeXLinkMargin=\dimen261
+\Fld@menulength=\count294
+\Field@Width=\dimen262
+\Fld@charsize=\dimen263
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -1092,117 +1295,113 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count291
-\c@Item=\count292
-\c@Hfootnote=\count293
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
 )
-Package hyperref Info: Driver (autodetected): hxetex.
+Package hyperref Info: Driver (autodetected): hluatex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hxetex.def"
-File: hxetex.def 2018/02/06 v6.86b Hyperref driver for XeTeX
+("D:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hluatex.def"
+File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box73
-\c@Hy@AnnotLevel=\count294
-\HyField@AnnotCount=\count295
-\Fld@listcount=\count296
-\c@bookmark@seq@number=\count297
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
 )
-\Hy@SectionHShift=\skip80
+\Hy@SectionHShift=\skip78
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\doi\doi.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/doi/doi.sty"
 Package: doi 2007/07/24 handle doi numbers
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ncctools\manyfoot.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/ncctools/manyfoot.sty"
 Package: manyfoot 2005/09/11 v1.10 Many Footnote Levels Package (NCC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ncctools\nccfoots.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/ncctools/nccfoots.sty"
 Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 )
-\MFL@columnwidth=\dimen263
-\footglue=\skip81
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\authblk.sty"
+\MFL@columnwidth=\dimen264
+\footglue=\skip79
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.170 \ProcessOptions\relax
+                         
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+(load luc: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/ot
+l/lmroman5-regular.luc))
+("D:/Program Files/MiKTeX 2.9/tex/latex/preprint/authblk.sty"
 Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip82
-\@affilsep=\skip83
-\c@Maxaffil=\count298
-\c@authors=\count299
-\c@affil=\count300
+\affilsep=\skip80
+\@affilsep=\skip81
+\c@Maxaffil=\count300
+\c@authors=\count301
+\c@affil=\count302
 )
 \footinsnote=\insert252
 \footinsauthor=\insert251
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/lastpage/lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\environ\environ.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/environ/environ.sty"
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/trimspaces/trimspaces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lineno\lineno.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/lineno/lineno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
-\linenopenalty=\count301
+\linenopenalty=\count303
 \output=\toks30
-\linenoprevgraf=\count302
-\linenumbersep=\dimen264
-\linenumberwidth=\dimen265
-\c@linenumber=\count303
-\c@pagewiselinenumber=\count304
-\c@LN@truepage=\count305
-\c@internallinenumber=\count306
-\c@internallinenumbers=\count307
-\quotelinenumbersep=\dimen266
-\bframerule=\dimen267
-\bframesep=\dimen268
-\bframebox=\box74
+\linenoprevgraf=\count304
+\linenumbersep=\dimen265
+\linenumberwidth=\dimen266
+\c@linenumber=\count305
+\c@pagewiselinenumber=\count306
+\c@LN@truepage=\count307
+\c@internallinenumber=\count308
+\c@internallinenumbers=\count309
+\quotelinenumbersep=\dimen267
+\bframerule=\dimen268
+\bframesep=\dimen269
+\bframebox=\box75
 LaTeX Info: Redefining \\ on input line 3056.
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+) (./natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip84
-\bibsep=\skip85
+\bibhang=\skip82
+\bibsep=\skip83
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count308
+\c@NAT@ctr=\count310
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/microtype/microtype.sty"
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks31
-\MT@count=\count309
+\MT@count=\count311
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen269
+\MT@outer@kern=\dimen270
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count310
+\MT@listname@count=\count312
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-xetex.def"
-File: microtype-xetex.def 2018/01/14 v2.7a Definitions specific to xetex (RS)
-LaTeX Info: Redefining \lsstyle on input line 256.
+("D:/Program Files/MiKTeX 2.9/tex/latex/microtype/microtype-luatex.def"
+File: microtype-luatex.def 2018/01/14 v2.7a Definitions specific to luatex (RS)
+Lua module: microtype 2018/01/14 2.7a microtype module.
+LaTeX Info: Redefining \lsstyle on input line 679.
+LaTeX Info: Redefining \lslig on input line 679.
+\MT@outer@space=\skip84
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+("D:/Program Files/MiKTeX 2.9/tex/latex/microtype/microtype.cfg"
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
-(JQAS_HFA.aux)
-\openout1 = `JQAS_HFA.aux'.
+(./JQAS_HFA.aux)
+\openout1 = JQAS_HFA.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -1222,8 +1421,6 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
@@ -1234,301 +1431,672 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 12.
-\g__fontspec_family_latinmodern-math.otf_int=\count311
+(load luc: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/ot
+l/latinmodern-math.luc)
+\g__fontspec_family_latinmodern-math.otf_int=\count313
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 33
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 33
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'latinmodern-math.otf(0)' created for font
 . 'latinmodern-math.otf' with options
-. [BoldItalicFont={},ItalicFont={},Script=Math,BoldFont={latinmodern-math.otf}]
-.
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,FontAdjustment={\_
+_um_luatex_copy_fontdimens:
+. },BoldFont={latinmodern-math.otf}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->"[latinmodern-math.otf]/OT:script=math;language=DFLT;"
+. <->"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: 
 . - 'bold' (bx/n) with NFSS spec.:
-. <->"[latinmodern-math.otf]/OT:script=math;language=DFLT;"
+. <->"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: 
 .................................................
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 33
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 33
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'latinmodern-math.otf(1)' created for font
 . 'latinmodern-math.otf' with options
-. [BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Size=8.25-},{Size
-=6-8.25,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-m
-ath.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf}].
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=8.25-},{Size=6-8.25,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=
+latinmodern-math.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_
+fontdimens:
+. },BoldFont={latinmodern-math.otf}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <8.25->"[latinmodern-math.otf]/OT:script=math;language=DFLT;"<6-8.25>"[latinm
-odern-math.otf]/OT:script=math;language=DFLT;+ssty=0;"<-6>"[latinmodern-math.ot
-f]/OT:script=math;language=DFLT;+ssty=1;"
+. <8.25->"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"<6-8.25>"[
+latinmodern-math.otf]:mode=base;script=math;language=DFLT;+ssty=0;"<-6>"[latinmo
+dern-math.otf]:mode=base;script=math;language=DFLT;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: 
 . - 'bold' (bx/n) with NFSS spec.:
-. <->"[latinmodern-math.otf]/OT:script=math;language=DFLT;"
+. <->"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: 
 .................................................
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `normal' on input line 12.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 12.
+(Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input 
+line 12.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `bold' on input line 12.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/bx/n on inp
-ut line 12.
+(Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/bx/n on inpu
+t line 12.
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 33
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 33
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'latinmodern-math.otf(2)' created for font
 . 'latinmodern-math.otf' with options
-. [BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Size=8.25-},{Size
-=6-8.25,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-m
-ath.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},Scale=1.00001,
-FontAdjustment={\fontdimen
-. 8\font =6.45554pt\relax \fontdimen 9\font =3.75699pt\relax \fontdimen
-. 10\font =4.23376pt\relax \fontdimen 11\font =6.54135pt\relax \fontdimen
-. 12\font =3.28975pt\relax \fontdimen 13\font =3.4614pt\relax \fontdimen
-. 14\font =3.4614pt\relax \fontdimen 15\font =2.75577pt\relax \fontdimen
-. 16\font =2.35527pt\relax \fontdimen 17\font =2.35527pt\relax \fontdimen
-. 18\font =2.38388pt\relax \fontdimen 19\font =1.9071pt\relax \fontdimen
-. 22\font =2.38388pt\relax \fontdimen 20\font =0pt\relax \fontdimen 21\font
-. =0pt\relax }].
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=8.25-},{Size=6-8.25,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=
+latinmodern-math.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_
+fontdimens:
+. },BoldFont={latinmodern-math.otf},Scale=1.00001,FontAdjustment={\fontdimen
+. 8\font =6.76999pt\relax \fontdimen 9\font =3.93999pt\relax \fontdimen
+. 10\font =4.43999pt\relax \fontdimen 11\font =6.85999pt\relax \fontdimen
+. 12\font =3.45pt\relax \fontdimen 13\font =3.62999pt\relax \fontdimen 14\font
+. =3.62999pt\relax \fontdimen 15\font =2.89pt\relax \fontdimen 16\font
+. =2.46999pt\relax \fontdimen 17\font =2.46999pt\relax \fontdimen 18\font
+. =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen 22\font =2.5pt\relax
+. \fontdimen 20\font =0pt\relax \fontdimen 21\font =0pt\relax }].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <8.25->s*[1.00001]"[latinmodern-math.otf]/OT:script=math;language=DFLT;"<6-8.
-25>s*[1.00001]"[latinmodern-math.otf]/OT:script=math;language=DFLT;+ssty=0;"<-6
->s*[1.00001]"[latinmodern-math.otf]/OT:script=math;language=DFLT;+ssty=1;"
+. <8.25->s*[1.00001]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;
+"<6-8.25>s*[1.00001]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;
++ssty=0;"<-6>s*[1.00001]"[latinmodern-math.otf]:mode=base;script=math;language=D
+FLT;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . and font adjustment code:
-. \fontdimen 8\font =6.45554pt\relax \fontdimen 9\font =3.75699pt\relax
-. \fontdimen 10\font =4.23376pt\relax \fontdimen 11\font =6.54135pt\relax
-. \fontdimen 12\font =3.28975pt\relax \fontdimen 13\font =3.4614pt\relax
-. \fontdimen 14\font =3.4614pt\relax \fontdimen 15\font =2.75577pt\relax
-. \fontdimen 16\font =2.35527pt\relax \fontdimen 17\font =2.35527pt\relax
-. \fontdimen 18\font =2.38388pt\relax \fontdimen 19\font =1.9071pt\relax
-. \fontdimen 22\font =2.38388pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-. 21\font =0pt\relax 
+. \__um_luatex_copy_fontdimens: \fontdimen 8\font =6.76999pt\relax \fontdimen
+. 9\font =3.93999pt\relax \fontdimen 10\font =4.43999pt\relax \fontdimen
+. 11\font =6.85999pt\relax \fontdimen 12\font =3.45pt\relax \fontdimen 13\font
+. =3.62999pt\relax \fontdimen 14\font =3.62999pt\relax \fontdimen 15\font
+. =2.89pt\relax \fontdimen 16\font =2.46999pt\relax \fontdimen 17\font
+. =2.46999pt\relax \fontdimen 18\font =2.5pt\relax \fontdimen 19\font
+. =2.0pt\relax \fontdimen 22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+. \fontdimen 21\font =0pt\relax 
 . - 'bold' (bx/n) with NFSS spec.:
-. <->s*[1.00001]"[latinmodern-math.otf]/OT:script=math;language=DFLT;"
+. <->s*[1.00001]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . and font adjustment code:
-. \fontdimen 8\font =6.45554pt\relax \fontdimen 9\font =3.75699pt\relax
-. \fontdimen 10\font =4.23376pt\relax \fontdimen 11\font =6.54135pt\relax
-. \fontdimen 12\font =3.28975pt\relax \fontdimen 13\font =3.4614pt\relax
-. \fontdimen 14\font =3.4614pt\relax \fontdimen 15\font =2.75577pt\relax
-. \fontdimen 16\font =2.35527pt\relax \fontdimen 17\font =2.35527pt\relax
-. \fontdimen 18\font =2.38388pt\relax \fontdimen 19\font =1.9071pt\relax
-. \fontdimen 22\font =2.38388pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-. 21\font =0pt\relax 
+. \__um_luatex_copy_fontdimens: \fontdimen 8\font =6.76999pt\relax \fontdimen
+. 9\font =3.93999pt\relax \fontdimen 10\font =4.43999pt\relax \fontdimen
+. 11\font =6.85999pt\relax \fontdimen 12\font =3.45pt\relax \fontdimen 13\font
+. =3.62999pt\relax \fontdimen 14\font =3.62999pt\relax \fontdimen 15\font
+. =2.89pt\relax \fontdimen 16\font =2.46999pt\relax \fontdimen 17\font
+. =2.46999pt\relax \fontdimen 18\font =2.5pt\relax \fontdimen 19\font
+. =2.0pt\relax \fontdimen 22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+. \fontdimen 21\font =0pt\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `normal' on input line 12.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 12.
+(Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input
+ line 12.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `bold' on input line 12.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/bx/n on inp
-ut line 12.
+(Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/bx/n on inpu
+t line 12.
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 33
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 33
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'latinmodern-math.otf(3)' created for font
 . 'latinmodern-math.otf' with options
-. [BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Size=8.25-},{Size
-=6-8.25,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-m
-ath.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},Scale=0.99999,
-FontAdjustment={\fontdimen
-. 8\font =0.38142pt\relax \fontdimen 9\font =1.9071pt\relax \fontdimen 10\font
-. =1.59242pt\relax \fontdimen 11\font =1.05844pt\relax \fontdimen 12\font
-. =5.7213pt\relax \fontdimen 13\font =0pt\relax }].
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=8.25-},{Size=6-8.25,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=
+latinmodern-math.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_
+fontdimens:
+. },BoldFont={latinmodern-math.otf},Scale=0.99999,FontAdjustment={\fontdimen
+. 8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax \fontdimen 10\font
+. =1.67pt\relax \fontdimen 11\font =1.10999pt\relax \fontdimen 12\font
+. =6.0pt\relax \fontdimen 13\font =0pt\relax }].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <8.25->s*[0.99999]"[latinmodern-math.otf]/OT:script=math;language=DFLT;"<6-8.
-25>s*[0.99999]"[latinmodern-math.otf]/OT:script=math;language=DFLT;+ssty=0;"<-6
->s*[0.99999]"[latinmodern-math.otf]/OT:script=math;language=DFLT;+ssty=1;"
+. <8.25->s*[0.99999]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;
+"<6-8.25>s*[0.99999]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;
++ssty=0;"<-6>s*[0.99999]"[latinmodern-math.otf]:mode=base;script=math;language=D
+FLT;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . and font adjustment code:
-. \fontdimen 8\font =0.38142pt\relax \fontdimen 9\font =1.9071pt\relax
-. \fontdimen 10\font =1.59242pt\relax \fontdimen 11\font =1.05844pt\relax
-. \fontdimen 12\font =5.7213pt\relax \fontdimen 13\font =0pt\relax 
+. \__um_luatex_copy_fontdimens: \fontdimen 8\font =0.4pt\relax \fontdimen
+. 9\font =2.0pt\relax \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
+. =1.10999pt\relax \fontdimen 12\font =6.0pt\relax \fontdimen 13\font
+. =0pt\relax 
 . - 'bold' (bx/n) with NFSS spec.:
-. <->s*[0.99999]"[latinmodern-math.otf]/OT:script=math;language=DFLT;"
+. <->s*[0.99999]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . and font adjustment code:
-. \fontdimen 8\font =0.38142pt\relax \fontdimen 9\font =1.9071pt\relax
-. \fontdimen 10\font =1.59242pt\relax \fontdimen 11\font =1.05844pt\relax
-. \fontdimen 12\font =5.7213pt\relax \fontdimen 13\font =0pt\relax 
+. \__um_luatex_copy_fontdimens: \fontdimen 8\font =0.4pt\relax \fontdimen
+. 9\font =2.0pt\relax \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
+. =1.10999pt\relax \fontdimen 12\font =6.0pt\relax \fontdimen 13\font
+. =0pt\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 1
-2.
+(Font)              `largesymbols' in the math version `normal' on input line 12
+.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 12.
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input
+ line 12.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `bold' on input line 12.
-
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/bx/n on inp
-ut line 12.
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/bx/n on inpu
+t line 12.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 0.0pt on input line 12.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 0.0pt on input line 12.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 0.0pt on input line 12.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 0.0pt on input line 12.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 0.0pt on input line 12.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 0.0pt on input line 12.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.12 \begin{document}
+                   
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+<logos/dg-degruyter.pdf, id=1, 91.33623pt x 9.9582pt>
 File: logos/dg-degruyter.pdf Graphic file (type pdf)
 <use logos/dg-degruyter.pdf>
- ABD: EverySelectfont initializing macros
+Package luatex.def Info: logos/dg-degruyter.pdf  used on input line 12.
+(luatex.def)             Requested size: 60.63747pt x 5.97508pt.
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 12.
+
+("D:/Program Files/MiKTeX 2.9/tex/context/base/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count314
+\scratchdimen=\dimen271
+\scratchbox=\box76
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen272
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks33
+) ("D:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("D:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: sidecap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package caption Info: We need package `ragged2e' on input line 12.
-\AtBeginShipoutBox=\box75
+\AtBeginShipoutBox=\box77
 Package hyperref Info: Link coloring OFF on input line 12.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("D:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("D:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count312
+\c@section@level=\count320
 )
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
 
-(JQAS_HFA.out) (JQAS_HFA.out)
+(./JQAS_HFA.out) (./JQAS_HFA.out)
 \@outlinefile=\write4
-\openout4 = `JQAS_HFA.out'.
 
+\openout4 = JQAS_HFA.out
 \footinsA=\insert250
-\c@footnoteA=\count313
+\c@footnoteA=\count321
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 12.
 LaTeX Info: Redefining \microtypecontext on input line 12.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-LatinModernRoman.cfg
-"
-File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
-ern Roman (RS)
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
+("D:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-LatinModernRoman.cfg"
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mode
+rn Roman (RS)
 )
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+(load luc: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/ot
+l/lmsans8-regular.luc)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+(load luc: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/ot
+l/lmsans10-bold.luc)
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 LaTeX Font Info:    Calculating math sizes for size <12.0> on input line 39.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `latinmodern-math.otf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.04504pt on input line 39.
+(Font)              scaled to size 0.0pt on input line 39.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.46298pt on input line 39.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.04503pt on input line 39.
+(Font)              scaled to size 0.0pt on input line 39.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.04466pt on input line 39.
+(Font)              scaled to size 0.0pt on input line 39.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.46272pt on input line 39.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.04483pt on input line 39.
+(Font)              scaled to size 0.0pt on input line 39.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.39 \maketitle
+             
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]\TU/lmss/bx/n/8.0 *Cor-re-spond-ing au-thor: C.J.(Chao-jie) Duan, \TU/lmss/m/
+n/8.0 Du-lun Con-sult-ing Group,
+ []
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.45 I
+    n professional team sports, the term home field advantage (HFA) – also...
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
 
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 41; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 45; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.53564pt on input line 41.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.62477pt on input line 41.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.71762pt on input line 41.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.53535pt on input line 41.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.62457pt on input line 41.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.71748pt on input line 41.
-
-Overfull \vbox (7.98608pt too high) has occurred while \output is active []
-
-
-[1
-
-]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8.0> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 50.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.50 ...from 2006/07 to 2016/17 (in billion euros)}}
+                                                  
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+(load luc: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/ot
+l/lmsans8-oblique.luc)
 LaTeX Font Info:    Calculating math sizes for size <8.0> on input line 50.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.50 ...from 2006/07 to 2016/17 (in billion euros)}}
+                                                  
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.50 ...from 2006/07 to 2016/17 (in billion euros)}}
+                                                  
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.03003pt on input line 50.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.64198pt on input line 50.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.03001pt on input line 50.
+(Font)              scaled to size 0.0pt on input line 50.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.50 ...from 2006/07 to 2016/17 (in billion euros)}}
+                                                  
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.02977pt on input line 50.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.64182pt on input line 50.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.02988pt on input line 50.
+(Font)              scaled to size 0.0pt on input line 50.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.50 ...from 2006/07 to 2016/17 (in billion euros)}}
+                                                  
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+<HFA11.pdf, id=33, 554.07pt x 412.54124pt>
 File: HFA11.pdf Graphic file (type pdf)
 <use HFA11.pdf>
- [2]
+Package luatex.def Info: HFA11.pdf  used on input line 51.
+(luatex.def)             Requested size: 264.04245pt x 196.62009pt.
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.53 \end{figure}
+               
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+[1{C:/Users/cjdua/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+<./logos/dg-degruyter.pdf>]
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.56 ...debated. In their book \textit{Scorecasting}
+                                                  , \cite{moskowitz2012score...
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+(load luc: C:/Users/cjdua/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/ot
+l/lmroman7-italic.luc)
+Overfull \vbox (1.34732pt too high) has occurred while \output is active []
+
+
+[2<./HFA11.pdf>]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 74; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 76; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 [3]
+<HFA_22.pdf, id=106, 722.7pt x 343.2825pt>
 File: HFA_22.pdf Graphic file (type pdf)
 <use HFA_22.pdf>
- [4] [5]
+Package luatex.def Info: HFA_22.pdf  used on input line 84.
+(luatex.def)             Requested size: 330.0518pt x 156.92186pt.
+ [4<./HFA_22.pdf>] [5]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 104; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 106; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
-File: HFA_33.png Graphic file (type bmp)
-<HFA_33.png>
-[6]
+<HFA_33.png, id=165, 782.17218pt x 529.22719pt>
+File: HFA_33.png Graphic file (type png)
+<use HFA_33.png>
+Package luatex.def Info: HFA_33.png  used on input line 111.
+(luatex.def)             Requested size: 330.0518pt x 223.36407pt.
+[6<./HFA_33.png>]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 153; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 155; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
@@ -1541,65 +2109,68 @@ File: HFA_33.png Graphic file (type bmp)
 * \addfontfeature(s) ignored on line 168; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\TU/latinmodern-math.otf(3)/m/n/4.01495 ".
+*  The current font is "\TU/latinmodern-math.otf(3)/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.168 \begin{tabular}
+                   {cccccccc}
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+("D:/Program Files/MiKTeX 2.9/tex/latex/microtype/mt-cmr.cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
+RS)
 )
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.168 \begin{tabular}
+                   {cccccccc}
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.168 \begin{tabular}
+                   {cccccccc}
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.168 \begin{tabular}
+                   {cccccccc}
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.168 \begin{tabular}
+                   {cccccccc}
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.168 \begin{tabular}
+                   {cccccccc}
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
 * \addfontfeature(s) ignored on line 171; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
-*   The requested feature is "Numbers=Monospaced". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1608,7 +2179,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 171; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1617,7 +2188,52 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 171; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/0 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/0 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/0 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/0 ".
+*   The requested feature is "Numbers=Monospaced". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 171; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1626,7 +2242,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1635,7 +2251,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1644,7 +2260,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1653,7 +2269,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1662,7 +2278,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1671,7 +2287,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1680,7 +2296,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1689,7 +2305,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 173; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1698,7 +2314,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1707,7 +2323,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1716,7 +2332,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1725,7 +2341,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1734,7 +2350,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1743,7 +2359,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1752,7 +2368,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
 *************************************************
@@ -1761,49 +2377,164 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \addfontfeature(s) ignored on line 175; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\OMX/cmex/m/n/4.01495 ".
+*  The current font is "\OMX/cmex/m/n/0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.177 \end{tabular}
+                 
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.177 \end{tabular}
+                 
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.177 \end{tabular}
+                 
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.177 \end{tabular}
+                 
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.177 \end{tabular}
+                 
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.177 \end{tabular}
+                 
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.177 \end{tabular}
+                 
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.177 \end{tabular}
+                 
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+relax 
+l.177 \end{tabular}
+                 
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+<HFA32.pdf, id=195, 614.295pt x 794.97pt>
 File: HFA32.pdf Graphic file (type pdf)
 <use HFA32.pdf>
-[8] [9]
+Package luatex.def Info: HFA32.pdf  used on input line 190.
+(luatex.def)             Requested size: 330.0518pt x 427.32443pt.
+<HFA_La_Liga11.pdf, id=197, 614.295pt x 794.97pt>
 File: HFA_La_Liga11.pdf Graphic file (type pdf)
 <use HFA_La_Liga11.pdf>
+Package luatex.def Info: HFA_La_Liga11.pdf  used on input line 199.
+(luatex.def)             Requested size: 297.0446pt x 384.58957pt.
+<HFA_Serie_A11.pdf, id=199, 614.295pt x 794.97pt>
 File: HFA_Serie_A11.pdf Graphic file (type pdf)
 <use HFA_Serie_A11.pdf>
+Package luatex.def Info: HFA_Serie_A11.pdf  used on input line 210.
+(luatex.def)             Requested size: 297.0446pt x 384.58957pt.
+<HFA_Ligue111.pdf, id=203, 614.295pt x 794.97pt>
 File: HFA_Ligue111.pdf Graphic file (type pdf)
 <use HFA_Ligue111.pdf>
+Package luatex.def Info: HFA_Ligue111.pdf  used on input line 218.
+(luatex.def)             Requested size: 297.0446pt x 384.58957pt.
+[8] [9<./HFA32.pdf>] [10<./HFA_La_Liga11.pdf>] [11<./HFA_Serie_A11.pdf>]
+<HFA_Bundesliga11.pdf, id=251, 614.295pt x 794.97pt>
 File: HFA_Bundesliga11.pdf Graphic file (type pdf)
 <use HFA_Bundesliga11.pdf>
+Package luatex.def Info: HFA_Bundesliga11.pdf  used on input line 224.
+(luatex.def)             Requested size: 297.0446pt x 384.58957pt.
+<HFA_EPL11.pdf, id=252, 614.295pt x 794.97pt>
 File: HFA_EPL11.pdf Graphic file (type pdf)
 <use HFA_EPL11.pdf>
- [10] [11] [12] [13] [14] [15]
+Package luatex.def Info: HFA_EPL11.pdf  used on input line 230.
+(luatex.def)             Requested size: 297.0446pt x 384.58957pt.
+
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 244; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 246; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmss/bx/n/15.0 ".
 *   The requested feature is "Numbers=Monospaced". 
 *************************************************
-[16] [17] [18] (JQAS_HFA.bbl) 
+[12] [13<./HFA_Ligue111.pdf>] [14<./HFA_Bundesliga11.pdf>] [15<./HFA_EPL11.pdf>] [16] [17] (./JQAS_HFA.bbl [18]) 
 AED: lastpage setting LastPage
 [19]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
- (JQAS_HFA.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 275.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 275.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
- ) 
-Here is how much of TeX's memory you used:
- 27832 strings out of 427836
- 501971 string characters out of 3151345
- 733295 words of memory out of 3000000
- 31501 multiletter control sequences out of 15000+200000
- 538116 words of font info for 89 fonts, out of 3000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 54i,10n,88p,10481b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+ (./JQAS_HFA.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
 
-Output written on JQAS_HFA.pdf (19 pages).
+
+Package rerunfilecheck Warning: File `JQAS_HFA.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `JQAS_HFA.out':
+(rerunfilecheck)             Before: 2265132984577913C9996E5B1CDF394B;496
+(rerunfilecheck)             After:  C39E5FCF9A9166D86CA498BCE22A864E;436.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 27147 strings out of 494413
+ 125171,953878 words of node,token memory allocated
+ 818 words of node memory still in use:
+   13 hlist, 2 vlist, 3 rule, 6 glue, 2 kern, 26 attribute, 82 glue_spec, 26 att
+ribute_list, 2 write, 2 pdf_action, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore n
+odes
+   avail lists: 2:421,3:142,4:50,5:251,6:29,7:4260,8:56,9:208,10:24,11:342
+ 30217 multiletter control sequences out of 65536+200000
+ 43 fonts using 8783543 bytes
+ 57i,9n,87p,1126b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm-math/latinmodern-math.otf>
+<D:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmroman7-italic.otf><D:/Pr
+ogram Files/MiKTeX 2.9/fonts/opentype/public/lm/lmsans8-oblique.otf><D:/Program 
+Files/MiKTeX 2.9/fonts/opentype/public/lm/lmsans10-bold.otf><D:/Program Files/Mi
+KTeX 2.9/fonts/opentype/public/lm/lmroman10-regular.otf><D:/Program Files/MiKTeX
+ 2.9/fonts/opentype/public/lm/lmsans8-regular.otf>
+Output written on JQAS_HFA.pdf (19 pages, 413192 bytes).
+
+PDF statistics: 361 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 131072)
+ 49 words of extra memory for PDF output out of 10000 (max. 100000000)
+
